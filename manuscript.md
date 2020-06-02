@@ -1,7 +1,6 @@
 ---
 author-meta:
-- John Doe
-- Jane Roe
+- The Anopheles gambiae 1000 Genomes Consortium
 bibliography:
 - content/manual-references.json
 date-meta: '2020-06-02'
@@ -15,21 +14,21 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Manuscript Title" />
+  <meta name="dc.title" content="Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex" />
 
-  <meta name="citation_title" content="Manuscript Title" />
+  <meta name="citation_title" content="Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex" />
 
-  <meta property="og:title" content="Manuscript Title" />
+  <meta property="og:title" content="Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex" />
 
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta property="twitter:title" content="Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex" />
 
   <meta name="dc.date" content="2020-06-02" />
 
   <meta name="citation_publication_date" content="2020-06-02" />
 
-  <meta name="dc.language" content="en-US" />
+  <meta name="dc.language" content="en-GB" />
 
-  <meta name="citation_language" content="en-US" />
+  <meta name="citation_language" content="en-GB" />
 
   <meta name="dc.relation.ispartof" content="Manubot" />
 
@@ -39,21 +38,7 @@ header-includes: '<!--
 
   <meta name="citation_technical_report_institution" content="Manubot" />
 
-  <meta name="citation_author" content="John Doe" />
-
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-
-  <meta name="twitter:creator" content="@johndoe" />
-
-  <meta name="citation_author" content="Jane Roe" />
-
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="The Anopheles gambiae 1000 Genomes Consortium" />
 
   <link rel="canonical" href="https://malariagen.github.io/ag1000g-phase3-data-paper/" />
 
@@ -67,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/e0cb9c54c36e3d3ff3d8fe5f04b64a78806f805a/" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/042130ad2e2f5e2d6dab8b667123c06ebba7431d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/e0cb9c54c36e3d3ff3d8fe5f04b64a78806f805a/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/042130ad2e2f5e2d6dab8b667123c06ebba7431d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/e0cb9c54c36e3d3ff3d8fe5f04b64a78806f805a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/042130ad2e2f5e2d6dab8b667123c06ebba7431d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -85,15 +70,15 @@ header-includes: '<!--
 
   <!-- end Manubot generated metadata -->'
 keywords:
-- markdown
-- publishing
-- manubot
-lang: en-US
+- malaria
+- anopheles
+- genomics
+lang: en-GB
 manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Manuscript Title
+title: Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex
 ...
 
 
@@ -103,9 +88,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/e0cb9c54c36e3d3ff3d8fe5f04b64a78806f805a/))
+([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/042130ad2e2f5e2d6dab8b667123c06ebba7431d/))
 was automatically generated
-from [malariagen/ag1000g-phase3-data-paper@e0cb9c5](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/e0cb9c54c36e3d3ff3d8fe5f04b64a78806f805a)
+from [malariagen/ag1000g-phase3-data-paper@042130a](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/042130ad2e2f5e2d6dab8b667123c06ebba7431d)
 on June 2, 2020.
 </em></small>
 
@@ -113,25 +98,8 @@ on June 2, 2020.
 
 
 
-+ **John Doe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
++ **The Anopheles gambiae 1000 Genomes Consortium**<br><br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
-  </small>
-
-+ **Jane Roe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
-  <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
   </small>
 
 
