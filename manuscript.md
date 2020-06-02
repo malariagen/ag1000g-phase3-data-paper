@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/b7462701ff85854a67d878db4af89d0268bb11d2/" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/064b4ed08dd95bff38b7a64e3a8b9c92e7700a7a/" />
 
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/b7462701ff85854a67d878db4af89d0268bb11d2/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/064b4ed08dd95bff38b7a64e3a8b9c92e7700a7a/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/b7462701ff85854a67d878db4af89d0268bb11d2/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/064b4ed08dd95bff38b7a64e3a8b9c92e7700a7a/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/b7462701ff85854a67d878db4af89d0268bb11d2/))
+([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/064b4ed08dd95bff38b7a64e3a8b9c92e7700a7a/))
 was automatically generated
-from [malariagen/ag1000g-phase3-data-paper@b746270](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/b7462701ff85854a67d878db4af89d0268bb11d2)
+from [malariagen/ag1000g-phase3-data-paper@064b4ed](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/064b4ed08dd95bff38b7a64e3a8b9c92e7700a7a)
 on June 2, 2020.
 </em></small>
 
