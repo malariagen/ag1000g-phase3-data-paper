@@ -1,19 +1,96 @@
-# Automated scholarly manuscripts on GitHub
-
-<!-- usage note: edit the H1 title above to personalize the manuscript -->
+# Ag1000G phase 3 data resource paper
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://malariagen.github.io/ag1000g-phase3-data-paper/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/malariagen/ag1000g-phase3-data-paper/workflows/Manubot/badge.svg)](https://github.com/malariagen/ag1000g-phase3-data-paper/actions)
-[![Travis Build Status](https://travis-ci.com/malariagen/ag1000g-phase3-data-paper.svg?branch=master)](https://travis-ci.com/malariagen/ag1000g-phase3-data-paper)
-<!-- usage note: delete CI badges above for services not used by your manuscript -->
 
-## Manuscript description
+This repository is for building a manuscript describing the Ag1000G
+phase 3 data resource.
 
-<!-- usage note: edit this section. -->
+**This is a work in progress. Any data made available via this
+repository are subject to the [Ag1000G terms of
+use](https://www.malariagen.net/data/terms-use/ag1000g-terms-use).**
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+## Contributor setup
+
+Fork this repository to your own github user account, then clone
+locally, e.g.:
+
+```
+git clone --recursive git@github.com:{myusername}/ag1000g-phase3-data-paper.git
+```
+
+Run the conda environment installation script:
+
+```
+cd /path/to/local/clone/of/ag1000g-phase3-data-paper
+./binder/install-conda.sh
+```
+
+Once conda is installed, activate the conda environment:
+
+```
+source binder/env.sh
+```
+
+Run a jupyter notebook server, e.g.:
+
+```
+jupyter notebook
+```
+
+...or:
+
+```
+jupyter lab
+```
+
+## Approach
+
+- This is a public repo, meaning no personal information, _e.g._, no email addresses, no reviewer comments or comments from consortium 
+- This repo uses CI (continuous integration) to build the paper, the build must pass before PR can be merged, to ensure no-one breaks the paper
+
+## Structure of repo
+
+- `notebooks` contains Jupyter notebooks, perhaps organised in subdirectories if analysis encompasses several steps.
+- `content` contains included image files (PNGs) and data files (CSVs), etc. 
+- Files named _descriptively_ not by likely figure position.
+
+## Style
+
+### Images
+
+- Prefer PNG or PDF (vector). 
+- Preferred format may depend on whether using latex or pandoc (manubot) - PDF figures are good with latex but maybe not with pandoc
+- Prefer 120-300 DPI
+- Style rules
+  - Max 8 inches wide
+  - Min 6 pt font size
+  - Max 10 pt font size
+
+### Code
+
+- All code should be reproducible by all contributors on DataLab _i.e._ read data directly from GCS
+- Python module or setup notebook to hold common code and variables (avoid copying boilerplate) TBA
+- Avoid too much indirection - max one level (import Python module or %run setup notebook)
+
+## Writing code and review process
+
+1. Work in your own fork preferred (but not essential).
+  - if branch is in main repo, prefix with your username
+  - branches should include the number of the quire issue they are addressing
+  - branch title marked as WIP
+2. Submit PRs.
+  - Check CI passes
+  - remove WIP label
+  - link to PR from relevant quire issue(s)
+  - request review
+  - No further pushes to branch (to avoid conflicts)
+  - upon merge, quire issue can be closed.
+3. Review.
+  - Reviews should check notebooks by rerunning on datalab
+  - Minor changes can be requested using "request changes"
+  - More substantive changes can be made by making a PR to the branch in question. Avoid pushing directly to avoid conflicts.
 
 ## Manubot
 
@@ -89,33 +166,11 @@ For continuous integration configuration details, see [`.github/workflows/manubo
 
 ## License
 
-<!--
-usage note: edit this section to change the license of your manuscript or source code changes to this repository.
-We encourage users to openly license their manuscripts, which is the default as specified below.
--->
-
 [![License: CC BY 4.0](https://img.shields.io/badge/License%20All-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
-[![License: CC0 1.0](https://img.shields.io/badge/License%20Parts-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 Except when noted otherwise, the entirety of this repository is licensed under a CC BY 4.0 License ([`LICENSE.md`](LICENSE.md)), which allows reuse with attribution.
 Please attribute by linking to https://github.com/malariagen/ag1000g-phase3-data-paper.
 
-Since CC BY is not ideal for code and data, certain repository components are also released under the CC0 1.0 public domain dedication ([`LICENSE-CC0.md`](LICENSE-CC0.md)).
-All files matched by the following glob patterns are dual licensed under CC BY 4.0 and CC0 1.0:
-
-+ `*.sh`
-+ `*.py`
-+ `*.yml` / `*.yaml`
-+ `*.json`
-+ `*.bib`
-+ `*.tsv`
-+ `.gitignore`
-
-All other files are only available under CC BY 4.0, including:
-
-+ `*.md`
-+ `*.html`
-+ `*.pdf`
-+ `*.docx`
+All files are licensed under CC BY 4.0.
 
 Please open [an issue](https://github.com/malariagen/ag1000g-phase3-data-paper/issues) for any question related to licensing.
