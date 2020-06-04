@@ -78,7 +78,6 @@ class release_data:
         if isinstance(sampleset, str):
 
             path = self.release_dir / "snp_genotypes" / "all" / sampleset
-            print(path)
 
             # need to open as mapping if this on cloud
             storez = self.gcs.get_mapper(path.as_posix())
