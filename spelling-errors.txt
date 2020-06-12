@@ -4,10 +4,10 @@ aliquip
 amet
 anim
 aute
-centered
+Centered
 cillum
 Color
-Colors
+colors
 commodo
 consectetur
 consequat
