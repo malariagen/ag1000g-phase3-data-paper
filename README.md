@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/gh-pages) branch hosts the contents of this directory at <https://malariagen.github.io/ag1000g-phase3-data-paper/>.
-The permalink for this webpage version is <https://malariagen.github.io/ag1000g-phase3-data-paper/v/0055c55f1a8aa37e149cd034828ccb76ae2ac66b/>.
+The permalink for this webpage version is <https://malariagen.github.io/ag1000g-phase3-data-paper/v/c584f12406a048d83d99560682d48446b469b7ba/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://malariagen.github.io/ag1000g-phase3-data-paper/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`0055c55f1a8aa37e149cd034828ccb76ae2ac66b`](https://github.com/malariagen/ag1000g-phase3-data-paper/commit/0055c55f1a8aa37e149cd034828ccb76ae2ac66b).
+[`c584f12406a048d83d99560682d48446b469b7ba`](https://github.com/malariagen/ag1000g-phase3-data-paper/commit/c584f12406a048d83d99560682d48446b469b7ba).
