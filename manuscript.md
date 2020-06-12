@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/0055c55f1a8aa37e149cd034828ccb76ae2ac66b/" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/c584f12406a048d83d99560682d48446b469b7ba/" />
 
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/0055c55f1a8aa37e149cd034828ccb76ae2ac66b/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/c584f12406a048d83d99560682d48446b469b7ba/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/0055c55f1a8aa37e149cd034828ccb76ae2ac66b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/c584f12406a048d83d99560682d48446b469b7ba/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -88,9 +88,9 @@ title: Genome variation and population structure in three African malaria vector
 
 <small><em>
 This manuscript
-([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/0055c55f1a8aa37e149cd034828ccb76ae2ac66b/))
+([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/c584f12406a048d83d99560682d48446b469b7ba/))
 was automatically generated
-from [malariagen/ag1000g-phase3-data-paper@0055c55](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/0055c55f1a8aa37e149cd034828ccb76ae2ac66b)
+from [malariagen/ag1000g-phase3-data-paper@c584f12](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/c584f12406a048d83d99560682d48446b469b7ba)
 on June 12, 2020.
 </em></small>
 
