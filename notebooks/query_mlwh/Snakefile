@@ -1,0 +1,28 @@
+import yaml
+from pathlib import Path
+
+vobs_path = Path.home() / "vector-ops"
+sql_config_path = Path.home() / "mysql_cnf/.mysql.warehouse.cnf"
+
+cfg_fn = vobs_path / "tracking/release/v3/config.yml"
+
+with open(cfg_fn, "r") as fh:
+    v3_cfg = yaml.load(fh, Loader=yaml.Loader)
+
+sample_sets = v3_cfg["sample_sets"]
+
+
+rule all:
+  input:
+      expand("output/technology_{sample_set}.csv", sample_set=sample_sets)
+
+rule get_tech:
+  output:
+   csv="output/technology_{sample_set}.csv"
+  input:
+    sql_config=sql_config_path
+  params:
+    vobs_path=vobs_path,
+    sample_set=lambda y: y.sample_set
+  script:
+    "get_seq.py"
