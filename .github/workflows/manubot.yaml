@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_PULL_REQUEST_SHA: ${{ github.event.pull_request.head.sha }}
+      GITHUB_PULL_REQUEST_NUMBER: ${{ github.event.pull_request.number }}
+      GITHUB_PULL_REQUEST_HEAD_REF: ${{ github.event.pull_request.head.ref }}
       SPELLCHECK: true
       BUILD_DOCX: true
     steps:
@@ -54,7 +56,7 @@ jobs:
         with:
           name: manuscript-${{ github.run_id }}-${{ env.TRIGGERING_SHA_7 }}
           path: output
-      - name: Deploy Manuscript
+      - name: Deploy Master Manuscript
         if: github.ref == 'refs/heads/master' && github.event_name == 'push' && !github.event.repository.fork
         env:
           MANUBOT_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -63,3 +65,12 @@ jobs:
           CI_JOB_WEB_URL: https://github.com/${{ github.repository }}/runs/${{ github.run_id }}
         shell: bash --login {0}
         run: bash ci/deploy.sh
+      - name: Deploy PR Manuscript
+        if: github.event_name == 'pull_request' && !github.event.repository.fork
+        env:
+          MANUBOT_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MANUBOT_SSH_PRIVATE_KEY: ${{ secrets.MANUBOT_SSH_PRIVATE_KEY }}
+          CI_BUILD_WEB_URL: https://github.com/${{ github.repository }}/commit/${{ github.sha }}/checks
+          CI_JOB_WEB_URL: https://github.com/${{ github.repository }}/runs/${{ github.run_id }}
+        shell: bash --login {0}
+        run: bash ci/deploy-pr.sh
