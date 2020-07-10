@@ -97,8 +97,8 @@ class release_data:
 
             arr = da.compress(mask, arr, axis=0).compute_chunk_sizes()
 
-        if field == "GT": 
-            arr = allel.GenotypeDaskArray(arr)
+#         if field == "GT": 
+#             arr = allel.GenotypeDaskArray(arr)
 
         return arr
     
