@@ -14,7 +14,7 @@ class release_data:
     
     release_dir = None
     gcs = None
-    _all_samplesets = ["AG1000G-AO", "AG1000G-BF-A", "AG1000G-BF-B", "AG1000G-BF-C", "AG1000G-CD",
+    _all_sample_sets = ["AG1000G-AO", "AG1000G-BF-A", "AG1000G-BF-B", "AG1000G-BF-C", "AG1000G-CD",
                        "AG1000G-CF", "AG1000G-CI", "AG1000G-CM-A", "AG1000G-CM-B", "AG1000G-CM-C",
                        "AG1000G-FR", "AG1000G-GA-A", "AG1000G-GH", "AG1000G-GM-A", "AG1000G-GM-B",
                        "AG1000G-GM-C", "AG1000G-GN-A", "AG1000G-GN-B", "AG1000G-GQ", "AG1000G-GW",
@@ -36,12 +36,12 @@ class release_data:
         self.gcs = gcs_filesystem
      
     @property
-    def all_samplesets(self):
-        return self._all_samplesets
+    def all_sample_sets(self):
+        return self._all_sample_sets
     
     @property
-    def all_wild_samplesets(self):
-        return [x for x in self._all_samplesets if x != "AG1000G-X"]
+    def all_wild_sample_sets(self):
+        return [x for x in self._all_sample_sets if x != "AG1000G-X"]
 
     def load_mask(self, seq_id, mask_id, filters_model="dt_20200416"):
     
@@ -50,7 +50,7 @@ class release_data:
         mask_group = zarr.Group(mask_store)
         return da.from_zarr(mask_group[seq_id]["variants/filter_pass"])
     
-    def load_variants_array(self, seq_id, field="POS", mask=None):
+    def load_variants(self, seq_id, field="POS", mask=None):
     
         """
         release_pa
@@ -73,11 +73,11 @@ class release_data:
         return arr
     
     
-    def load_calldata_by_sampleset(self, seq_id, sampleset, field="GT", mask=None):
+    def load_sample_set_calldata(self, seq_id, sample_set, field="GT", mask=None):
     
-        if isinstance(sampleset, str):
+        if isinstance(sample_set, str):
 
-            path = self.release_dir / "snp_genotypes" / "all" / sampleset
+            path = self.release_dir / "snp_genotypes" / "all" / sample_set
 
             # need to open as mapping if this on cloud
             storez = self.gcs.get_mapper(path.as_posix())
@@ -85,11 +85,11 @@ class release_data:
 
             arr = da.from_zarr(calldata[f"{seq_id}/calldata/{field}"])
             
-        elif isinstance(sampleset, list):
+        elif isinstance(sample_set, list):
             arr = da.concatenate(
-                [self.load_calldata_by_sampleset(seq_id, s, field=field, mask=None) for s in sampleset], axis=1)
+                [self.load_sample_set_calldata(seq_id, s, field=field, mask=None) for s in sample_set], axis=1)
         else:
-            raise ValueError("sampleset must be a string, or a list of strings")
+            raise ValueError("sample_set must be a string, or a list of strings")
 
         if mask is not None:
 
@@ -102,24 +102,24 @@ class release_data:
 
         return arr
     
-    def load_metadata_by_sampleset(
-        self, sampleset, include_aim_species_calls=True, include_pca_species_calls=False, species_analysis="species_calls_20200422",
+    def load_sample_set_metadata(
+        self, sample_set, include_aim_species_calls=True, include_pca_species_calls=False, species_analysis="species_calls_20200422",
         convenience_species_assignment=True):
         
-        if isinstance(sampleset, str):
+        if isinstance(sample_set, str):
 
-            metadata_path = self.release_dir / "metadata" / "general" / sampleset / "samples.meta.csv"
+            metadata_path = self.release_dir / "metadata" / "general" / sample_set / "samples.meta.csv"
             with self.gcs.open(metadata_path) as gcs_fh:
                 df = pd.read_csv(gcs_fh, index_col=0)
-                df["sampleset"] = sampleset
+                df["sample_set"] = sample_set
 
             if include_aim_species_calls:
-                species_path_aim = self.release_dir / "metadata" / species_analysis / sampleset / "samples.species_aim.csv"
+                species_path_aim = self.release_dir / "metadata" / species_analysis / sample_set / "samples.species_aim.csv"
                 with self.gcs.open(species_path_aim) as gcs_fh:
                     df_aim = pd.read_csv(gcs_fh, index_col=0)
 
             if include_pca_species_calls:
-                species_path_pca = self.release_dir / "metadata" / species_analysis / sampleset / "samples.species_pca.csv"
+                species_path_pca = self.release_dir / "metadata" / species_analysis / sample_set / "samples.species_pca.csv"
                 with self.gcs.open(species_path_pca) as gcs_fh:
                     df_pca = pd.read_csv(gcs_fh, index_col=0)
 
@@ -144,9 +144,9 @@ class release_data:
 
             return df
         
-        elif isinstance(sampleset, list):
+        elif isinstance(sample_set, list):
             
             return pd.concat(
-                [self.load_metadata_by_sampleset(s, include_aim_species_calls, include_pca_species_calls) for s in sampleset],
+                [self.load_sample_set_metadata(s, include_aim_species_calls, include_pca_species_calls) for s in sample_set],
                 axis=0, sort=False)
         
