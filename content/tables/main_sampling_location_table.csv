@@ -1,0 +1,44 @@
+country,site,latitude,longitude,counts,female,male,sex unknown,arabiensis,arabiensis x gambiae,coluzzii,gambiae,gambiae x coluzzii
+Angola,Luanda,-8.884,13.302,81,77,4,0,0,0,81,0,0
+Bioko,Bioko,3.7,8.7,10,10,0,0,0,0,0,10,0
+Burkina Faso,Bana,11.233,-4.472,128,81,47,0,1,0,89,37,1
+Burkina Faso,Pala,11.15,-4.235,77,67,10,0,2,0,11,64,0
+Burkina Faso,Souroukoudinga,11.235,-4.535,78,77,1,0,0,0,35,43,0
+Burkina Faso,Monomtenga,12.06,-1.17,13,13,0,0,0,0,0,13,0
+Cameroon,Manda,5.726,10.868,12,12,0,0,0,0,0,12,0
+Cameroon,Gado Badzere,5.747,14.442,97,82,15,0,0,0,0,97,0
+Cameroon,Daiguene,4.777,13.844,96,81,15,0,0,0,0,96,0
+Cameroon,Nkolondom,3.972,11.516,10,10,0,0,0,0,5,5,0
+Cameroon,Mayos,4.341,13.558,110,95,15,0,0,0,0,110,0
+Central African Republic,Bangui,4.367,18.583,73,73,0,0,0,0,18,55,0
+Cote d'Ivoire,Tiassale,5.898,-4.823,80,80,0,0,0,0,80,0,0
+Democratic Republic of Congo,Gbadolite,4.283,21.017,76,44,32,0,0,0,0,76,0
+Gabon,Libreville,0.384,9.455,69,69,0,0,0,0,0,69,0
+Ghana,Takoradi,4.912,-1.774,24,24,0,0,0,0,24,0,0
+Ghana,Twifo Praso,5.609,-1.549,25,25,0,0,0,0,25,0,0
+Ghana,Madina,5.668,-0.219,27,27,0,0,0,0,14,13,0
+Ghana,Koforidua,6.094,-0.261,24,24,0,0,0,0,1,23,0
+Guinea,Koraboh,9.28,-10.03,62,50,12,0,0,0,0,60,2
+Guinea,Koundara,8.48,-9.53,74,62,12,0,0,0,11,63,0
+Guinea-Bissau,Antula,11.891,-15.582,60,60,0,0,0,0,0,15,45
+Guinea-Bissau,Safim,11.957,-15.649,33,33,0,0,0,0,0,6,27
+Kenya,Kilifi,-3.511,39.909,86,75,11,0,13,0,0,28,45
+Malawi,Chikhwawa,-15.933,34.755,41,41,0,0,41,0,0,0,0
+Mali,Toumani Oulena,10.83,-7.81,63,52,11,0,0,0,2,60,1
+Mali,Kela,11.88,-8.45,23,23,0,0,0,0,0,23,0
+Mali,Ouassorola,12.9,-8.16,13,13,0,0,0,0,9,4,0
+Mali,Kababougou,12.89,-8.15,40,32,8,0,0,0,12,28,0
+Mali,Douna,13.21,-5.9,20,20,0,0,1,0,19,0,0
+Mali,Takan,11.47,-8.33,31,25,6,0,0,0,26,5,0
+Mayotte,Mayotte,-12.857,45.137,23,11,12,0,0,0,0,23,0
+Mozambique,Furvela,-23.716,35.299,74,74,0,0,0,0,0,74,0
+Tanzania,Tarime,-1.431,34.199,47,47,0,0,47,0,0,0,0
+Tanzania,Muleba,-1.962,31.651,170,160,10,0,137,0,0,32,1
+Tanzania,Moshi,-3.482,37.308,40,39,1,0,40,0,0,0,0
+Tanzania,Muheza,-4.94,38.948,43,43,0,0,1,0,0,36,6
+The Gambia,Tankular,13.417,-16.033,19,1,0,18,0,0,14,0,5
+The Gambia,Njabakunda,13.55,-15.9,74,74,0,0,0,0,5,58,11
+The Gambia,Wali Kunda,13.567,-14.917,174,174,0,0,0,0,148,2,24
+The Gambia,Sare Samba Sowe,13.583,-15.9,11,1,0,10,0,0,1,9,1
+Uganda,Nagongera,0.77,34.026,194,194,0,0,81,1,0,112,0
+Uganda,Kihihi,-0.751,29.701,96,96,0,0,1,0,0,95,0
