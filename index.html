@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="The Anopheles gambiae 1000 Genomes Consortium" />
-  <meta name="dcterms.date" content="2020-07-09" />
+  <meta name="dcterms.date" content="2020-07-17" />
   <meta name="keywords" content="malaria, anopheles, genomics" />
   <title>Genome variation and population structure in three African malaria vector species within the Anopheles gambiae complex</title>
   <style>
@@ -28,8 +28,8 @@
   <meta name="citation_title" content="Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex" />
   <meta property="og:title" content="Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex" />
   <meta property="twitter:title" content="Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex" />
-  <meta name="dc.date" content="2020-07-09" />
-  <meta name="citation_publication_date" content="2020-07-09" />
+  <meta name="dc.date" content="2020-07-17" />
+  <meta name="citation_publication_date" content="2020-07-17" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@
   <meta name="citation_fulltext_html_url" content="https://malariagen.github.io/ag1000g-phase3-data-paper/" />
   <meta name="citation_pdf_url" content="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/274a2778777407a6a029256701e45354e94b6dfb/" />
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/274a2778777407a6a029256701e45354e94b6dfb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/274a2778777407a6a029256701e45354e94b6dfb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/677f0bee6eb5839f19c476ab6294beba03cd1a8b/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/677f0bee6eb5839f19c476ab6294beba03cd1a8b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/677f0bee6eb5839f19c476ab6294beba03cd1a8b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -59,10 +59,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/274a2778777407a6a029256701e45354e94b6dfb/">permalink</a>)
+(<a href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/677f0bee6eb5839f19c476ab6294beba03cd1a8b/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/malariagen/ag1000g-phase3-data-paper/tree/274a2778777407a6a029256701e45354e94b6dfb">malariagen/ag1000g-phase3-data-paper@274a277</a>
-on July 9, 2020.
+from <a href="https://github.com/malariagen/ag1000g-phase3-data-paper/tree/677f0bee6eb5839f19c476ab6294beba03cd1a8b">malariagen/ag1000g-phase3-data-paper@677f0be</a>
+on July 17, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -104,20 +104,18 @@ on July 9, 2020.
 <p>Summary of site coverage post QC exclusions.</p>
 <h3 id="snp-filtering-and-quality">SNP filtering and quality</h3>
 <p>Site filtering is necessary to ensure that reported variation is of highest quality.</p>
-<p>Features of specific regions of the Anopheles genome cause increases in calling errors in short-read technologies; these features include high divergence from the reference, high homology between regions, copy number variation, presence of transposable elements and others.</p>
-<p>Owing to DNA availability, no second technology was available for direct benchmarking.</p>
-<p>However, using the 15 available Anopheles pedigrees previously described, we were able to use the presence of mendelian error at sites as a proxy for genotype discordance.</p>
-<p>Where previously, we have used manually curated cutoffs based on observed mendelian error rates to filter sites, here we built a statistical model where cohort level genome annotations were used to predict the presence of mendelian error, becoming a binary classification problem.</p>
+<p>Genomic features cause unavoidable calling errors in short-read technologies; these features include high divergence from the reference, high homology between regions, copy number variation, presence of transposable elements and others.</p>
+<p>Using the 15 available Anopheles pedigrees previously described, we used the presence of mendelian error at sites as a proxy for genotype discordance.</p>
+<p>Where previously we have used manually curated cutoffs based on observed mendelian error rates to filter sites (ref phase1, phase2), here we built a statistical model where cohort level genome annotations were used to predict the presence of mendelian error, becoming a binary classification problem.</p>
 <p>5 of the 15 crosses were held out for validation, so performance could be evaluated against the previous site filtering scheme.</p>
-<p>Sites were defined as PASS where all genotypes across all 10 crosses were called, and no mendelian inconsistencies were observed.</p>
+<p>Sites were defined as PASS where all genotypes across all 10 remaining crosses were called, and no mendelian inconsistencies were observed.</p>
 <p>Sites were defined as FAIL where a mendelian inconsistency was observed in any pedigree.</p>
-<p>All other sites were not included.</p>
+<p>All other sites were not eligible to be included in model training.</p>
 <p>A balanced training set was generated from the remaining 10 crosses containing XXX autosomal(?) sites.</p>
 <p>We used a decision tree, as it provides clear unambiguous decisions, and is similar in concept to the set of filters commonly used in non-model organism genomics.</p>
 <p>A set of trees with different parameter settings were learned, exploring the depth of trees, and the number of samples allowed at a terminal node.</p>
 <p>Parameter settings were evaluated on an unbalanced evaluation set, consisting of XXX sites randomly from sampled from the whole genome.</p>
-<p>The leaves of the trained models contain different proportions of PASS sites.</p>
-<p>By increasing the cutoff for these proportions required to label a leaf as PASS, we were able to compute the area under the receiver operating curve (AUROC) for each parameter set.</p>
+<p>The leaves of the trained models contain different proportions of PASS sites, by increasing the cutoff for these proportions required to label a leaf as PASS, we were able to compute the area under the receiver operating curve (AUROC) for each parameter set.</p>
 <p>The best performing parameter set based on AUROC was selected as the final model, the classification cutoff used was optimised based on the Youden statistic.</p>
 <p>The resulting model was a decision tree of depth 8, with a maximum of 50 terminal nodes, where leaves were assigned to PASS where &gt; 0.533 of training data in that leaf were PASS.</p>
 <p>All sites in the genome were then assigned to PASS or FAIL given the model inputs.</p>
@@ -125,19 +123,77 @@ on July 9, 2020.
 <p>The above definitions of PASS sites were retained, but independently over pedigrees, providing 5 distinct evaluation sets.</p>
 <p>Before applying the site filters, the mendelian error rate of the 5 crosses over all autosomal sites ranged between XXX and XXX (table XXX).</p>
 <p>The application of the site filters mask defines the accessible fraction of the genome at 70%, and reduces the mendelian error rate by a median factor of 10x on the autosomes.</p>
-<p>The error rate of the X chromosome was reduced by a median of XXX (table Y).</p>
 <p>In all 5 crosses the Youden score was substantially increased by a median factor of XXX.</p>
-<p>Directly comparing the numbers to the phase 2 site filters, we observe similar levels of mendelian error, however the updated site filters have a substantially higher sensitivity, yielding a higher Youden score over all crosses and chromosomes.</p>
+<p>Rather than mendelian errors, on the hemizygous chromosome we can use the more direct measure of heterozygote calls in males.</p>
+<p>In the dataset are 220 male samples identified as gambiae/coluzzii, each of these represent an independent proxy for genotype discordance.</p>
+<p>Pre-application of the site filters, the median heterzygosity rate on X was 0.44%, and post filtering this drops to 0.12% (table XX).</p>
+<p>The median fold change in error rate was -1.74, with 69.97% of the X chromosome passing site filters.</p>
+<p>? (Also some measure of GQ? when applied to the X chromosome).</p>
+<p>Direct comparison to the phase 2 site filters is favourable; we observe similar levels of mendelian error, but with substantially higher sensitivity, yielding a higher Youden score over all crosses and chromosomes.</p>
 <ul>
-<li><p>Table A: Mendel errors per cross per chromosome.
+<li><p>Table A: Mendel errors per cross per autosome.
 row indices: chromosome and raw/filtered
 column indexes: crosses + frac accessible.
-ie 10 rows, and 6 columns.</p></li>
-<li><p>Table B: comparison of 3 vs 2.
-row indices: as above
+ie 8 rows, and 6 columns.</p></li>
+<li><p>Table B: comparison of cross and X
+row indices: raw/filtered
 column indices: MER, frac accessible, Youden, each for 2 and 3.
-ie 10 rows, and 6 columns.</p></li>
+column indexes: crosses + frac accessible.
+ie 2 rows, and 6 columns.</p></li>
 </ul>
+<div style="font-size: 8pt">
+<table style="width:100%;">
+<caption>Result of heterozygote calls on male X chromosome</caption>
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 10%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">count</th>
+<th style="text-align: left;">mean</th>
+<th style="text-align: left;">min</th>
+<th style="text-align: left;">25%</th>
+<th style="text-align: left;">50%</th>
+<th style="text-align: left;">75%</th>
+<th style="text-align: left;">max</th>
+<th>fraction_accessible</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">pre-filtering</td>
+<td style="text-align: left;">220.00000</td>
+<td style="text-align: left;">0.00476</td>
+<td style="text-align: left;">0.00285</td>
+<td style="text-align: left;">0.00402</td>
+<td style="text-align: left;">0.00444</td>
+<td style="text-align: left;">0.00522</td>
+<td style="text-align: left;">0.01342</td>
+<td>1.00000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">post-filtering</td>
+<td style="text-align: left;">220.00000</td>
+<td style="text-align: left;">0.00165</td>
+<td style="text-align: left;">0.00028</td>
+<td style="text-align: left;">0.00078</td>
+<td style="text-align: left;">0.00127</td>
+<td style="text-align: left;">0.00207</td>
+<td style="text-align: left;">0.00882</td>
+<td>0.69970</td>
+</tr>
+</tbody>
+</table>
+</div>
 <h3 id="genome-accessibility">Genome accessibility</h3>
 <h3 id="snp-discovery">SNP discovery</h3>
 <h2 id="species-assignment">Species Assignment</h2>
