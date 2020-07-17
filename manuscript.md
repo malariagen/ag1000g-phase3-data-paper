@@ -3,7 +3,7 @@ author-meta:
 - The Anopheles gambiae 1000 Genomes Consortium
 bibliography:
 - content/manual-references.json
-date-meta: '2020-07-09'
+date-meta: '2020-07-17'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -22,9 +22,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex" />
 
-  <meta name="dc.date" content="2020-07-09" />
+  <meta name="dc.date" content="2020-07-17" />
 
-  <meta name="citation_publication_date" content="2020-07-09" />
+  <meta name="citation_publication_date" content="2020-07-17" />
 
   <meta name="dc.language" content="en-GB" />
 
@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/274a2778777407a6a029256701e45354e94b6dfb/" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/677f0bee6eb5839f19c476ab6294beba03cd1a8b/" />
 
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/274a2778777407a6a029256701e45354e94b6dfb/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/677f0bee6eb5839f19c476ab6294beba03cd1a8b/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/274a2778777407a6a029256701e45354e94b6dfb/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/677f0bee6eb5839f19c476ab6294beba03cd1a8b/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -88,10 +88,10 @@ title: Genome variation and population structure in three African malaria vector
 
 <small><em>
 This manuscript
-([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/274a2778777407a6a029256701e45354e94b6dfb/))
+([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/677f0bee6eb5839f19c476ab6294beba03cd1a8b/))
 was automatically generated
-from [malariagen/ag1000g-phase3-data-paper@274a277](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/274a2778777407a6a029256701e45354e94b6dfb)
-on July 9, 2020.
+from [malariagen/ag1000g-phase3-data-paper@677f0be](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/677f0bee6eb5839f19c476ab6294beba03cd1a8b)
+on July 17, 2020.
 </em></small>
 
 ## Authors
@@ -175,21 +175,19 @@ Summary of site coverage post QC exclusions.
 
 Site filtering is necessary to ensure that reported variation is of highest quality.
 
-Features of specific regions of the Anopheles genome cause increases in calling errors in short-read technologies; these features include high divergence from the reference, high homology between regions, copy number variation, presence of transposable elements and others.
+Genomic features cause unavoidable calling errors in short-read technologies; these features include high divergence from the reference, high homology between regions, copy number variation, presence of transposable elements and others.
 
-Owing to DNA availability, no second technology was available for direct benchmarking.
+Using the 15 available Anopheles pedigrees previously described, we used the presence of mendelian error at sites as a proxy for genotype discordance.
 
-However, using the 15 available Anopheles pedigrees previously described, we were able to use the presence of mendelian error at sites as a proxy for genotype discordance.
-
-Where previously, we have used manually curated cutoffs based on observed mendelian error rates to filter sites, here we built a statistical model where cohort level genome annotations were used to predict the presence of mendelian error, becoming a binary classification problem.
+Where previously we have used manually curated cutoffs based on observed mendelian error rates to filter sites (ref phase1, phase2), here we built a statistical model where cohort level genome annotations were used to predict the presence of mendelian error, becoming a binary classification problem.
 
 5 of the 15 crosses were held out for validation, so performance could be evaluated against the previous site filtering scheme.
 
-Sites were defined as PASS where all genotypes across all 10 crosses were called, and no mendelian inconsistencies were observed.
+Sites were defined as PASS where all genotypes across all 10 remaining crosses were called, and no mendelian inconsistencies were observed.
 
 Sites were defined as FAIL where a mendelian inconsistency was observed in any pedigree.
 
-All other sites were not included.
+All other sites were not eligible to be included in model training.
 
 A balanced training set was generated from the remaining 10 crosses containing XXX autosomal(?) sites.
 
@@ -199,9 +197,7 @@ A set of trees with different parameter settings were learned, exploring the dep
 
 Parameter settings were evaluated on an unbalanced evaluation set, consisting of XXX sites randomly from sampled from the whole genome.
 
-The leaves of the trained models contain different proportions of PASS sites.
-
-By increasing the cutoff for these proportions required to label a leaf as PASS, we were able to compute the area under the receiver operating curve (AUROC) for each parameter set.
+The leaves of the trained models contain different proportions of PASS sites, by increasing the cutoff for these proportions required to label a leaf as PASS, we were able to compute the area under the receiver operating curve (AUROC) for each parameter set.
 
 The best performing parameter set based on AUROC was selected as the final model, the classification cutoff used was optimised based on the Youden statistic.
 
@@ -218,36 +214,47 @@ Before applying the site filters, the mendelian error rate of the 5 crosses over
 
 The application of the site filters mask defines the accessible fraction of the genome at 70%, and reduces the mendelian error rate by a median factor of 10x on the autosomes.
 
-The error rate of the X chromosome was reduced by a median of XXX (table Y).
-
 In all 5 crosses the Youden score was substantially increased by a median factor of XXX.
 
-Directly comparing the numbers to the phase 2 site filters, we observe similar levels of mendelian error, however the updated site filters have a substantially higher sensitivity, yielding a higher Youden score over all crosses and chromosomes.
+Rather than mendelian errors, on the hemizygous chromosome we can use the more direct measure of heterozygote calls in males.
 
-- Table A: Mendel errors per cross per chromosome. 
+In the dataset are 220 male samples identified as gambiae/coluzzii, each of these represent an independent proxy for genotype discordance.
+
+Pre-application of the site filters, the median heterzygosity rate on X was 0.44%, and post filtering this drops to 0.12% (table XX).
+
+The median fold change in error rate was -1.74, with 69.97% of the X chromosome passing site filters.
+
+? (Also some measure of GQ? when applied to the X chromosome).
+
+Direct comparison to the phase 2 site filters is favourable; we observe similar levels of mendelian error, but with substantially higher sensitivity, yielding a higher Youden score over all crosses and chromosomes.
+
+- Table A: Mendel errors per cross per autosome. 
 row indices: chromosome and raw/filtered
 column indexes: crosses + frac accessible.
-ie 10 rows, and 6 columns.
+ie 8 rows, and 6 columns.
 
-- Table B: comparison of 3 vs 2.
-row indices: as above
+- Table B: comparison of cross and X
+row indices: raw/filtered
 column indices: MER, frac accessible, Youden, each for 2 and 3.
-ie 10 rows, and 6 columns.
+column indexes: crosses + frac accessible.
+ie 2 rows, and 6 columns.
 
-
-
-
-
-
-
-
-
-
-
-
-
+::: {style="font-size: 8pt"}
+```table
+---
+caption: 'Result of heterozygote calls on male X chromosome'
+alignment: LLLLLLLL
+include: content/tables/mer_X.csv
+csv-kwargs:
+  dialect: unix
+width: [0.2, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+---
+```
+:::
 
 ### Genome accessibility
+
+
 
 ### SNP discovery
 
