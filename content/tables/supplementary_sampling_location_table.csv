@@ -1049,29 +1049,29 @@ AN0499-CW,1232,AG1000G-CM-C,Cameroon,Mfelap,2013,10,5.726,10.868,F,0.025,0.002,g
 AN0500-CW,1242,AG1000G-CM-C,Cameroon,Manda,2013,10,5.726,10.868,F,0.032,0.002,gamb_colu,gambiae,False,True,True,False
 AN0503-CW,1245,AG1000G-CM-C,Cameroon,Manda,2013,10,5.726,10.868,F,0.025,0.002,gamb_colu,gambiae,False,True,True,False
 AN0511-CW,1090,AG1000G-CM-C,Cameroon,Douala,2013,10,4.055,9.721,F,0.96,0.001,gamb_colu,coluzzii,False,True,False,True
-AP0007-C,60,AG1000G-FR,Mayotte,Mtsamboro Forest Reserve,2011,-1,-12.857,45.137,F,0.035,0.003,gamb_colu,gambiae,False,True,True,False
-AP0021-C,92,AG1000G-FR,Mayotte,Karihani Lake,2011,-1,-12.857,45.137,F,0.034,0.003,gamb_colu,gambiae,False,True,True,False
-AP0019-C,88,AG1000G-FR,Mayotte,Mtsanga Charifou,2011,-1,-12.857,45.137,M,0.039,0.003,gamb_colu,gambiae,False,True,True,False
-AP0020-C,78,AG1000G-FR,Mayotte,Mtsanga Charifou,2011,-1,-12.857,45.137,M,0.039,0.003,gamb_colu,gambiae,False,True,True,False
-AP0009-C,62,AG1000G-FR,Mayotte,Combani,2011,-1,-12.857,45.137,M,0.038,0.003,gamb_colu,gambiae,False,True,True,False
-AP0002-C,64,AG1000G-FR,Mayotte,Combani,2011,-1,-12.857,45.137,F,0.027,0.003,gamb_colu,gambiae,False,True,True,False
-AP0034-C,97,AG1000G-FR,Mayotte,Sada,2011,-1,-12.857,45.137,M,0.026,0.002,gamb_colu,gambiae,False,True,True,False
-AP0035-C,99,AG1000G-FR,Mayotte,Sada,2011,-1,-12.857,45.137,M,0.043,0.003,gamb_colu,gambiae,False,True,True,False
-AP0031-C,80,AG1000G-FR,Mayotte,Mtsanga Charifou,2011,-1,-12.857,45.137,M,0.038,0.002,gamb_colu,gambiae,False,True,True,False
-AP0008-C,61,AG1000G-FR,Mayotte,Combani,2011,-1,-12.857,45.137,F,0.031,0.003,gamb_colu,gambiae,False,True,True,False
-AP0011-C,65,AG1000G-FR,Mayotte,Combani,2011,-1,-12.857,45.137,M,0.037,0.003,gamb_colu,gambiae,False,True,True,False
-AP0032-C,89,AG1000G-FR,Mayotte,Mtsanga Charifou,2011,-1,-12.857,45.137,M,0.031,0.003,gamb_colu,gambiae,False,True,True,False
-AP0010-C,63,AG1000G-FR,Mayotte,Combani,2011,-1,-12.857,45.137,M,0.035,0.003,gamb_colu,gambiae,False,True,True,False
-AP0025-C,100,AG1000G-FR,Mayotte,Sada,2011,-1,-12.857,45.137,M,0.031,0.003,gamb_colu,gambiae,False,True,True,False
-AP0022-C,94,AG1000G-FR,Mayotte,Karihani Lake,2011,-1,-12.857,45.137,F,0.028,0.002,gamb_colu,gambiae,False,True,True,False
-AP0006-C,77,AG1000G-FR,Mayotte,Mtsanga Charifou,2011,-1,-12.857,45.137,F,0.035,0.003,gamb_colu,gambiae,False,True,True,False
-AP0030-C,76,AG1000G-FR,Mayotte,Mont Benara,2011,-1,-12.857,45.137,F,0.037,0.002,gamb_colu,gambiae,False,True,True,False
-AP0023-C,79,AG1000G-FR,Mayotte,Mtsanga Charifou,2011,-1,-12.857,45.137,F,0.036,0.003,gamb_colu,gambiae,False,True,True,False
-AP0033-C,95,AG1000G-FR,Mayotte,Karihani Lake,2011,-1,-12.857,45.137,F,0.04,0.002,gamb_colu,gambiae,False,True,True,False
-AP0005-C,38,AG1000G-FR,Mayotte,Bouyouni,2011,-1,-12.857,45.137,F,0.034,0.003,gamb_colu,gambiae,False,True,True,False
-AP0014-Cx,72,AG1000G-FR,Mayotte,Mont Benara,2011,-1,-12.857,45.137,M,0.035,0.003,gamb_colu,gambiae,False,True,True,False
-AP0013-Cx,68,AG1000G-FR,Mayotte,Combani,2011,-1,-12.857,45.137,M,0.036,0.003,gamb_colu,gambiae,False,True,True,False
-AP0017-Cx,81,AG1000G-FR,Mayotte,Mtsanga Charifou,2011,-1,-12.857,45.137,F,0.028,0.003,gamb_colu,gambiae,False,True,True,False
+AP0007-C,60,AG1000G-FR,Mayotte,Mtsamboro Forest Reserve,2011,-1,-12.703,45.081,F,0.035,0.003,gamb_colu,gambiae,False,True,True,False
+AP0021-C,92,AG1000G-FR,Mayotte,Karihani Lake,2011,-1,-12.797,45.122,F,0.034,0.003,gamb_colu,gambiae,False,True,True,False
+AP0019-C,88,AG1000G-FR,Mayotte,Mtsanga Charifou,2011,-1,-12.991,45.156,M,0.039,0.003,gamb_colu,gambiae,False,True,True,False
+AP0020-C,78,AG1000G-FR,Mayotte,Mtsanga Charifou,2011,-1,-12.991,45.156,M,0.039,0.003,gamb_colu,gambiae,False,True,True,False
+AP0009-C,62,AG1000G-FR,Mayotte,Combani,2011,-1,-12.779,45.143,M,0.038,0.003,gamb_colu,gambiae,False,True,True,False
+AP0002-C,64,AG1000G-FR,Mayotte,Combani,2011,-1,-12.779,45.143,F,0.027,0.003,gamb_colu,gambiae,False,True,True,False
+AP0034-C,97,AG1000G-FR,Mayotte,Sada,2011,-1,-12.852,45.104,M,0.026,0.002,gamb_colu,gambiae,False,True,True,False
+AP0035-C,99,AG1000G-FR,Mayotte,Sada,2011,-1,-12.852,45.104,M,0.043,0.003,gamb_colu,gambiae,False,True,True,False
+AP0031-C,80,AG1000G-FR,Mayotte,Mtsanga Charifou,2011,-1,-12.991,45.156,M,0.038,0.002,gamb_colu,gambiae,False,True,True,False
+AP0008-C,61,AG1000G-FR,Mayotte,Combani,2011,-1,-12.779,45.143,F,0.031,0.003,gamb_colu,gambiae,False,True,True,False
+AP0011-C,65,AG1000G-FR,Mayotte,Combani,2011,-1,-12.779,45.143,M,0.037,0.003,gamb_colu,gambiae,False,True,True,False
+AP0032-C,89,AG1000G-FR,Mayotte,Mtsanga Charifou,2011,-1,-12.991,45.156,M,0.031,0.003,gamb_colu,gambiae,False,True,True,False
+AP0010-C,63,AG1000G-FR,Mayotte,Combani,2011,-1,-12.779,45.143,M,0.035,0.003,gamb_colu,gambiae,False,True,True,False
+AP0025-C,100,AG1000G-FR,Mayotte,Sada,2011,-1,-12.852,45.104,M,0.031,0.003,gamb_colu,gambiae,False,True,True,False
+AP0022-C,94,AG1000G-FR,Mayotte,Karihani Lake,2011,-1,-12.797,45.122,F,0.028,0.002,gamb_colu,gambiae,False,True,True,False
+AP0006-C,77,AG1000G-FR,Mayotte,Mtsanga Charifou,2011,-1,-12.991,45.156,F,0.035,0.003,gamb_colu,gambiae,False,True,True,False
+AP0030-C,76,AG1000G-FR,Mayotte,Mont Benara,2011,-1,-12.857,45.155,F,0.037,0.002,gamb_colu,gambiae,False,True,True,False
+AP0023-C,79,AG1000G-FR,Mayotte,Mtsanga Charifou,2011,-1,-12.991,45.156,F,0.036,0.003,gamb_colu,gambiae,False,True,True,False
+AP0033-C,95,AG1000G-FR,Mayotte,Karihani Lake,2011,-1,-12.797,45.122,F,0.04,0.002,gamb_colu,gambiae,False,True,True,False
+AP0005-C,38,AG1000G-FR,Mayotte,Bouyouni,2011,-1,-12.738,45.142,F,0.034,0.003,gamb_colu,gambiae,False,True,True,False
+AP0014-Cx,72,AG1000G-FR,Mayotte,Mont Benara,2011,-1,-12.857,45.155,M,0.035,0.003,gamb_colu,gambiae,False,True,True,False
+AP0013-Cx,68,AG1000G-FR,Mayotte,Combani,2011,-1,-12.779,45.143,M,0.036,0.003,gamb_colu,gambiae,False,True,True,False
+AP0017-Cx,81,AG1000G-FR,Mayotte,Mtsanga Charifou,2011,-1,-12.991,45.156,F,0.028,0.003,gamb_colu,gambiae,False,True,True,False
 AS0001-C,LIB001,AG1000G-GA-A,Gabon,Libreville,2000,12,0.384,9.455,F,0.042,0.001,gamb_colu,gambiae,False,True,True,False
 AS0002-Cx,LIB002,AG1000G-GA-A,Gabon,Libreville,2000,12,0.384,9.455,F,0.025,0.002,gamb_colu,gambiae,False,True,True,False
 AS0003-C,LIB003,AG1000G-GA-A,Gabon,Libreville,2000,12,0.384,9.455,F,0.034,0.002,gamb_colu,gambiae,False,True,True,False

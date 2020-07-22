@@ -1,4 +1,4 @@
-country,site,latitude,longitude,counts,female,male,sex unknown,arabiensis,arabiensis x gambiae,coluzzii,gambiae,gambiae x coluzzii
+country,site,latitude,longitude,counts,female,male,sex unknown,arabiensis,arabiensis x   gambiae,coluzzii,gambiae,gambiae x coluzzii
 Angola,Luanda,-8.884,13.302,81,77,4,0,0,0,81,0,0
 Bioko,Bioko,3.7,8.7,10,10,0,0,0,0,0,10,0
 Burkina Faso,Bana,11.233,-4.472,128,81,47,0,1,0,89,37,1
