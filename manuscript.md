@@ -3,7 +3,7 @@ author-meta:
 - The Anopheles gambiae 1000 Genomes Consortium
 bibliography:
 - content/manual-references.json
-date-meta: '2020-07-17'
+date-meta: '2020-07-27'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -22,9 +22,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex" />
 
-  <meta name="dc.date" content="2020-07-17" />
+  <meta name="dc.date" content="2020-07-27" />
 
-  <meta name="citation_publication_date" content="2020-07-17" />
+  <meta name="citation_publication_date" content="2020-07-27" />
 
   <meta name="dc.language" content="en-GB" />
 
@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/677f0bee6eb5839f19c476ab6294beba03cd1a8b/" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/7a5ce0a921baad7a84afa714bdf685902f5f7475/" />
 
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/677f0bee6eb5839f19c476ab6294beba03cd1a8b/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/7a5ce0a921baad7a84afa714bdf685902f5f7475/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/677f0bee6eb5839f19c476ab6294beba03cd1a8b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/7a5ce0a921baad7a84afa714bdf685902f5f7475/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -88,10 +88,10 @@ title: Genome variation and population structure in three African malaria vector
 
 <small><em>
 This manuscript
-([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/677f0bee6eb5839f19c476ab6294beba03cd1a8b/))
+([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/7a5ce0a921baad7a84afa714bdf685902f5f7475/))
 was automatically generated
-from [malariagen/ag1000g-phase3-data-paper@677f0be](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/677f0bee6eb5839f19c476ab6294beba03cd1a8b)
-on July 17, 2020.
+from [malariagen/ag1000g-phase3-data-paper@7a5ce0a](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/7a5ce0a921baad7a84afa714bdf685902f5f7475)
+on July 27, 2020.
 </em></small>
 
 ## Authors
@@ -113,7 +113,9 @@ on July 17, 2020.
 
 DNA extracted from wild-caught _Anopheles_ mosquitoes were submitted to the Ag1000G consortium in 23 sets by consortial partners. (chris' line)
 
-## Whole Genome Sequencing and Alignment
+![Sample Collection Map](images/sample_collection_map.svg){#fig:sample_collection_map width="100%"}
+
+## Whole Genome Sequencing and Alignment {.page_break_before}
 
 A total of 4,693 individual mosquitoes were sequenced on either Illumina HiSeq2000 (n=3,130) or Illumina HiSeqX (n=1,563) to a target coverage of 30X.
 
