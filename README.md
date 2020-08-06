@@ -60,8 +60,7 @@ jupyter lab
 
 ### Images
 
-- Prefer PNG or PDF (vector). 
-- Preferred format may depend on whether using latex or pandoc (manubot) - PDF figures are good with latex but maybe not with pandoc
+- Prefer SVG
 - Prefer 120-300 DPI
 - Style rules
   - Max 8 inches wide
