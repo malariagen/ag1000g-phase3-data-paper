@@ -1,6 +1,9 @@
 from pathlib import Path
 import allel
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
 import dask.array as da
 import zarr
 import gcsfs
@@ -157,3 +160,43 @@ class release_data:
             return pd.concat(
                 [self.load_sample_set_metadata(s, include_aim_species_calls, include_pca_species_calls) for s in sample_set],
                 axis=0, sort=False)
+
+
+class GenomeFigure(object):
+    
+    def __init__(self, genome, *args, **kwargs):
+        self.chromosomes = kwargs.pop('chromosomes', ['2R', '2L', '3R', '3L', 'X', 'UNKN'])
+        maxchrsize = max(genome[chrom] for chrom in self.chromosomes)
+        fig = plt.figure(*args, **kwargs)
+        self.fig = fig
+        self.ax = dict()
+        for i, chrom in enumerate(self.chromosomes):
+            ax = fig.add_subplot(3, 2, i+1)
+            self.ax[chrom] = ax
+            S = np.arange(1, genome[chrom], 1, dtype=np.int64)
+            if i % 2 == 1:
+                sns.despine(ax=ax, offset=10, top=True, left=True, right=False)
+                ax.set_xlim(0, maxchrsize)
+                ax.yaxis.tick_right()
+                ax.yaxis.set_label_position('right')
+            else:
+                ax.set_xlim((S.size)-(maxchrsize), S.size)
+                ax.yaxis.tick_left()
+                sns.despine(ax=ax, offset=10, top=True, left=False, right=True)
+            ax.set_xticks(range(0, S.size, int(5e6)))
+            ax.set_xticklabels(range(0, int(S.size/1e6), 5))
+            ax.set_title(chrom, fontweight='bold')
+            ax.xaxis.tick_bottom()
+        fig.tight_layout()
+        
+    def apply(self, f, **kwargs):
+        chromosomes = kwargs.pop('chromosomes', self.chromosomes)
+        for chrom in chromosomes:
+            ax = self.ax[chrom]
+            f(chrom, ax, **kwargs)
+        
+        
+def subplots(*args, **kwargs):
+    fig, ax = plt.subplots(*args, **kwargs)
+    sns.despine(ax=ax, offset=10)
+    return fig, ax
