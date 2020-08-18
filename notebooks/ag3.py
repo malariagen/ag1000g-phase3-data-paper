@@ -43,13 +43,23 @@ class release_data:
     def all_wild_sample_sets(self):
         return [x for x in self._all_sample_sets if x != "AG1000G-X"]
 
-    def load_mask(self, seq_id, mask_id, filters_model="dt_20200416"):
+
+    def load_mask(self, seq_id, mask_id, filters_model="dt_20200416", field="filter_pass"):
     
         mask_path = self.release_dir / "site_filters" / filters_model / mask_id
         mask_store = self.gcs.get_mapper(mask_path.as_posix())
         mask_group = zarr.Group(mask_store)
-        return da.from_zarr(mask_group[seq_id]["variants/filter_pass"])
+        return da.from_zarr(mask_group[seq_id]["variants"][field])
+
+
+    def load_crosses(self, seq_id, cross_id, field):
     
+        crosses_path = self.release_dir / "site_filters" / "crosses_stats"
+        crosses_store = self.gcs.get_mapper(crosses_path.as_posix())
+        crosses_group = zarr.Group(crosses_store)
+        return da.from_zarr(crosses_group[seq_id][field][cross_id])
+
+
     def load_variants(self, seq_id, field="POS", mask=None):
     
         """
@@ -71,8 +81,8 @@ class release_data:
             arr = da.compress(mask, arr, axis=0).compute_chunk_sizes()
 
         return arr
-    
-    
+
+
     def load_sample_set_calldata(self, seq_id, sample_set, field="GT", mask=None):
     
         if isinstance(sample_set, str):
@@ -98,7 +108,8 @@ class release_data:
             arr = da.compress(mask, arr, axis=0).compute_chunk_sizes()
 
         return arr
-    
+
+
     def load_sample_set_metadata(
         self, sample_set, include_aim_species_calls=True, include_pca_species_calls=False, species_analysis="species_calls_20200422",
         convenience_species_assignment=True):
@@ -146,4 +157,3 @@ class release_data:
             return pd.concat(
                 [self.load_sample_set_metadata(s, include_aim_species_calls, include_pca_species_calls) for s in sample_set],
                 axis=0, sort=False)
-        
