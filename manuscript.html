@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="The Anopheles gambiae 1000 Genomes Consortium" />
-  <meta name="dcterms.date" content="2020-08-24" />
+  <meta name="dcterms.date" content="2020-09-04" />
   <meta name="keywords" content="malaria, anopheles, genomics" />
   <title>Genome variation and population structure in three African malaria vector species within the Anopheles gambiae complex</title>
   <style>
@@ -28,8 +28,8 @@
   <meta name="citation_title" content="Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex" />
   <meta property="og:title" content="Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex" />
   <meta property="twitter:title" content="Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex" />
-  <meta name="dc.date" content="2020-08-24" />
-  <meta name="citation_publication_date" content="2020-08-24" />
+  <meta name="dc.date" content="2020-09-04" />
+  <meta name="citation_publication_date" content="2020-09-04" />
   <meta name="dc.language" content="en-GB" />
   <meta name="citation_language" content="en-GB" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@
   <meta name="citation_fulltext_html_url" content="https://malariagen.github.io/ag1000g-phase3-data-paper/" />
   <meta name="citation_pdf_url" content="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/232a9306563c548ee583e84af209f0416db238b1/" />
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/232a9306563c548ee583e84af209f0416db238b1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/232a9306563c548ee583e84af209f0416db238b1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/3bbc896e694e67e1d3310f975c28e22095ced1cd/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/3bbc896e694e67e1d3310f975c28e22095ced1cd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/3bbc896e694e67e1d3310f975c28e22095ced1cd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -59,10 +59,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/232a9306563c548ee583e84af209f0416db238b1/">permalink</a>)
+(<a href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/3bbc896e694e67e1d3310f975c28e22095ced1cd/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/malariagen/ag1000g-phase3-data-paper/tree/232a9306563c548ee583e84af209f0416db238b1">malariagen/ag1000g-phase3-data-paper@232a930</a>
-on August 24, 2020.
+from <a href="https://github.com/malariagen/ag1000g-phase3-data-paper/tree/3bbc896e694e67e1d3310f975c28e22095ced1cd">malariagen/ag1000g-phase3-data-paper@3bbc896</a>
+on September 4, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -95,8 +95,7 @@ on August 24, 2020.
 <p>668 samples were removed where sequencing was of insufficient quality to accurately call genotypes across the whole genome.</p>
 <p>Exclusions were due to poor coverage (n=410), potential contamination (n=229), and the autosomal vs X coverage ratio not following the expected bimodal distribution (n=29).</p>
 <p>Where technical replicates were available, we excluded 4 pairs (8 samples) with low genotype concordance.</p>
-<p>Where pairs met the concordance threshold we excluded the lower quality sample.</p>
-<p>In total 407 samples in were excluded in favour of better quality samples, based on skewedness of the mean vs median.</p>
+<p>Where pairs met the concordance threshold we excluded the lower quality sample, in total 407 samples were excluded, based on skewedness of the mean vs median.</p>
 <p>Samples were also screened pairwise within submission sets for unexpected pairs, though none were detected.</p>
 <p>The AG1000G-X submission set, made up of laboratory experimental crosses, was exempted from the requirements of this stage due to familial similarity and high levels of inbreeding.</p>
 <p>The third stage used principal component analysis (PCA) to identify and exclude individual samples that were outliers based on available metadata.</p>
@@ -107,13 +106,33 @@ on August 24, 2020.
 <p>Full details including exclusion thresholds are available in supplementary.</p>
 <h3 id="coverage">Coverage</h3>
 <p>Summary of site coverage post QC exclusions.</p>
+<h3 id="species-assignment-and-sex-calling">Species assignment and sex calling</h3>
+<p>The Anopheles gambiae complex is a crypic group of sibling species, with no single locus offering unambiguous resolution of species.</p>
+<p>Therefore, to assign species we looked beyond the conventional set of PCR based markers and applied a wider set of ancestry informative markers (AIMs).</p>
+<p>To derive markers informative between <em>A. arabiensis</em> and <em>A. gambiae s.l.</em>, we used publicly available data from the 16 genomes project (ref).</p>
+<p>Whole genome SNP calls called against the AgamP3 reference for 12 <em>A. arabiensis</em> and 38 <em>A. gambiae s.l</em> individuals were available.</p>
+<p>Alleles were mapped onto the same alternate allele space, the frequencies of which were computed across both groups.</p>
+<p>Sites that were multiallelic in either group were excluded, as well as sites where any genotypes were missing.</p>
+<p>565,329 SNPs were identified as potentially informative where no shared alleles were present between groups.</p>
+<p>These were spread throughout the genome, but were concentrated on the X chromosome (63.2%), particularly around the Xag inversion.</p>
+<p>The full AIM set of positions and alleles are available as part of the phase 3 data release.</p>
+<p>Called genotypes for each individual in the dataset were cross referenced against a random subset of 50,000 ancestry informative marker alleles, genotype alleles were accordingly classified as gambiae-like or arabiensis-like.</p>
+<p>AIM fractions were cross referenced against PCR results available from a subset of inviduals.</p>
+<p>Given the relatively small number of <em>A. arabiensis</em> samples in the 16 genomes project- it was clear that a significant proportion of putative AIMs were not likely to be truly informative.</p>
+<p>Therefore, classification requirements are less rigourous than other sets of validated markers; individuals were classed as <em>A. arabiensis</em> where a fraction &gt;0.6 of alleles were arabiensis-like (n=368), and as <em>A. gambiae s.l</em> where this value was &lt; 0.03 (n=2415).</p>
+<p>Species were not assigned to samples from the AG1000G-X submission due to inbreeding and high levels of genetic drift.</p>
+<p>A single individual collected in Tororo, Uganda is classed as intermediate- given the majority (XX%) of sites in the genome are heterozygous between the gambiae and arabiensis allele, this individual is likely to be an F1 hybrid.</p>
+<p>To resove the <em>A. gambiae s.l</em> individuals into <em>A. gambiae</em> and <em>A. coluzzii</em> we applied the 729 AIMs previously identified by Neafsey et al (ref).</p>
+<p>?? Need to find code that creates gambiae from neafsey set</p>
+<p>Cutoffs were made at &lt;0.12 (gambiae) and &gt;0.9 (coluzzii), with individuals between classed as intermediate.</p>
+<p>Of the 2415 <em>s.l</em> individuals, 1571 were called as gambiae, 675 as coluzzii and 169 as intermediate (ref collection map).</p>
 <h3 id="snp-filtering-and-quality">SNP filtering and quality</h3>
 <p>Site filtering is necessary to ensure that reported variation is of high quality.</p>
 <p>Features of specific regions of the Anopheles genome contribute to calling errors in short-read technologies; such features include regions of high divergence from the reference, high homology between regions, copy number variation, or the presence of transposable elements.</p>
 <p>Owing to DNA availability, no second technology was available for direct benchmarking.</p>
 <p>Using the 15 available Anopheles pedigrees previously described, we used the presence of mendelian error at sites as a proxy for genotype discordance.</p>
-<p>Where previously we have used manually curated cutoffs based on observed mendelian error rates to filter sites (ref phase1, phase2), here we built a statistical model where cohort level genome annotations were used to predict the presence of mendelian error, becoming a binary classification problem.</p>
-<p>Pedigrees included <em>A. gambiae</em> and <em>A. coluzzii</em> mosquitoes only, and cohort level annotations to build the initial site filters model came from these species (n=XXX).</p>
+<p>Where previously we have used manually curated cutoffs based on observed mendelian error rates to filter sites (ref phase1, phase2), here we built a statistical model where cohort level summary statistics were used to predict the presence or absence of mendelian error, becoming a binary classification problem.</p>
+<p>Pedigrees included <em>A. gambiae</em> and <em>A. coluzzii</em> mosquitoes only, and summary statistics to build the initial site filters model came from these species (n=XXX).</p>
 <p>5 of the 15 crosses were held out for validation, so performance could be evaluated against the previous site filtering scheme.</p>
 <p>Sites were defined as PASS where all genotypes across all 10 remaining crosses were called, and no mendelian inconsistencies were observed.</p>
 <p>Sites were defined as FAIL where a mendelian inconsistency was observed in any pedigree.</p>
@@ -124,35 +143,24 @@ on August 24, 2020.
 <p>Parameter settings were evaluated on an unbalanced evaluation set, consisting of XXX sites randomly from sampled from the whole genome.</p>
 <p>The leaves of the trained models contain different proportions of PASS sites, by increasing the cutoff for these proportions required to label a leaf as PASS, we were able to compute the area under the receiver operating curve (AUROC) for each parameter set.</p>
 <p>The best performing parameter set based on AUROC was selected as the final model, the classification cutoff used was optimised based on the Youden statistic.</p>
-<p>The resulting model was a decision tree of depth 8, with a maximum of 50 terminal nodes, where leaves were assigned to PASS where &gt; 0.533 of training data in that leaf were PASS.</p>
+<p>The resulting model was a decision tree of depth 8, with a maximum of XX (CHECK NUMBERS) terminal nodes, where leaves were assigned to PASS where &gt; 0.533 of training data in that leaf were PASS.</p>
 <p>All sites in the genome were then assigned to PASS or FAIL given the model inputs.</p>
 <p>The 5 remaining cross pedigrees were used to perform a final evaluation of the approach.</p>
 <p>The above definitions of PASS sites were retained, but independently over pedigrees, providing 5 distinct evaluation sets.</p>
 <p>Before applying the site filters, the mendelian error rate of the 5 crosses over all autosomal sites ranged between XXX and XXX (table XXX).</p>
 <p>The application of the site filters mask defines the accessible fraction of the genome at 70%, and reduces the mendelian error rate by a median factor of 10x on the autosomes.</p>
 <p>In all 5 crosses the Youden score was substantially increased by a median factor of XXX.</p>
-<p>Directly comparing the numbers to the phase 2 site filters, we observe similar levels of mendelian error, however the updated site filters have a substantially higher sensitivity, yielding a higher Youden score over all crosses and chromosomes.</p>
-<ul>
-<li><p>Table A: Mendel errors per cross per chromosome.
-row indices: chromosome and raw/filtered
-column indexes: crosses + frac accessible.
-ie 10 rows, and 6 columns.</p></li>
-<li><p>Table B: comparison of 3 vs 2.
-row indices: as above
-column indices: MER, frac accessible, Youden, each for 2 and 3.
-ie 10 rows, and 6 columns.</p></li>
-</ul>
-<p>Site filters on arab and gamb_colu_arab.</p>
+<p>On the hemizygous X chromosome we can use the more direct measure of heterozygote calls in males.</p>
+<p>In the dataset are 220 gambiae/coluzzii male samples, each of which represent an independent proxy for genotype discordance.</p>
+<p>TO FINALIZE? (Also some GQ threshold? when applied to the X chromosome).</p>
+<p>Pre-application of the site filters, the median heterozygosity rate on X was 0.44%, and post filtering this drops to 0.12% (table XX).</p>
+<p>The median fold change in error rate was -1.74, with 69.97% of the X chromosome passing site filters.</p>
+<p>Directly comparing the numbers to the phase 2 site filters, we observe similar levels of mendelian error and X heterozygosity, however the updated site filters have a substantially higher sensitivity, yielding a higher Youden score over all crosses and chromosomes.</p>
 <p>As genomic features vary between species, different sets of site filters were generated to allow high quality analyses both within and between species.</p>
 <p>The <code>gamb_colu</code> site filters were generated as above, and are appropriate for analyses that include <em>gambiae</em> and <em>coluzzii</em> samples only.</p>
-<p>The <code>arab</code> site filters were generated following application of the model to the summary variables from arabiensis samples in the cohort (n=XXX), this set of site filters are appropriate when working with <em>A. arabiensis</em> samples only.</p>
+<p>The <code>arab</code> site filters were generated following application of the model to the summary statistics from arabiensis samples in the cohort (n=XXX), this set of site filters are appropriate when working with <em>A. arabiensis</em> samples only.</p>
 <p>Finally, the <code>gamb_colu_arab</code> site filters allow analyses across all three species and are the intersection of the <code>gamb_colu</code> and the <code>arab</code> site filters.</p>
-<p>Rather than mendelian errors, on the hemizygous chromosome we can use the more direct measure of heterozygote calls in males.</p>
-<p>In the dataset are 220 male samples identified as gambiae/coluzzii, each of these represent an independent proxy for genotype discordance.</p>
-<p>Pre-application of the site filters, the median heterzygosity rate on X was 0.44%, and post filtering this drops to 0.12% (table XX).</p>
-<p>The median fold change in error rate was -1.74, with 69.97% of the X chromosome passing site filters.</p>
-<p>? (Also some measure of GQ? when applied to the X chromosome).</p>
-<p>? Direct comparison to the phase 2 site filters is favourable; we observe similar levels of mendelian error, but with substantially higher sensitivity, yielding a higher Youden score over all crosses and chromosomes.</p>
+<p>Place holders for tables.</p>
 <ul>
 <li><p>Table A: Mendel errors per cross per autosome.
 row indices: chromosome and raw/filtered
@@ -223,9 +231,9 @@ ie 2 rows, and 6 columns.</p></li>
 <p>This is an improvement from phase 2, where XXX of the genome, and YYY of the exome was considered accessible.</p>
 <p>As expected, accessiblity was generally lower around the centromeres, and in regions of heterochromatin (table ref).</p>
 <p>One notable region of low accessibility spans 40-41Mbp of chromosome 3R, this corresponds to ??.</p>
-<p>Accessibility of the <code>arab</code> site filters closely follows that of <code>gamb_colu</code>, with the exception of the X chromosome where we see a substantially lower rate.</p>
+<p>Accessibility of the <code>arab</code> site filters closely follows that of <code>gamb_colu</code>, with the exception of the X chromosome where we see substantially lower values.</p>
 <p>This appears to be driven by high divergence between AgamP4 and our <em>A. arabiensis</em> samples, particularly around the Xag inversion at Q-Q Mbp, ref figure.</p>
-<p>On the autosomes the divergence from the reference is comparable between <em>A.arabiensis</em> and <em>A. gambiae</em>/ <em>A. coluzzii</em> samples, suggesting there is</p>
+<p>On the autosomes the divergence from the reference is comparable between <em>A.arabiensis</em> and <em>A. gambiae</em>/ <em>A. coluzzii</em> samples, suggesting a strong basis for comparison accross species.</p>
 <p>The median divergence (Dxy) of 100kbp windows is XXX (5%/95% TTT/SSS) for gambiae/coluzzii and YYY (TTT/YYY) for arabiensis.</p>
 <p>On the X chromosome these values are XXX ( / ) for gambiae/coluzzii and YYY ( / ) for arabiensis.</p>
 <h3 id="snp-discovery">SNP discovery</h3>
@@ -234,7 +242,6 @@ ie 2 rows, and 6 columns.</p></li>
 <p>This phase of the study reports an additional XXX SNPs from phase 2.</p>
 <p>In XXX gambiae and coluzzii individuals we report 12,222,222 SNPs (Q% multiallelic), corresponding to a SNP every 1.6 accessible bases.</p>
 <p>In XXX arabiensis individuals we identify 10,000,000 SNPs (Q% multiallelic), a SNP every 2.5 accessible bases.</p>
-<h2 id="species-assignment">Species Assignment</h2>
 <h2 id="population-structure">Population Structure</h2>
 <h2 id="genetic-diversity-within-populations">Genetic Diversity within Populations</h2>
 <h2 id="insecticide-resistance">Insecticide Resistance</h2>
