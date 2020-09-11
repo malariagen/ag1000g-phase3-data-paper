@@ -1,0 +1,24 @@
+configfile: "config.yml"
+
+
+rule all:
+    input:
+        expand(
+            "../../data/pca/{species_group}.pca.zarr.zip",
+            species_group=["gamb_colu", "arab", "gamb_colu_arab"])
+
+
+rule generate_allele_count_array:
+    output:
+        zipzarr="../../data/pca/{species_group}.pca.zarr.zip"
+    params:
+        regions=lambda y: config["regions"][y["species_group"]],
+        sample_query=lambda y: config["sample_query"][y["species_group"]],
+        module_path="../../notebooks/",
+        n_downsample=100_000,
+        max_allele=3,
+        random_seed=42,
+        n_workers=10
+    script:
+        "generate_allele_count_array.py"
+     

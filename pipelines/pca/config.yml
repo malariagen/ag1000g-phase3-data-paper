@@ -1,0 +1,16 @@
+# Specify the species group, used in file names, site filter, region and sample selection
+# Either 'gamb_colu_arab', 'gamb_colu', or 'arab'
+regions:
+  gamb_colu: 
+    - ['3L', 1, 41_963_435]
+    - ['3R', 1, 53_200_684]
+  arab:
+    - ['3L', 1, 41_963_435]
+  gamb_colu_arab:
+    - ['3L', 1, 41_963_435] 
+    
+sample_query:
+  gamb_colu: "species_gambcolu_arabiensis == 'gamb_colu'"
+  gamb_colu_arab: "species_gambcolu_arabiensis != 'NA'"
+  arab: "species_gambcolu_arabiensis == 'arabiensis'"
+  
