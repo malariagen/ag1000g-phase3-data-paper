@@ -7,11 +7,11 @@
       "genomics"
     ],
     "lang": "en-GB",
-    "date-meta": "2020-09-04",
+    "date-meta": "2020-09-16",
     "author-meta": [
       "The Anopheles gambiae 1000 Genomes Consortium"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex\" />\n<meta name=\"citation_title\" content=\"Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex\" />\n<meta property=\"og:title\" content=\"Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex\" />\n<meta property=\"twitter:title\" content=\"Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex\" />\n<meta name=\"dc.date\" content=\"2020-09-04\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-04\" />\n<meta name=\"dc.language\" content=\"en-GB\" />\n<meta name=\"citation_language\" content=\"en-GB\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"The Anopheles gambiae 1000 Genomes Consortium\" />\n<link rel=\"canonical\" href=\"https://malariagen.github.io/ag1000g-phase3-data-paper/\" />\n<meta property=\"og:url\" content=\"https://malariagen.github.io/ag1000g-phase3-data-paper/\" />\n<meta property=\"twitter:url\" content=\"https://malariagen.github.io/ag1000g-phase3-data-paper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://malariagen.github.io/ag1000g-phase3-data-paper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://malariagen.github.io/ag1000g-phase3-data-paper/v/3bbc896e694e67e1d3310f975c28e22095ced1cd/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://malariagen.github.io/ag1000g-phase3-data-paper/v/3bbc896e694e67e1d3310f975c28e22095ced1cd/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://malariagen.github.io/ag1000g-phase3-data-paper/v/3bbc896e694e67e1d3310f975c28e22095ced1cd/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex\" />\n<meta name=\"citation_title\" content=\"Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex\" />\n<meta property=\"og:title\" content=\"Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex\" />\n<meta property=\"twitter:title\" content=\"Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex\" />\n<meta name=\"dc.date\" content=\"2020-09-16\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-16\" />\n<meta name=\"dc.language\" content=\"en-GB\" />\n<meta name=\"citation_language\" content=\"en-GB\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"The Anopheles gambiae 1000 Genomes Consortium\" />\n<link rel=\"canonical\" href=\"https://malariagen.github.io/ag1000g-phase3-data-paper/\" />\n<meta property=\"og:url\" content=\"https://malariagen.github.io/ag1000g-phase3-data-paper/\" />\n<meta property=\"twitter:url\" content=\"https://malariagen.github.io/ag1000g-phase3-data-paper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://malariagen.github.io/ag1000g-phase3-data-paper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://malariagen.github.io/ag1000g-phase3-data-paper/v/d0c284173dfdbd6db0444de64d762d25f8f7dad9/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://malariagen.github.io/ag1000g-phase3-data-paper/v/d0c284173dfdbd6db0444de64d762d25f8f7dad9/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://malariagen.github.io/ag1000g-phase3-data-paper/v/d0c284173dfdbd6db0444de64d762d25f8f7dad9/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -21,7 +21,7 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "September 4, 2020",
+    "date": "September 16, 2020",
     "authors": [
       {
         "name": "The Anopheles gambiae 1000 Genomes Consortium",
@@ -33,19 +33,19 @@
       "repo_slug": "malariagen/ag1000g-phase3-data-paper",
       "repo_owner": "malariagen",
       "repo_name": "ag1000g-phase3-data-paper",
-      "commit": "3bbc896e694e67e1d3310f975c28e22095ced1cd",
-      "triggering_commit": "3bbc896e694e67e1d3310f975c28e22095ced1cd",
-      "build_url": "https://github.com/malariagen/ag1000g-phase3-data-paper/commit/3bbc896e694e67e1d3310f975c28e22095ced1cd/checks",
+      "commit": "d0c284173dfdbd6db0444de64d762d25f8f7dad9",
+      "triggering_commit": "d0c284173dfdbd6db0444de64d762d25f8f7dad9",
+      "build_url": "https://github.com/malariagen/ag1000g-phase3-data-paper/commit/d0c284173dfdbd6db0444de64d762d25f8f7dad9/checks",
       "job_url": "https://github.com/malariagen/ag1000g-phase3-data-paper/runs/run3"
     },
     "html_url": "https://malariagen.github.io/ag1000g-phase3-data-paper/",
     "pdf_url": "https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf",
-    "html_url_versioned": "https://malariagen.github.io/ag1000g-phase3-data-paper/v/3bbc896e694e67e1d3310f975c28e22095ced1cd/",
-    "pdf_url_versioned": "https://malariagen.github.io/ag1000g-phase3-data-paper/v/3bbc896e694e67e1d3310f975c28e22095ced1cd/manuscript.pdf",
+    "html_url_versioned": "https://malariagen.github.io/ag1000g-phase3-data-paper/v/d0c284173dfdbd6db0444de64d762d25f8f7dad9/",
+    "pdf_url_versioned": "https://malariagen.github.io/ag1000g-phase3-data-paper/v/d0c284173dfdbd6db0444de64d762d25f8f7dad9/manuscript.pdf",
     "manubot_version": "0.3.1",
     "rootstock_commit": "b7462701ff85854a67d878db4af89d0268bb11d2",
     "manuscript_stats": {
-      "word_count": 2306
+      "word_count": 3666
     }
   }
 }
