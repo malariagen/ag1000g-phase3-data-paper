@@ -1,0 +1,16 @@
+## Naming conventions
+
+First word should refer to results subsection
+
+eg.
+- sampling: Collection information
+- sampleqc: Quality control of samples
+- sequencing: Technical details of sequnce
+- site-filters: Accessibility and genome QC
+- snpdiscovery: Related to counts of SNPs, segregating sites
+- popstructure: Analyses of population structure ie PCA etc
+
+Then an undercore; second and subsequent words express more detail about notebook separated by hyphen.
+
+`{results-topic}_{more-detail-here}.ipynb`
+
