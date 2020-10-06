@@ -1,0 +1,4 @@
+This directory contains data that is produced externally from this repo.
+
+All data/tables/images generated via files in `notebooks` should live within `content/tables`, `content/images` etc, regardless of whether they are included in the final manuscript.
+
