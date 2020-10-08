@@ -22,7 +22,7 @@ frac
 gambiae
 GATK
 genomic
-Genotype
+genotype
 genotypes
 genotyping
 GQ
@@ -44,8 +44,8 @@ kbp
 Mbp
 MER
 minumum
-multiallelic
-neafsey
+Multiallelic
+Neafsey
 NGS
 paracentric
 parallelisation
