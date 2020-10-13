@@ -1,0 +1,80 @@
+== East African Gambiae ==
+
+Mozambique gambiae
+??
+
+Mayotte gambiae
+??
+
+2013 Tanzania gambiae Muheza
+
+2000 KE gambiae kilifi
+
+
+== Coastal Cryptic East African ==
+
+Weird gambiae-like with some complex history. 
+
+2012 Kenyan Kilifi intermediate.
+??
+2013 Tanzania intermediate gambiae. Some classify as gambiae though. More detail needed to define. 
+
+
+COLUZZII
+
+CAR coluzzii seem to be one set. 
+
+CMS coluzzii seem to have a fair bit of structure.
+Certianly Youande and Douala and Nk and Campo are distinct from Lagdo/Gouna.
+The former are more similar to CAR the latter 
+
+
+
+GAMBIAE
+
+Gulf West Africa- TheGambia and Guinea Bissau.
+8 sampling locations in an approximate square.
+5 in The Gambia, 3 in GB.
+
+Broadly there is an intermediate cluster, a gambiae cluster (small), a coluzzii cluster.
+
+IM: 
+1. Sare Samba Sowe
+2. Njabakunda
+3. Antula GB
+4. Safim GB
+
+Very interestingly, the IM cluster gts pulled out by PC6. The 2 GB populations are distinct from the Gambia ones. 
+
+
+COL: (all Gambia)
+1. Tankular
+2. Wali Kunda
+3. Kalataba
+4. Njabakunda
+5. Sare Samba Sowe
+
+GAM:
+1. Leibala - the most easterly of the GB sites. The other 2 are close, but one is more urban.
+2. Wali Kunda - the most easterly of the Gambia sites. Not quite as easterly as Leibala. (only 2 samples here)
+
+Populations:
+ - All Coluzzii clearly belong in one population. Doesn't split by PCA.
+ - Leibala forms it's own cluster.
+ - IM: Question here is whether to make 2 or 1 cluster. Given 250km and crossing 2 major rivers. We should consider as 2.
+
+Gambia Coluzzii
+Gambia Intermediate
+Guinea-Bissau Intermediate
+Guinea-Bissau Leibala Gambiae
+
+The 2 Gambiae in Wali Kunda can't be considered a population.
+
+
+
+
+
+
+
+
+
