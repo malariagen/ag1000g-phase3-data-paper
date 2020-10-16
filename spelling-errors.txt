@@ -51,7 +51,7 @@ paracentric
 parallelisation
 PCA
 PCR
-Polymophisms
+polymophisms
 Pre
 RealignerTargetCreator
 resove
