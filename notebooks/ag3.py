@@ -12,12 +12,6 @@ from warnings import warn
 
 __version__ = '0.1.0'
 
-try:
-  with open('location_colours.yaml') as file:
-      location_colours = yaml.load(file, Loader=yaml.Loader)
-except FileNotFoundError as e:
-    warn('location_colours.yaml required for location_colours')
-
 
 # helper class to load phase 3 data
 # doesn't get involved with storing data
@@ -55,7 +49,15 @@ class release_data:
     def all_wild_sample_sets(self):
         return [x for x in self._all_sample_sets if x != "AG1000G-X"]
 
-
+    @property
+    def population_colours(self):
+        try:
+            with open('location_colours.yaml') as file:
+                location_colours = yaml.load(file, Loader=yaml.Loader)
+                return location_colours
+        except FileNotFoundError as e:
+            warn('location_colours.yaml required for location_colours')
+    
     def load_mask(self, seq_id, mask_id, filters_model="dt_20200416", field="filter_pass"):
     
         mask_path = self.release_dir / "site_filters" / filters_model / mask_id
