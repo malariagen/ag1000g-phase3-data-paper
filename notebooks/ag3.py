@@ -7,8 +7,17 @@ import numpy as np
 import dask.array as da
 import zarr
 import gcsfs
+import yaml
+from warnings import warn
 
 __version__ = '0.1.0'
+
+try:
+  with open('location_colours.yaml') as file:
+      location_colours = yaml.load(file, Loader=yaml.Loader)
+except FileNotFoundError as e:
+    warn('location_colours.yaml required for location_colours')
+
 
 # helper class to load phase 3 data
 # doesn't get involved with storing data
