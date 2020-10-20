@@ -22,7 +22,7 @@ frac
 gambiae
 GATK
 genomic
-genotype
+Genotype
 genotypes
 genotyping
 GQ
@@ -44,14 +44,14 @@ kbp
 Mbp
 MER
 minumum
-multiallelic
-Neafsey
+Multiallelic
+neafsey
 NGS
 paracentric
 parallelisation
 PCA
 PCR
-polymophisms
+Polymophisms
 Pre
 RealignerTargetCreator
 resove
