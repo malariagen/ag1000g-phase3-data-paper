@@ -50,7 +50,7 @@ class release_data:
         return [x for x in self._all_sample_sets if x != "AG1000G-X"]
 
     @property
-    def population_colours(self):
+    def location_colours(self):
         try:
             with open('location_colours.yaml') as file:
                 location_colours = yaml.load(file, Loader=yaml.Loader)
