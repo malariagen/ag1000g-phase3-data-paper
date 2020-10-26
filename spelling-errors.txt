@@ -44,8 +44,8 @@ kbp
 Mbp
 MER
 minumum
-Multiallelic
-neafsey
+multiallelic
+Neafsey
 NGS
 paracentric
 parallelisation
