@@ -43,9 +43,9 @@
   <meta name="citation_fulltext_html_url" content="https://malariagen.github.io/ag1000g-phase3-data-paper/" />
   <meta name="citation_pdf_url" content="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/72c04b3f650675793a4e964749ad635942ef23b8/" />
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/72c04b3f650675793a4e964749ad635942ef23b8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/72c04b3f650675793a4e964749ad635942ef23b8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/457b57c27f88c5c73e843afaf21c3b41f29c8a4f/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/457b57c27f88c5c73e843afaf21c3b41f29c8a4f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/457b57c27f88c5c73e843afaf21c3b41f29c8a4f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -59,9 +59,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/72c04b3f650675793a4e964749ad635942ef23b8/">permalink</a>)
+(<a href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/457b57c27f88c5c73e843afaf21c3b41f29c8a4f/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/malariagen/ag1000g-phase3-data-paper/tree/72c04b3f650675793a4e964749ad635942ef23b8">malariagen/ag1000g-phase3-data-paper@72c04b3</a>
+from <a href="https://github.com/malariagen/ag1000g-phase3-data-paper/tree/457b57c27f88c5c73e843afaf21c3b41f29c8a4f">malariagen/ag1000g-phase3-data-paper@457b57c</a>
 on October 27, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -340,9 +340,13 @@ Muleba (1.750, 31.667), the final collection region, is in the North-western par
 <p>The crosses were generated using parents from eight different colonies: G3(MRA-112); Kisumu(MRA-762); Pimperena (canonical representative of <em>An. gambiae</em> species; MRA-861); Ghana (recent colony of <em>An. coluzzii</em> from Okyereko, southern Ghana (<span class="citation" data-cites="z9HqxYF3"><a href="#ref-z9HqxYF3" role="doc-biblioref">26</a></span>)); Mali-NIH (canonical representative of <em>An. coluzzii</em> species; Niono, MRA-860); (P)Akron (Benin, MRA-913); Nagongera (Tororo, Uganda); and Tiassalé (southern Cote d’Ivoire (<span class="citation" data-cites="z9HqxYF3"><a href="#ref-z9HqxYF3" role="doc-biblioref">26</a></span>)).</p>
 <p>The labels, e.g. “29-2”, are identifiers used for each of the crosses within the project and have no special meaning.</p>
 <p>Full full details of cross production, sequencing and quality control is described in the Supplementary Information of The Anopheles gambiae 1000 Genomes Consortium (<span class="citation" data-cites="doi.org/10.1038/nature24995">[<span class="citeproc-not-found" data-reference-id="doi.org/10.1038/nature24995"><strong>???</strong></span>]</span>).</p>
-<p>The only difference between the production of the four crosses that are novel to phase 3: B4, K2, K4 and K6, and those from earlier phases of the project, is that multiple males and multiple females were placed together for mating, then all male and all laying female mosquitoes were sequenced.</p>
-<p>@<span class="citation" data-cites="Mendelian">[<span class="citeproc-not-found" data-reference-id="Mendelian"><strong>???</strong></span>]</span> crosse father sentence - Jon?</p>
-<p>This is how two of the novel crosses, K4 and K6, came to be fathered by the same male, AC0398.</p>
+<p>The only difference between the production of the four crosses that are novel to phase 3: B4, K2, K4 and K6, and those from earlier phases of the project, is that multiple males and multiple females were placed together for mating, then all male and all egg laying female mosquitoes were sequenced.</p>
+<p>This necessitated matching up potential fathers of crosses with the correct mother and offspring.</p>
+<p>For each cross for which the father was in doubt, the list of potential parental pairs was computed.</p>
+<p>For each of these pairs, for each chromosome, the Mendelian error was computed for every sample of the progeny and the median value (along samples) was plotted for every computation.</p>
+<p>If one pair yielded median Mendelian errors significantly lower for every chromosome than any other pair (except X which was consistent no matter the parents), that pair was chosen as the parsimonious parents.</p>
+<p>In four crosses (B4, K2, K4 and K6) parental pairs could be clearly identified and these crosses could, therefore, be included in the phase 3 data release.</p>
+<p>Two of the novel crosses, K4 and K6, were found to be fathered by the same male, AC0398.</p>
 <h2 id="whole-genome-sequencing-and-alignment-1">Whole Genome Sequencing and Alignment</h2>
 <p>4,693 individual mosquitoes were sequenced using the Illumina HiSeq2000 (n=3,130) and the Illumina HiSeqX (n=1,563) to a target coverage of 30X.</p>
 <p>Reads were aligned to the AgamP4 reference genome using <code>bwa</code> version <code>0.7.15</code>.</p>
