@@ -2,7 +2,7 @@ accessiblity
 accross
 aerogare
 AgamP
-anopheline
+Anopheline
 arabiensis
 AUROC
 autosomal
@@ -60,7 +60,7 @@ Gabu
 gambiae
 GATK
 Gbadolite
-genomic
+Genomic
 Genotype
 genotypes
 genotyping
@@ -130,7 +130,7 @@ Moshi
 MRA
 Muleba
 Mulheza
-multiallelic
+Multiallelic
 Nagongera
 neafsey
 N’Gabakoro
@@ -144,13 +144,13 @@ Okyereko
 Ouassorola
 Oulena
 Pala
-Paracentric
+paracentric
 parallelisation
 PCA
 PCR
 permethrin
 Pimperena
-polymophisms
+Polymophisms
 polytene
 Pre
 Puregene
@@ -174,7 +174,7 @@ SNPs
 Sogolombougou
 Souroukoudinga
 Sowe
-sporozoite
+Sporozoite
 subcounty
 successfull
 Sudanian
