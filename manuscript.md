@@ -3,7 +3,7 @@ author-meta:
 - The Anopheles gambiae 1000 Genomes Consortium
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-28'
+date-meta: '2020-11-11'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -22,9 +22,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex" />
 
-  <meta name="dc.date" content="2020-10-28" />
+  <meta name="dc.date" content="2020-11-11" />
 
-  <meta name="citation_publication_date" content="2020-10-28" />
+  <meta name="citation_publication_date" content="2020-11-11" />
 
   <meta name="dc.language" content="en-GB" />
 
@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/c60abf41b3074100d018ebbfd909581e3f39ac22/" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/5fa55e4da63a6f1762cb6233ac10996447e64040/" />
 
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/c60abf41b3074100d018ebbfd909581e3f39ac22/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/5fa55e4da63a6f1762cb6233ac10996447e64040/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/c60abf41b3074100d018ebbfd909581e3f39ac22/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/5fa55e4da63a6f1762cb6233ac10996447e64040/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -88,10 +88,10 @@ title: Genome variation and population structure in three African malaria vector
 
 <small><em>
 This manuscript
-([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/c60abf41b3074100d018ebbfd909581e3f39ac22/))
+([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/5fa55e4da63a6f1762cb6233ac10996447e64040/))
 was automatically generated
-from [malariagen/ag1000g-phase3-data-paper@c60abf4](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/c60abf41b3074100d018ebbfd909581e3f39ac22)
-on October 28, 2020.
+from [malariagen/ag1000g-phase3-data-paper@5fa55e4](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/5fa55e4da63a6f1762cb6233ac10996447e64040)
+on November 11, 2020.
 </em></small>
 
 ## Authors
