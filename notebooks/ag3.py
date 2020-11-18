@@ -155,16 +155,24 @@ class release_data:
 
 class GenomeFigure(object):
     
+    """
+    NB: the genome object contains set of keys where the len() function must work on each 
+    for a zarr version that works on cloud, see: https://nbviewer.jupyter.org/gist/alimanfoo/5b3e86966ac02787723df28c53c19334
+    else a pyfaidx object works on local.
+    """
+    
+    
+    
     def __init__(self, genome, *args, **kwargs):
         self.chromosomes = kwargs.pop('chromosomes', ['2R', '2L', '3R', '3L', 'X', 'UNKN'])
-        maxchrsize = max(genome[chrom] for chrom in self.chromosomes)
+        maxchrsize = max(len(genome[chrom]) for chrom in self.chromosomes)
         fig = plt.figure(*args, **kwargs)
         self.fig = fig
         self.ax = dict()
         for i, chrom in enumerate(self.chromosomes):
             ax = fig.add_subplot(3, 2, i+1)
             self.ax[chrom] = ax
-            S = np.arange(1, genome[chrom], 1, dtype=np.int64)
+            S = np.arange(1, len(genome[chrom]), 1, dtype=np.int64)
             if i % 2 == 1:
                 sns.despine(ax=ax, offset=10, top=True, left=True, right=False)
                 ax.set_xlim(0, maxchrsize)
