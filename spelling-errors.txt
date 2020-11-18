@@ -61,7 +61,7 @@ gambiae
 GATK
 Gbadolite
 genomic
-genotype
+Genotype
 genotypes
 genotyping
 Gentra
@@ -132,7 +132,7 @@ Muleba
 Mulheza
 multiallelic
 Nagongera
-Neafsey
+neafsey
 N’Gabakoro
 NGS
 NIMR
@@ -144,13 +144,13 @@ Okyereko
 Ouassorola
 Oulena
 Pala
-paracentric
+Paracentric
 parallelisation
 PCA
 PCR
 permethrin
 Pimperena
-polymophisms
+Polymophisms
 polytene
 Pre
 Puregene
