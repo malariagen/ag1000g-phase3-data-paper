@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/69669bb472c3224cc463b1319b0ea244ee0007e4/" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/4b1fdeee62538db3fcb990f9e230bb26c7d12884/" />
 
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/69669bb472c3224cc463b1319b0ea244ee0007e4/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/4b1fdeee62538db3fcb990f9e230bb26c7d12884/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/69669bb472c3224cc463b1319b0ea244ee0007e4/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/4b1fdeee62538db3fcb990f9e230bb26c7d12884/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -88,9 +88,9 @@ title: Genome variation and population structure in three African malaria vector
 
 <small><em>
 This manuscript
-([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/69669bb472c3224cc463b1319b0ea244ee0007e4/))
+([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/4b1fdeee62538db3fcb990f9e230bb26c7d12884/))
 was automatically generated
-from [malariagen/ag1000g-phase3-data-paper@69669bb](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/69669bb472c3224cc463b1319b0ea244ee0007e4)
+from [malariagen/ag1000g-phase3-data-paper@4b1fdee](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/4b1fdeee62538db3fcb990f9e230bb26c7d12884)
 on January 25, 2021.
 </em></small>
 
@@ -111,29 +111,17 @@ on January 25, 2021.
 
 ## Population Sampling
 
-The third and final phase of the Ag1000g project data resource contains wild-caught _Anopheles_ mosquito genomes collected from a total of 124 sites across 19 countries, six of which are novel, in Sub-Saharan Africa.
+The third and final phase of the Ag1000g project data resource contains wild-caught _Anopheles_ mosquito genomes from Sub-Saharan Africa, collected from a total of 124 sites across 19 countries, 6 of which are novel.
 
-Collections from Malawi increase the density of coverage in West Africa, Central African Republic and Democratic Republic of Congo begin to fill the gap previously present in Central Africa while Malawi, Mozambique and Tanzania provide much more power to analyse East African malaria vectors.
+Collections from Mali increase the density of coverage in West Africa, Central African Republic and Democratic Republic of Congo begin to fill the gap previously present in Central Africa while Malawi, Mozambique and Tanzania provide much more power to analyse East African malaria vectors, including _A. arabiensis_ an important vector species not previously sequenced in the project.
 
-New quality control and filtering pipelines were developed for this phase, so all 4,693 samples submitted across the three project phases were evaluated with these new methods.
-
-High quality whole genome sequences from 2784 unique individuals passed all sample filters, 2532 females, 223 males and 29 samples with unknown sex (see Methods).
-
-1823 of these wild-caught individuals are novel to phase 3.
-
-181 samples from phase 2 did not pass the new quality thresholds are not included in this data release (@@ either - see Supplementary table OR explain 172 were lost via FILTER_second_rep_hi_skew <- then need to explain what this is?).
-
-Alongside sampling from natural populations, 300 individuals from 15 lab crosses, parents and offspring, have been sequenced.
-
-Four of these crosses are novel to phase 3, adding more power to measure the quality of wild sample variation and to methods validation more generally.
-
-Parents of the new crosses were drawn from colonies where founders where collected in Nagongera (Uganda) and Kisumu (Kenya) .
+Alongside sampling from natural populations, we include colony individuals from a number of laboratory crosses, comprising 11 crosses that were released as part of phase 2, and 4 additional pedigrees.
 
 ![Sample Collection Map](images/sample_collection_map.svg){#fig:sample_collection_map width="100%"}
 
 ## Whole Genome Sequencing and Alignment {.page_break_before}
 
-4,693 individual mosquitoes were sequenced on either Illumina HiSeq2000 (n=3,130) or Illumina HiSeqX (n=1,563) to a target coverage of 30X.
+4,693 individual mosquito genomes were sequenced on either Illumina HiSeq2000 (n=3,130) or Illumina HiSeqX (n=1,563) to a target coverage of 30X.
 
 Between machine types the median number of bases sequenced per sample was 9.76Gb and 10.33Gb respectively, representing a difference in yield (two-tailed mann-whitney U p < 0.0001).
 
@@ -147,9 +135,9 @@ All samples successfully completed the pipeline and entered the sample quality c
 
 ### Sample QC
 
-The sample QC process was composed of three stages, sequence quality assurance, replicate handling, and anomaly detection.
+For wild-caught samples (n=XXXX), the QC process was composed of three stages, sequence quality assurance, replicate handling, and anomaly detection.
 
-668 samples were removed where sequencing was of insufficient quality to accurately call genotypes across the whole genome.
+A total of 668 samples were removed where sequencing was of insufficient quality to accurately call genotypes across the whole genome.
 
 Exclusions were due to poor coverage (n=410), potential contamination (n=229), and an ambiguous sex call (n=29).
 
@@ -159,8 +147,6 @@ Where pairs met the concordance threshold we excluded the lower quality sample (
 
 Samples were also screened pairwise within submission sets for unexpected pairs, though none were detected.
 
-The AG1000G-X submission set, made up of laboratory experimental crosses, was exempted from this step due to familial similarity and high levels of inbreeding.
-
 The third stage used principal component analysis (PCA) to identify and exclude individual samples that were outliers based on available metadata.
 
 A review process identified samples that could not be explained parsimoniously, and were therefore likely to be sample mix ups or instances of mislabelling.
@@ -169,11 +155,39 @@ A review process identified samples that could not be explained parsimoniously, 
 
 A further 82 samples were excluded as potential sample mix ups.
 
-Following all sample QC steps, 3,483 samples (74.2%) were retained from the original cohort for analysis.
+Following all sample QC steps, 3,483 wild-caught samples (74.2%) were retained from the original cohort for analysis.
+
+This represents an additional 1,823 mosquitoes relative to the phase 2 release.
+
+Due to a change in assessment of sample quality where technical replicates are available, the preferred replicate was changed for 172 mosquitoes between phase 2 and phase 3.
+
+9 samples included in phase 2 are not present in this release (sup XXX).
+
+The AG1000G-X submission set, made up of laboratory experimental crosses, was subject to a slightly different QC process.
+
+Firstly an analysis based on rates of Mendelian error identified true fathers of crosses (where multiple males were introduced to cages), and validated provided pedigrees.
+
+Of the 7XX samples provided we were able to validate 15 crosses to a high level of confidence, comprising 299 samples.
+
+4 of these crosses are novel relative to phase 2.
+
+These samples went through a modified sequence quality assurance process, where 1 sample was removed for insufficient coverage (methods).
+
+The final data release therefore comprises 3,XXX samples, XXX from laboratory crosses, and YYY wild collected samples.
 
 ### Coverage
 
+%% TO DO
+%% (PLOTS DONE, but numbers needed).
+
 Summary of site coverage post QC exclusions.
+
+- ie what frac of the genome is at 1X median
+- what frac at 10X. 
+- What frac of exome
+- what frac of X
+
+At this point we do not mention arabiensis.
 
 ### Species assignment and sex calling
 
@@ -189,11 +203,30 @@ Using cut offs based on agreement with the established PCR marker, 368 individua
 
 A single individual collected in Tororo, Uganda is classed as intermediate- given the majority (XX%) of AIM SNPs in the genome are heterozygous between the gambiae-like and arabiensis-like alleles, this individual is likely to be an F1 hybrid.
 
-To resolve the _A. gambiae s.l_ individuals as _A. gambiae_ and _A. coluzzii_ we applied 729 AIMs identified by Neafsey et al (ref), and used by us in previous analyses (ref paper2, paper1).
+To resolve the _A. gambiae s.l_ individuals as _A. gambiae_ and _A. coluzzii_ we applied 729 AIMs previously identified by Neafsey et al (ref), and used in previous analyses of Ag1000G data. (ref paper2, paper1).
 
 Of the 2415  _A. gambiae s.l_ individuals, 1571 were called as _A. gambiae s.s_, 675 as _A. coluzzii_ and 169 as intermediate (ref collection map). 
 
-Many intermediate samples were sampled from the Western coast of West Africa (particularly The Gambia and Guinea Bissau), and given distinct populations of _A. gambiae s.l._ and _A. coluzzii_ are also found in this region, highlights the complexity of species relationships here.
+Many intermediate samples were sampled from the Western coast of West Africa (particularly The Gambia and Guinea Bissau), and given distinct populations of _A. gambiae s.l._ and _A. coluzzii_ are also found in this region, this result highlights the complexity of species relationships here.
+
+Additionally a number of intermediate samples were identified in coastal populations of East Africa, in Kilifi Kenya, and Muleba Tanzania.
+
+%% TODO This analysis
+It is established that species barriers between members of the gambiae complex are porous, and numerous instances of introgression associated with selection have been observed in West Africa. (ref clarkson + li, others?).  
+
+We observe known introgression from gambiae to coluzzii of the kdr allele in West Africa.
+
+In West African coluzzii populations, presence of gambiae-like alleles at this locus reach 95%.
+
+However no introgression is obseved in Angola, or CAR.
+
+%% TODO
+What about other loci
+
+%% TODO Method to id these regions. Simply just plot frequency of gambiae allele in coluzzii samples?
+No clear introgression is observed between gambiae and arabiensis. 
+
+%% TODO ADD AIM FIGURES
 
 ### SNP filtering and quality
 
@@ -211,7 +244,7 @@ Each of the 5 pedigrees represent independent evaluation sets.
 
 Before applying the site filters, the false discovery rate (FDR) of the 5 crosses over all autosomal sites ranged between 0.74% and 1.10% (table XXX).
 
-The application of the site filters defines the accessible fraction of the genome at 72.58%, and the range of false discovery rates is 0.04% to 0.10%.
+The application of the site filters defines the accessible fraction of the autosomes at 72.58%, and the range of false discovery rates is 0.04% to 0.10%.
 
 The median fold change of FDR was -3.71.
 
@@ -224,16 +257,15 @@ Pre-application of the site filters, subject to a Genotype Quality (GQ) threshol
 
 The median fold change in error rate was -3.33, with 69.97% of the X chromosome passing site filters.
 
-The new model based method represents a marked improvement over the site filters generated as part of phase 2. 
+The new model based method represents a marked improvement over the site filters generated as part of phase 2; all 5 evaluation pedigrees showed a modest reduction in FDR, but the higher rate of accessibility in this release (72.58% vs 62.05%) resulted in an significant improvement in Youden score (Table XXX) across autosomes.
 
-All 5 evaluation pedigrees showed a small reduction in FDR, but coupled with the lower rate of accessibility in phase 2 (62.05%) resulted in an significant improvement in Youden score (Table XXX) across autosomes.
-
-The X chromosome showed a similar pattern, the heterozygosity rate is similar to the new site filters (0.028%), but the higher accessibility in the updated filter set (69.97%  vs 62.46%) yields improved sensitivity.
+The X chromosome showed a similar pattern, the median heterozygosity rate in phase 2 is similar to the new site filters (0.028%), but the higher accessibility in the updated filter set (69.97%  vs 62.46%) yields improved sensitivity.
 
 As genomic features vary between species, different sets of site filters were generated to allow high quality analyses both within and between species. 
 
 The `gamb_colu` site filters were generated as above, and are appropriate for analyses that include _gambiae_ and _coluzzii_ samples only.
 
+%% TODO Add accessibility of other site filters.
 The `arab` site filters were generated following application of the model to the summary statistics from arabiensis samples in the cohort (n=XXX), this set of site filters are appropriate when working with _A. arabiensis_ samples only.
 
 Finally, the `gamb_colu_arab` site filters allow analyses across all three species and are the intersection of the `gamb_colu` and the `arab` site filters.
@@ -300,11 +332,80 @@ In XXX arabiensis individuals we identify 10,000,000 SNPs (Q% multiallelic), a S
 
 ## Population Structure
 
-## Genetic Diversity within Populations
+### Genome wide patterns
+
+%% TODO NOtes currently.
+
+Re-introduce key idea of structure being different across the genome. 
+
+How does arabiensis fit into this? Are there regions of the genome where arabiensis ancestry is secondary?
+
+
+### PCA / UMAP
+
+To highlight population structure we performed principal component analysis across all wild-caught samples in the dataset.
+
+To avoid confounding of structure in genomic regions including paracentric inversions, extremely low diversity and regions under strong selection, we limited our analysis to euchromatic regions of chromosome 3L. 
+
+The most apparent signal in the dataset is PC1 clearly being driven by Arabiensis, with clear separation of arabiensis samples from gambiae/coluzzii. 
+
+The apparent hybrid sits between gambiae and arabiensis samples.
+
+To view population structure within gambiae/coluzzii and arabiensis more independently, we performed subsequent PCA analysis Arabiensis and gambiae/coluzzii individuals separately. 
+
+Population structure between gambiae and coluzzii is significantly more complex. 
+
+
+
+Separately between species. What are the major findings?
+
+- Arabiensis drives PC1. 
+
+- East Africa: Seems to be clear population structure between _gambiae_ in KE and TZ.
+
+- According to AIM analysis, a significant proportion of samples in these groups are classed as IM between gambiae. Certainly not coluzzii, but some kind of complex ancestry. 
+
+- Relevance to TENEGLRA
+
+- West Africa- in far west Africa we see intermediate population. Not gambiae coluzzii, unlikely to be hybrids, but a related subspecies. 
+
+Interestingly seems to be stable in the presence of both gamb and colu. Although they sit close to col in the PCA they are distinct from coluzzii, given they are founf at the same site.
+
+### Genetic Diversity within sampling sites
+
+Better to avoid use of population.
+
+Using species groupings above, i.e. PCA clusters of samples not clearly gambcolu, but sympatric with them are classed as intermediate. 
+
+First look at diversity at a regional level within species. ie gambiae is more diverse in west than east africa. Central?
+
+Coluzzii is similar within its range. 
+
+Arabiensis only found in EA, but do we see differences in diversity?
+
+Justification of using wattersons theta.
+
+THEN, we can start to speak about differences between species, within regions. 
+
+West African gambiae have higher diversity than coluzzii. 
+
+Then how do west african intermediate compare to these?
+
+In east africa, we compare gambiae to arabiensis. 
+
 
 ## Insecticide Resistance
 
+- kdr frequencies in different sampling groups
+- we don't have CNVs... so? We can use markers?
+
 ## Gene Drive
+
+- repeat of phase 2 analysis.
+
+
+
+
 
 
 # Methods  {.page_break_before}
