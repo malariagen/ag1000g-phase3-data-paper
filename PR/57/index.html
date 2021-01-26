@@ -43,9 +43,9 @@
   <meta name="citation_fulltext_html_url" content="https://malariagen.github.io/ag1000g-phase3-data-paper/" />
   <meta name="citation_pdf_url" content="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/0b62b1e545273476caaf2a1a5545a7f7532eb628/" />
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/0b62b1e545273476caaf2a1a5545a7f7532eb628/" />
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/0b62b1e545273476caaf2a1a5545a7f7532eb628/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/4bd543b59e0bb0ac447b06da057a559d5b518c5a/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/4bd543b59e0bb0ac447b06da057a559d5b518c5a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/4bd543b59e0bb0ac447b06da057a559d5b518c5a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -59,9 +59,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/0b62b1e545273476caaf2a1a5545a7f7532eb628/">permalink</a>)
+(<a href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/4bd543b59e0bb0ac447b06da057a559d5b518c5a/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/malariagen/ag1000g-phase3-data-paper/tree/0b62b1e545273476caaf2a1a5545a7f7532eb628">malariagen/ag1000g-phase3-data-paper@0b62b1e</a>
+from <a href="https://github.com/malariagen/ag1000g-phase3-data-paper/tree/4bd543b59e0bb0ac447b06da057a559d5b518c5a">malariagen/ag1000g-phase3-data-paper@4bd543b</a>
 on January 26, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -464,27 +464,27 @@ Muleba (1.750, 31.667), the final collection region, is in the North-western par
 <p>Where the ratio was outside these limits, the sample was excluded.</p>
 <p>One of the sample sets from The Gambia, <code>AG1000G-GM-B</code>, included whole-genome amplified (WGA) samples which displayed some skew in their coverage ratios, which meant that sex could not be called via the same process.</p>
 <p>These samples received a sex call where possible, but no samples were excluded based on uncertain sex call.</p>
-<p>##Species assignment</p>
+<h2 id="species-assignment">Species assignment</h2>
 <p>We assigned a species to each individual that passed sample QC using their genomic data, via two independent methods: ancestry-informative markers (AIMs) and principal components analysis (PCA).</p>
 <h3 id="species-calling-via-ancestry-informative-markers">Species calling via ancestry-informative markers</h3>
-<p>To derive AIMs between and , we used publicly available data from the  16 genomes project .</p>
-<p>Whole genome SNP calls for 12 and 38 individuals were used.</p>
+<p>To derive AIMs between <em>A. arabiensis</em> and <em>A. gambiae</em>, we used publicly available data from the <em>Anopheles</em> 16 genomes project (<span class="citation" data-cites="9XFa7ZJB"><a href="#ref-9XFa7ZJB" role="doc-biblioref">29</a></span>).</p>
+<p>Whole genome SNP calls for 12 <em>A. arabiensis</em> and 38 <em>A. gambiae</em> individuals were used.</p>
 <p>Alleles were mapped onto the same alternate allele space, and allele frequencies were computed for both species.</p>
 <p>Sites that were multiallelic in either group were excluded, as well as sites where any genotypes were missing.</p>
 <p>565,329 SNPs were identified as potentially informative, where no shared alleles were present between groups.</p>
 <p>These were spread throughout the genome, but were concentrated on the X chromosome (63.2%), particularly around the Xag inversion.</p>
 <p>We randomly down-sampled these SNPs to a set of 50,000 AIMs, then computed the fraction of alleles at these SNPs that were arabiensis-like for each individual in the Ag1000G phase 3 cohort.</p>
-<p>Given the relatively small number of samples in the 16 genomes project, it was clear that a significant proportion of putative AIMs were not likely to be truly informative across the broader sampling in Ag1000G.</p>
-<p>Individuals in Ag1000G were classed as where a fraction $&gt;$0.6 of alleles were arabiensis-like.</p>
-<p>To resolve the non-individuals into and , we applied the AIMs previously used in .</p>
+<p>Given the relatively small number of <em>A. arabiensis</em> samples in the 16 genomes project, it was clear that a significant proportion of putative AIMs were not likely to be truly informative across the broader sampling in Ag1000G.</p>
+<p>Individuals in Ag1000G were classed as <em>A. arabiensis</em> where a fraction &gt;0.8 of alleles were arabiensis-like.</p>
+<p>To resolve the non-<em>A. arabiensis</em> individuals into <em>A. gambiae</em> and <em>A. coluzzii</em>, we applied the AIMs previously used in <span class="citation" data-cites="Rho6nYsT"><a href="#ref-Rho6nYsT" role="doc-biblioref">28</a></span>.</p>
 <p>For each individual, we computed the fraction of coluzzii-like alleles at these AIMs.</p>
-<p>Individuals were called as where this fraction was $&lt;$0.12 and where this fraction was $&gt;$0.9, with individuals in between classed as intermediate.</p>
-<p>###Species calling via principal components analysis</p>
+<p>Individuals were called as <em>A. gambiae</em> where this fraction was &lt;0.12 and <em>A. coluzzii</em> where this fraction was &gt;0.9, with individuals in between classed as intermediate.</p>
+<h3 id="species-calling-via-principal-components-analysis">Species calling via principal components analysis</h3>
 <p>To provide a complementary view of species assignments, we also used the results of the principal components analysis of Chromosome 3 computed during the outlier analysis described above.</p>
 <p>Based on a comparison with the AIM species calls, it was apparent that the first two principal components could be used to assign species.</p>
-<p>Individuals where PC1 <span class="math inline">\(&gt; 150\)</span> were called as .</p>
-<p>Individuals where PC1 <span class="math inline">\(&lt; 0\)</span> and PC2 <span class="math inline">\(&gt; -7\)</span> were called as .</p>
-<p>Individuals where PC1 <span class="math inline">\(&lt; 0\)</span> and PC2 <span class="math inline">\(&lt; -24\)</span> were called as .</p>
+<p>Individuals where PC1 &gt; 150 were called as <em>A. arabiensis</em>.</p>
+<p>Individuals where PC1 &lt; 0 and PC2 &gt; -7 were called as <em>A. gambiae</em>.</p>
+<p>Individuals where PC1 &lt; 0 and PC2 &lt; -24 were called as <em>A. coluzzii</em>.</p>
 <p>All other individuals were called as intermediate.</p>
 <p>The results of the PCA and AIM species calls were highly concordant in most sample sets, except for the Far West (Guinea-Bissau, The Gambiae) and Far East (Kenya, Tanzania).</p>
 <p>Further investigation is required to resolve the species status of these individuals.</p>
@@ -729,6 +729,12 @@ DOI: <a href="https://doi.org/10.1016/j.ajhg.2012.09.004">10.1016/j.ajhg.2012.09
 The Anopheles gambiae 1000 Genomes Consortium<br />
 <em>Genome Research</em> (2020-10) <a href="https://doi.org/ghvn76">https://doi.org/ghvn76</a> <br />
 DOI: <a href="https://doi.org/10.1101/gr.262790.120">10.1101/gr.262790.120</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32989001">32989001</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7605271">PMC7605271</a></p>
+</div>
+<div id="ref-9XFa7ZJB">
+<p>29. <strong>Highly evolvable malaria vectors: The genomes of 16 <em>Anopheles</em> mosquitoes</strong> <br />
+Daniel E. Neafsey, Robert M. Waterhouse, Mohammad R. Abai, Sergey S. Aganezov, Max A. Alekseyev, James E. Allen, James Amon, Bruno Arcà, Peter Arensburger, Gleb Artemov, … Nora J. Besansky<br />
+<em>Science</em> (2015-01-02) <a href="https://doi.org/gdkzt5">https://doi.org/gdkzt5</a> <br />
+DOI: <a href="https://doi.org/10.1126/science.1258522">10.1126/science.1258522</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25554792">25554792</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4380271">PMC4380271</a></p>
 </div>
 </div>
 <!-- default theme -->
