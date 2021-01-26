@@ -43,9 +43,9 @@
   <meta name="citation_fulltext_html_url" content="https://malariagen.github.io/ag1000g-phase3-data-paper/" />
   <meta name="citation_pdf_url" content="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/a706238da65ebf4b06088bab6842b16fd1b13be0/" />
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/a706238da65ebf4b06088bab6842b16fd1b13be0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/a706238da65ebf4b06088bab6842b16fd1b13be0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/0b62b1e545273476caaf2a1a5545a7f7532eb628/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/0b62b1e545273476caaf2a1a5545a7f7532eb628/" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/0b62b1e545273476caaf2a1a5545a7f7532eb628/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -59,9 +59,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/a706238da65ebf4b06088bab6842b16fd1b13be0/">permalink</a>)
+(<a href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/0b62b1e545273476caaf2a1a5545a7f7532eb628/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/malariagen/ag1000g-phase3-data-paper/tree/a706238da65ebf4b06088bab6842b16fd1b13be0">malariagen/ag1000g-phase3-data-paper@a706238</a>
+from <a href="https://github.com/malariagen/ag1000g-phase3-data-paper/tree/0b62b1e545273476caaf2a1a5545a7f7532eb628">malariagen/ag1000g-phase3-data-paper@0b62b1e</a>
 on January 26, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -425,44 +425,44 @@ Muleba (1.750, 31.667), the final collection region, is in the North-western par
 <p>Following successful completion of these pipelines, samples entered the sample quality control (QC) process.</p>
 <h2 id="sample-qc-1">Sample QC</h2>
 <p>The following subsections describe analyses performed to identify and exclude samples from the final dataset.</p>
-<p>###Coverage</p>
+<h3 id="coverage-1">Coverage</h3>
 <p>For each sample, depth of coverage was computed at all genome positions.</p>
-<p>Samples were excluded if median coverage across all chromosomes was less than <span class="math inline">\(10 \times\)</span>, or if less than 50% of the reference genome was covered by at least <span class="math inline">\(1 \times\)</span>.</p>
+<p>Samples were excluded if median coverage across all chromosomes was less than 10X, or if less than 50% of the reference genome was covered by at least 1X.</p>
 <h3 id="cross-contamination">Cross-contamination</h3>
-<p>To identify samples affected by cross-contamination, we implemented the model for detecting contamination in NGS alignments described in .</p>
+<p>To identify samples affected by cross-contamination, we implemented the model for detecting contamination in NGS alignments described in <span class="citation" data-cites="cQaeXqlZ"><a href="#ref-cQaeXqlZ" role="doc-biblioref">27</a></span>.</p>
 <p>Briefly, the method estimates the likelihood of the observed alternate and reference allele counts under different contamination fractions, given approximate population allele frequencies.</p>
-<p>Population allele frequencies were estimated from the Ag1000G phase 2 data release .</p>
-<p>The model computes a maximum likelihood value for a parameter <span class="math inline">\(\alpha\)</span> representing percentage contamination.</p>
-<p>Samples were excluded if <span class="math inline">\(\alpha\)</span> was 4.5% or greater.</p>
+<p>Population allele frequencies were estimated from the Ag1000G phase 2 data release <span class="citation" data-cites="Rho6nYsT"><a href="#ref-Rho6nYsT" role="doc-biblioref">28</a></span>.</p>
+<p>The model computes a maximum likelihood value for a parameter α representing percentage contamination.</p>
+<p>Samples were excluded if α was 4.5% or greater.</p>
 <h3 id="technical-replicates">Technical replicates</h3>
 <p>A number of samples were sequenced more than once within this project phase (technical replicates).</p>
 <p>To create a final dataset without any replicates suitable for population genetic analysis, we performed an analysis to confirm all technical replicates, and to choose the sample within each replicate with the best sequencing data.</p>
 <p>We computed pairwise genetic distance between all sample pairs within a submission set.</p>
 <p>The distance metric used was city block distance between genotype allele counts, to allow for handling of multiallelic SNPs.</p>
-<p>So, e.g., distance between genotypes of 0/1 and 0/1 is 0, distance between 0/0 and 0/1 is 2, distance between 0/1 and 1/2 is 2, distance between 0/0 and 1/1 is 4, etc.</p>
+<p>So, <em>e.g.</em>, distance between genotypes of <code>0/1</code> and <code>0/1</code> is 0, distance between <code>0/0</code> and <code>0/1</code> is 2, distance between <code>0/1</code> and <code>1/2</code> is 2, distance between <code>0/0</code> and <code>1/1</code> is 4, etc.</p>
 <p>For each pair of samples, distance was averaged over all sites where both samples had a non-missing genotype call.</p>
 <p>Computations were initially carried out on a down-sampled set of 10 x 100,000 contiguous genomic sites, to be computationally feasible.</p>
-<p>Where a pair of samples fell beneath a conservative threshold of 0.012, the genetic distance was then recomputed across all genomic sites (i.e., without down-sampling).</p>
-<p>For each pair of samples that were expected to be technical replicates according to our metadata records, we excluded both members of the pair if genetic distance was above 0.006.</p>
+<p>Where a pair of samples fell beneath a conservative threshold of 0.012, the genetic distance was then recomputed across all genomic sites (<em>i.e.</em>, without down-sampling).</p>
+<p>For each pair of samples that were expected to be technical replicates according to metadata records, we excluded both members of the pair if genetic distance was above 0.006.</p>
 <p>Where an expected replicate pair had genetic distance below 0.006, we retained only one sample in the pair.</p>
-<p>We also identified and excluded both samples in any pair where genetic distance was below 0.006, but the samples were not expected to be replicates.</p>
+<p>We also identified and excluded both samples in any pair where genetic distance was below 0.006, where samples were not expected to be replicates.</p>
 <h3 id="population-outliers">Population outliers</h3>
 <p>We used principal component analysis (PCA) to identify and exclude individual samples that were population outliers.</p>
 <p>SNPs were down-sampled to use 100,000 segregating non-singleton sites from chromosomes 3R and 3L, to avoid regions complicated by known introgression loci or paracentric inversions.</p>
-<p>PCA was computed using scikit-allel version 1.2.0.</p>
+<p>PCA was computed using <code>scikit-allel</code> version 1.2.0.</p>
 <p>We iteratively identified and excluded any individual samples that were outliers along a single principal component.</p>
 <p>We then identified and excluded any individual samples or small sample groups that clustered together with other samples in a way that was not plausible given metadata regarding their collection location.</p>
 <h3 id="colony-crosses">Colony crosses</h3>
-<p>Samples in the  sample set were parents and progeny from colony crosses and were subject to a slightly different set of QC steps.</p>
+<p>Samples in the <code>AG1000G-X</code> sample set were parents and progeny from colony crosses and were subject to a slightly different QC process.</p>
 <p>For each cross, we performed an analysis of Mendelian inheritance and consistency to confirm the true parents and the validity of the cross.</p>
 <p>Not all crosses were able to be successfully resolved, and samples that were not in a resolved cross were excluded.</p>
-<p>From the samples originally submitted in the AG1000G-X sample set, 297 samples from 15 crosses were retained for release.</p>
+<p>From the samples originally submitted in the <code>AG1000G-X</code> sample set, 297 samples from 15 crosses were retained for release.</p>
 <p>We did not include the colony crosses in the population outlier analysis due to their relatedness.</p>
 <h3 id="sex-calling">Sex calling</h3>
-<p>We called the gender of all samples based on the modal coverage ratio between the X chromosome and the autosomal chromosome arm 3R.</p>
+<p>We called the sex of all samples based on the modal coverage ratio between the X chromosome and the autosomal chromosome arm 3R.</p>
 <p>The sample was classed as male where the coverage ratio was between 0.4-0.6, and female between 0.8-1.2.</p>
 <p>Where the ratio was outside these limits, the sample was excluded.</p>
-<p>One of the sample sets from The Gambia, AG1000G-GM-B, included whole-genome amplified (WGA) samples which displayed some skew in their coverage ratios, which meant that sex could not be called via the same process.</p>
+<p>One of the sample sets from The Gambia, <code>AG1000G-GM-B</code>, included whole-genome amplified (WGA) samples which displayed some skew in their coverage ratios, which meant that sex could not be called via the same process.</p>
 <p>These samples received a sex call where possible, but no samples were excluded based on uncertain sex call.</p>
 <p>##Species assignment</p>
 <p>We assigned a species to each individual that passed sample QC using their genomic data, via two independent methods: ancestry-informative markers (AIMs) and principal components analysis (PCA).</p>
@@ -717,6 +717,18 @@ DOI: <a href="https://doi.org/10.1186/1475-2875-13-111">10.1186/1475-2875-13-111
 Constant V. Edi, Luc Djogbénou, Adam M. Jenkins, Kimberly Regna, Marc A. T. Muskavitch, Rodolphe Poupardin, Christopher M. Jones, John Essandoh, Guillaume K. Kétoh, Mark J. I. Paine, … David Weetman<br />
 <em>PLoS Genetics</em> (2014-03-20) <a href="https://doi.org/f56k77">https://doi.org/f56k77</a> <br />
 DOI: <a href="https://doi.org/10.1371/journal.pgen.1004236">10.1371/journal.pgen.1004236</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24651294">24651294</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3961184">PMC3961184</a></p>
+</div>
+<div id="ref-cQaeXqlZ">
+<p>27. <strong>Detecting and Estimating Contamination of Human DNA Samples in Sequencing and Array-Based Genotype Data</strong> <br />
+Goo Jun, Matthew Flickinger, Kurt N. Hetrick, Jane M. Romm, Kimberly F. Doheny, Gonçalo R. Abecasis, Michael Boehnke, Hyun Min Kang<br />
+<em>The American Journal of Human Genetics</em> (2012-11) <a href="https://doi.org/f4cf5g">https://doi.org/f4cf5g</a> <br />
+DOI: <a href="https://doi.org/10.1016/j.ajhg.2012.09.004">10.1016/j.ajhg.2012.09.004</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23103226">23103226</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3487130">PMC3487130</a></p>
+</div>
+<div id="ref-Rho6nYsT">
+<p>28. <strong>Genome variation and population structure among 1142 mosquitoes of the African malaria vector species <em>Anopheles gambiae</em> and <em>Anopheles coluzzii</em></strong> <br />
+The Anopheles gambiae 1000 Genomes Consortium<br />
+<em>Genome Research</em> (2020-10) <a href="https://doi.org/ghvn76">https://doi.org/ghvn76</a> <br />
+DOI: <a href="https://doi.org/10.1101/gr.262790.120">10.1101/gr.262790.120</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32989001">32989001</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7605271">PMC7605271</a></p>
 </div>
 </div>
 <!-- default theme -->
