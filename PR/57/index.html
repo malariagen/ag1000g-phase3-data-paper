@@ -43,9 +43,9 @@
   <meta name="citation_fulltext_html_url" content="https://malariagen.github.io/ag1000g-phase3-data-paper/" />
   <meta name="citation_pdf_url" content="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/4bd543b59e0bb0ac447b06da057a559d5b518c5a/" />
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/4bd543b59e0bb0ac447b06da057a559d5b518c5a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/4bd543b59e0bb0ac447b06da057a559d5b518c5a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/ccd099b2b2bf094fa4626ee950c8261b4dda99a1/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/ccd099b2b2bf094fa4626ee950c8261b4dda99a1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/ccd099b2b2bf094fa4626ee950c8261b4dda99a1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -59,9 +59,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/4bd543b59e0bb0ac447b06da057a559d5b518c5a/">permalink</a>)
+(<a href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/ccd099b2b2bf094fa4626ee950c8261b4dda99a1/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/malariagen/ag1000g-phase3-data-paper/tree/4bd543b59e0bb0ac447b06da057a559d5b518c5a">malariagen/ag1000g-phase3-data-paper@4bd543b</a>
+from <a href="https://github.com/malariagen/ag1000g-phase3-data-paper/tree/ccd099b2b2bf094fa4626ee950c8261b4dda99a1">malariagen/ag1000g-phase3-data-paper@ccd099b</a>
 on January 26, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -489,69 +489,41 @@ Muleba (1.750, 31.667), the final collection region, is in the North-western par
 <p>The results of the PCA and AIM species calls were highly concordant in most sample sets, except for the Far West (Guinea-Bissau, The Gambiae) and Far East (Kenya, Tanzania).</p>
 <p>Further investigation is required to resolve the species status of these individuals.</p>
 <h2 id="site-filtering">Site filtering}</h2>
-<p>We developed filters that identify genomic sites where SNP calling and genotyping is likely to be less reliable in one or more mosquito species.
-%
-To guide the design and calibration of the site filters, we made use of the 15 colony crosses included in Ag1000G phase 3.
-%
-Each cross comprises two parents and up to 20 progeny, and thus it is possible to identify sites where genotypes in one or more progeny are not consistent with Mendelian inheritance (Mendelian errors).
-%
-A small number of Mendelian errors may be due to  mutation, but the vast majority of Mendelian errors are likely to be due to errors in sequencing, alignment or SNP calling.
-%
-The general approach we took was to use Mendelian consistency to identify sets of positive and negative training sites, then used these to train a machine learning model that classified all genomic sites as either PASS or FAIL.</p>
-<h3 id="site-filters-for-use-with-andor">Site filters for use with and/or </h3>
-<p>All the 15 crosses involved and/or parents, and none of the crosses involved , so we used the crosses to first develop site filters suitable for use with and/or .
-%
-Hereafter we refer to these filters as the ``’’ site filters.
-%
-Five of the 15 crosses were held out for validation, so performance could be evaluated objectively.
-%
-Sites were assigned to the positive training set where all genotypes across all 10 crosses were called, and no Mendelian errors were observed.
-%
-Sites were assigned to negative training set where one or more Mendelian errors were observed in any cross.
-%
-All other sites were not considered eligible for inclusion in model training.
-%
-A balanced training set was then generated containing 100,000 autosomal sites from each of the positive and negative training sets.</p>
-<p>The inputs to the machine learning model were a set of per-site summary statistics computed from the sequence read alignments and SNP genotypes across all wild-caught and individuals.
-%
-These input summary statistics are described further in the appendix.
-%
-Male individuals were excluded from the summary statistic calculations, so that the model could also be applied without modification to the X chromosome.
-%
-We used these summary statistics, together with the positive and negative training sites, to train a decision tree model.
-%
-We initially trained a set of trees with different hyperparameter values, exploring the depth of trees, and the number of samples allowed at a terminal node.
-%
-Each of these trees was evaluated on an unbalanced set of sites randomly sampled from the whole genome (2% of all sites, without replacement).
-%
-Leaves of these trees contained different proportions of positive and negative training sites, and by increasing the cutoff for these proportions required to label a leaf as PASS, we were able to compute the area under the receiver operating curve (AUROC) for each set of hyperparameter values.
-%
-The best performing hyperparameter set based on AUROC was selected as the final model, and the leaf classification cutoff used was optimised based on the Youden statistic.
-%
-The resulting model was a decision tree of depth 8, where leaves were assigned to PASS where &gt; 0.533 of training data in that leaf were positive training sites.
-%
-All sites in the genome were then assigned to PASS or FAIL via this model.</p>
-<p>The 5 remaining cross pedigrees were used to perform a final evaluation of the approach.
-%
-For each of these crosses, we computed the Mendelian error rate (fraction of variants with one or more Mendelian errors among progeny) before and after applying the site filters, to provide five independent evaluation results.
-%
-We also evaluated performance on the X chromosome using heterozygote calls in males as an error indicator.
-%
-The fraction of variants with a heterozygous genotype call in or more males was computed before and after applying site filters.
-%
-Male error rates were estimated from genotype calls with a minimum Genotype Quality (GQ) value of 30.
-%
-Performance of the decision tree model was better than the hand-crafted site filters created during the previous project phase (Ag1000G phase 2), with lower Mendelian error rates, and a larger number of sites passing the filter.
-%
-Full performance metrics will be reported in a future publication.</p>
-<h3 id="site-filters-for-use-with">Site filters for use with </h3>
-<p>To generate site filters for use with , we recomputed site summary statistics using only wild-caught individuals, then applied the decision tree model described above.
-%
-These filters, which we refer to as the ``’’ site filters, are appropriate when working with samples only.</p>
+<p>We developed filters that identify genomic sites where SNP calling and genotyping is likely to be less reliable in one or more mosquito species.</p>
+<p>To guide the design and calibration of the site filters, we made use of the 15 colony crosses included in this release.</p>
+<p>Each cross comprises two parents and up to 20 progeny, allowing identification of sites where genotypes in one or more progeny are not consistent with Mendelian inheritance (Mendelian errors).</p>
+<p>A small number of Mendelian errors may be due to <em>de novo</em> mutation, but the vast majority of Mendelian errors are likely to be due to errors in sequencing, alignment or SNP calling.</p>
+<p>The general approach we took was to use Mendelian consistency to identify sets of positive and negative training sites, then used these to train a machine learning model that classified all genomic sites as either PASS or FAIL.</p>
+<h3 id="site-filters-for-use-with-a.-gambiae-andor-a.-coluzzii">Site filters for use with <em>A. gambiae</em> and/or <em>A. coluzzii</em></h3>
+<p>All the 15 crosses involved <em>A. gambiae</em> and/or <em>A. coluzzii</em> parents, while none of the crosses involved <em>A. arabiensis</em>.</p>
+<p>We therefore used the crosses to first develop site filters suitable for use with <em>A. gambiae</em> and/or <em>A. coluzzii</em>.</p>
+<p>Hereafter we refer to these filters as the <code>gamb\_colu</code> site filters.</p>
+<p>Five of the 15 crosses were held out for validation, so performance could be evaluated objectively.</p>
+<p>Sites were assigned to the positive training set where all genotypes across all 10 training crosses were called, and no Mendelian errors were observed.</p>
+<p>Sites were assigned to negative training set where one or more Mendelian errors were observed in any cross.</p>
+<p>All other sites were not considered eligible for inclusion in model training.</p>
+<p>A balanced training set was then generated containing 100,000 autosomal sites from each of the positive and negative training sets.</p>
+<p>The inputs to the machine learning model were a set of per-site summary statistics computed from the sequence read alignments and SNP genotypes across all wild-caught <em>A. gambiae</em> and <em>A. coluzzii</em> individuals.</p>
+<p>These input summary statistics are described further in the appendix.</p>
+<p>Male individuals were excluded from the summary statistic calculations, so that the model could also be applied without modification to the X chromosome.</p>
+<p>We used these summary statistics, together with the positive and negative training sites, to train a decision tree model.</p>
+<p>We initially trained a set of trees with different hyperparameter values, exploring the depth of trees, and the number of samples allowed at a terminal node.</p>
+<p>Each of these trees was evaluated on an unbalanced set of sites randomly sampled from the whole genome (2% of all sites, without replacement).</p>
+<p>Leaves of these trees contained different proportions of positive and negative training sites, and by increasing the cutoff for these proportions required to label a leaf as PASS, we were able to compute the area under the receiver operating curve (AUROC) for each set of hyperparameter values.</p>
+<p>The best performing hyperparameter set based on AUROC was selected as the final model, and the leaf classification cutoff used was optimised based on the Youden statistic.</p>
+<p>The resulting model was a decision tree of depth 8, where leaves were assigned to PASS where &gt; 0.533 of training data in that leaf were positive training sites.</p>
+<p>All sites in the genome were then assigned to PASS or FAIL via this model.</p>
+<p>The 5 remaining cross pedigrees were used to perform a final evaluation of the approach.</p>
+<p>For each of these crosses, we computed the Mendelian error rate (fraction of variants with one or more Mendelian errors among progeny) before and after applying the site filters, to provide five independent evaluation results.</p>
+<p>We also evaluated performance on the X chromosome using heterozygote calls in males as indicator of error rates.</p>
+<p>The fraction of variants with a heterozygous genotype call in or more males was computed before and after applying site filters.</p>
+<p>Male error rates were estimated from genotype calls with a minimum Genotype Quality (GQ) value of 30.</p>
+<h3 id="site-filters-for-use-with-a.-arabiensis">Site filters for use with <em>A. arabiensis</em></h3>
+<p>To generate site filters for use with <em>A. arabiensis</em>, we recomputed site summary statistics using only wild-caught <em>A. arabiensis</em> individuals, then applied the decision tree model described above.</p>
+<p>These filters, which we refer to as the <code>arab</code> site filters, are appropriate when working with <em>A. arabiensis</em> samples only.</p>
 <h3 id="site-filters-for-joint-analyses-of-all-three-species">Site filters for joint analyses of all three species</h3>
-<p>We created site filters suitable for joint analysis of individuals from all three species by taking the intersection of the  and the  site filters.
-%
-We refer to these filters as the ``’’ site filters.</p>
+<p>We created site filters suitable for joint analysis of individuals from all three species by taking the intersection of the <code>gamb\_colu</code> and the <code>arab</code> site filters.</p>
+<p>We refer to these filters as the <code>gamb\_colu\_arab</code> site filters.</p>
 <h2 id="acknowledgments">Acknowledgments</h2>
 <p>We would like to thank the staff of the Wellcome Sanger Institute Sample Logistics, Sequencing and Informatics facilities for their contributions to the production of this data release.</p>
 <p>We would like to thank the members of the Data Engineering team of the Broad Institute of Harvard and MIT for their work on open source implementations of the alignment and SNP calling pipelines used in Ag1000G phase 3.</p>
