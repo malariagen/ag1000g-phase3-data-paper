@@ -43,9 +43,9 @@
   <meta name="citation_fulltext_html_url" content="https://malariagen.github.io/ag1000g-phase3-data-paper/" />
   <meta name="citation_pdf_url" content="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/086367b240093a93f0acad483313e1a3185f1ef0/" />
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/086367b240093a93f0acad483313e1a3185f1ef0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/086367b240093a93f0acad483313e1a3185f1ef0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/a706238da65ebf4b06088bab6842b16fd1b13be0/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/a706238da65ebf4b06088bab6842b16fd1b13be0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/a706238da65ebf4b06088bab6842b16fd1b13be0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -59,9 +59,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/086367b240093a93f0acad483313e1a3185f1ef0/">permalink</a>)
+(<a href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/a706238da65ebf4b06088bab6842b16fd1b13be0/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/malariagen/ag1000g-phase3-data-paper/tree/086367b240093a93f0acad483313e1a3185f1ef0">malariagen/ag1000g-phase3-data-paper@086367b</a>
+from <a href="https://github.com/malariagen/ag1000g-phase3-data-paper/tree/a706238da65ebf4b06088bab6842b16fd1b13be0">malariagen/ag1000g-phase3-data-paper@a706238</a>
 on January 26, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -410,18 +410,18 @@ Muleba (1.750, 31.667), the final collection region, is in the North-western par
 <p>All library preparation and sequencing was performed at the Wellcome Sanger Institute.</p>
 <p>Paired-end multiplex libraries were prepared using the manufacturer’s protocol, with the exception that genomic DNA was fragmented using Covaris Adaptive Focused Acoustics rather than nebulization.</p>
 <p>Multiplexes comprised 12 tagged individual mosquitoes and three lanes of sequencing were generated for each multiplex to even out variations in yield between sequencing runs.</p>
-<p>Cluster generation and sequencing were undertaken according to the manufacturer’s protocol for paired-end sequence reads with insert size in the range 100–200 bp.</p>
+<p>Cluster generation and sequencing were undertaken according to the manufacturer’s protocol for paired-end sequence reads with insert size in the range 100-200 bp.</p>
 <p>4,693 individual mosquitoes were sequenced in total, of which 3,130 were sequenced using the Illumina HiSeq 2000 platform and 1,563 were sequenced using the Illumina HiSeq X platform.</p>
 <p>All individuals were sequenced to a target coverage of 30X.</p>
-<p>The HiSeq 2000 sequencing runs generated 100 bp paired-end reads, and the HiSeq X sequencing runs generated 150 bp paired-end reads.</p>
+<p>HiSeq 2000 sequencing runs generated 100 bp paired-end reads, while HiSeq X sequencing runs generated 150 bp paired-end reads.</p>
 <h2 id="alignment-and-snp-calling">Alignment and SNP calling</h2>
-<p>Reads were aligned to the AgamP4 reference genome using BWA version 0.7.15.</p>
-<p>Indel realignment was performed using GATK version 3.7-0  and .</p>
-<p>Single nucleotide polymorphisms were called using GATK version 3.7-0 .</p>
-<p>Genotypes were called for each sample independently, in genotyping mode, given all possible alleles at all genomic sites where the reference base was not ``N’’.</p>
-<p>Coverage was capped at <span class="math inline">\(250 \times\)</span> by random down-sampling.</p>
-<p>Complete specifications of the alignment and genotyping pipelines are available from the malariagen/pipelines GitHub repository.</p>
-<p>Open source WDL implementations of the alignment and genotyping pipelines are also available from GitHub.</p>
+<p>Reads were aligned to the AgamP4 reference genome using <code>bwa</code> version 0.7.15.</p>
+<p>Indel realignment was performed using GATK version 3.7-0 <code>RealignerTargetCreator</code> and <code>IndelRealigner</code>.</p>
+<p>Single nucleotide polymorphisms were called using GATK version 3.7-0 <code>UnifiedGenotyper</code>.</p>
+<p>Genotypes were called for each sample independently, in genotyping mode, given all possible alleles at all genomic sites where the reference base was not <code>N</code>.</p>
+<p>Coverage was capped at 250X by random down-sampling.</p>
+<p>Complete specifications of the <strong><a href="https://github.com/malariagen/pipelines/blob/v0.0.4/docs/specs/short-read-alignment-vector.md">alignment</a></strong> and <strong><a href="https://github.com/malariagen/pipelines/blob/v0.0.4/docs/specs/snp-genotyping-vector.md">genotyping</a></strong> pipelines are available from the <strong><a href="https://github.com/malariagen/pipelines">malariagen/pipelines</a></strong> GitHub repository.</p>
+<p>Open source WDL implementations of the <strong><a href="https://github.com/malariagen/pipelines/tree/v0.0.4/pipelines/short-read-alignment-vector">alignment</a></strong> and __<a href="https://github.com/malariagen/pipelines/tree/v0.0.4/pipelines/SNP-genotyping-vector">genotyping</a> pipelines are also available from GitHub.</p>
 <p>Following successful completion of these pipelines, samples entered the sample quality control (QC) process.</p>
 <h2 id="sample-qc-1">Sample QC</h2>
 <p>The following subsections describe analyses performed to identify and exclude samples from the final dataset.</p>
