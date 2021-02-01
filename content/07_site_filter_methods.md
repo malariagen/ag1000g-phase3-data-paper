@@ -1,4 +1,4 @@
-## Site filtering}\label{sec:snp-filtering}
+## Site filtering
 
 We developed filters that identify genomic sites where SNP calling and genotyping is likely to be less reliable in one or more mosquito species.
 
@@ -38,7 +38,7 @@ We used these summary statistics, together with the positive and negative traini
 
 We initially trained a set of trees with different hyperparameter values, exploring the depth of trees, and the number of samples allowed at a terminal node.
 
-Each of these trees was evaluated on an unbalanced set of sites randomly sampled from the whole genome (2\% of all sites, without replacement).
+Each of these trees was evaluated on an unbalanced set of sites randomly sampled from the whole genome (2% of all sites, without replacement).
 
 Leaves of these trees contained different proportions of positive and negative training sites, and by increasing the cutoff for these proportions required to label a leaf as PASS, we were able to compute the area under the receiver operating curve (AUROC) for each set of hyperparameter values.
 

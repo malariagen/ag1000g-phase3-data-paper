@@ -6,8 +6,8 @@ We would like to thank the members of the Data Engineering team of the Broad Ins
 
 ## Further information
 
-For further information about the Ag1000G project, please visit \url{https://www.malariagen.net/ag1000g}.
+For further information about the Ag1000G project, please visit __[https://www.malariagen.net/ag1000g](https://www.malariagen.net/ag1000g)__.
 
-For further information about the Ag1000G phase 3 SNP data release, please visit \url{www.malariagen.net/data/ag1000g-phase3-snp}.
+For further information about the Ag1000G phase 3 SNP data release, please visit __[www.malariagen.net/data/ag1000g-phase3-snp](www.malariagen.net/data/ag1000g-phase3-snp)__.
 
-If you have any questions regarding the data release, please start a new discussion at \url{https://github.com/malariagen/vector-public-data/discussions}.
+If you have any questions regarding the data release, please start a new discussion at __[https://github.com/malariagen/vector-public-data/discussions](https://github.com/malariagen/vector-public-data/discussions)__.
