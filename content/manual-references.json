@@ -1,5 +1,21 @@
 [
 {
+  "id": "gillies1968",
+  "type": "book",
+  "title": "The anophelinae of Africa south of the Sahara (Ethiopian zoogeographical region)",
+  "year": "1968",
+  "author": [
+    {
+      "given": "M. T.",
+      "family": "Gillies"
+    },
+    {
+      "given": "Botha",
+      "family": "de Meillon"
+    }
+  ]
+},
+{
   "id": "url:https://github.com/manubot/rootstock",
   "type": "webpage",
   "URL": "https://github.com/manubot/rootstock",
