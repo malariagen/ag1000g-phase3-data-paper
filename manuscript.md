@@ -3,7 +3,7 @@ author-meta:
 - The Anopheles gambiae 1000 Genomes Consortium
 bibliography:
 - content/manual-references.json
-date-meta: '2021-01-25'
+date-meta: '2021-02-08'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -22,9 +22,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex" />
 
-  <meta name="dc.date" content="2021-01-25" />
+  <meta name="dc.date" content="2021-02-08" />
 
-  <meta name="citation_publication_date" content="2021-01-25" />
+  <meta name="citation_publication_date" content="2021-02-08" />
 
   <meta name="dc.language" content="en-GB" />
 
@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/4b1fdeee62538db3fcb990f9e230bb26c7d12884/" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/ee9960546e84af264c1932a359682902bdc04c4e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/4b1fdeee62538db3fcb990f9e230bb26c7d12884/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/ee9960546e84af264c1932a359682902bdc04c4e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/4b1fdeee62538db3fcb990f9e230bb26c7d12884/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/ee9960546e84af264c1932a359682902bdc04c4e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -88,10 +88,10 @@ title: Genome variation and population structure in three African malaria vector
 
 <small><em>
 This manuscript
-([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/4b1fdeee62538db3fcb990f9e230bb26c7d12884/))
+([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/ee9960546e84af264c1932a359682902bdc04c4e/))
 was automatically generated
-from [malariagen/ag1000g-phase3-data-paper@4b1fdee](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/4b1fdeee62538db3fcb990f9e230bb26c7d12884)
-on January 25, 2021.
+from [malariagen/ag1000g-phase3-data-paper@ee99605](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/ee9960546e84af264c1932a359682902bdc04c4e)
+on February 8, 2021.
 </em></small>
 
 ## Authors
@@ -408,531 +408,1141 @@ In east africa, we compare gambiae to arabiensis.
 
 
 
-# Methods  {.page_break_before}
+# Methods {.page_break_before}
+
+[@my-fanello]: doi:10.1046/j.1365-2915.2002.00393.x 
+[@my-coetzee]: pubmed:26131476
+[@my-santolamazza]: pubmed:15210999
+[@my-scott]: doi:10.4269/ajtmh.1993.49.520
+[@my-white]: pubmed:17297045
+[@my-pinto]: doi:10.1111/j.1365-2915.2006.00611.x
+[@my-donnelly]: pubmed:10583542
+[@my-vincente]: doi:10.1038/srep46451
 
 ## Population Sampling
 
-Mosquitoes, from natural populations, were collected at 124 sites (unique latitude/longitudes) in 19 sub-Saharan African countries (Figure 1; Supplemental Table @@??). 
+### Summary
 
-95 of these sites are novel to Ag1000G phase 3, including 19 sites in six newly sampled countries, the remainder were previously sampled in phases 1 and 2 of the project (@doi.org/10.1038/nature24995; @@phase 2 doi when published).
+The Ag1000G project is coordinated by a consortium of partners from a range of different research institutions and countries.
+This includes consortium members who are carrying out independent research studies in malaria endemic regions, and who have contributed mosquito specimens or mosquito DNA samples collected in the course of their own research.
+The methods presented here describe the studies that have contributed samples to phase 3 of the Ag1000G project, including wild-caught samples from 19 African countries.
+This section also provides information about the collection locations and methods, the people involved in the studies, and references to any published articles providing further information about the studies. 
+Throughout this document we use species nomenclature following Coetzee _et al._ [@my-coetzee].
+Unless otherwise stated, the DNA extraction method used for the collections described below was Qiagen DNeasy Blood and Tissue Kit (Qiagen Science, MD, USA).
 
-New samples present in phase 3 comprised the following:
+### Angola {.page_break_before}
 
-**Burkina Faso**
+#### Sample sets
 
-Two new submissions of collections from Burkina Faso are included here. The first added collections made in three villages separated by at most 30km: Bana (11.233, -4.472), Souroukoudinga (11.235, -4.535) and Pala (11.150, -4.235).
+`AG1000G-AO`.
 
-These collections were made in July and October 2014, and January, February and April 2015. The area is agricultural, with rice-growing areas near Bana and Souroukoudinga, and a large mango grove near Pala.
+#### Study information
 
-Female mosquitoes were collected by human landing catch, pyrethrum spray collection or aspiration; males were collected by swarm netting. Both _An. gambiae_ and _An. coluzzii_ (@doi:10.1186/1475-2875-5-125) were collected. 
+Adult mosquitoes were obtained by rearing larvae collected from breeding sites along the main roads connecting the municipalities of Kilamba-Kiaxi and Viana, Luanda province __[(-8.821,13.291)](https://www.openstreetmap.org/?mlat=-8.821&mlon=13.291&zoom=12&layers=M)__, in April/May 2009.
+These are peri-urban areas where malaria reaches hyperendemic levels.
+All specimens collected in the study area were typed as _A. coluzzii_ [@my-fanello] although _An. melas_ and _A. arabiensis_ have also been recorded in the province [@doi:10.1186/1475-2875-5-2;@doi:10.4269/ajtmh.2008.78.169].
+Specimens were stored on silica gel and DNA extraction was performed by a phenol-chloroform protocol described in [@doi:10.1038/sj.hdy.6885930].
 
-Specimens were stored in 80% ethanol and DNA was extracted using the DNeasy Tissue Kit (Qiagen).
+#### Contributors
 
-The second new submission from Burkina Faso added collections of indoor resting adults made by spray catch from Monomtenga in central Burkina Faso (12.06, -1.17). 
+  - Arlete D. Troco
+    - Programa Nacional de Controle da Malária, Direcção Nacional de Saúde Pública, Ministério da Saúde, Luanda, Angola.
+  - João Pinto (jpinto@ihmt.unl.pt)
+    - Global Health and Tropical Medicine, GHTM, Instituto de Higiene e Medicina Tropical, IHMT, Universidade Nova de Lisboa, UNL, Rua da Junqueira 100, 1349-008 Lisbon, Portugal.
 
-These specimens were sorted morphologically to _An. gambiae_ s.l.
+### Burkina Faso (1) {.page_break_before}
 
-Ovaries of half-gravid females were dissected and placed in numbered individual micro-tubes containing modified Carnoy's solution (1:3 glacial acetic acid: 100% ethanol).
+#### Sample sets
 
-Carcasses were placed in correspondingly numbered micro-tubes over desiccant. Genomic DNA was isolated from individual mosquitoes using one of the following: DNeasy Extraction Kit (Qiagen, Valencia, CA), Puregene kit (Gentra Systems, Inc., Minneapolis, MN), DNAzol kit (Molecular Research Center, Inc., Cincinnati, OH.) or Easy-DNA kit (Invitrogen, Carlsbad, CA).
+`AG1000G-BF-A`, `AG1000G-BF-B`
 
-_An. gambiae_ s.s. and its molecular forms were identified using one of two rDNA-based PCR/RFLP assays (@doi:10.1046/j.1365-2915.2002.00393.x;  @doi:10.4269/ajtmh.2004.70.604).
+#### Study information
 
+The Target Malaria project contributed samples from collections made in three villages separated by at most 30km: Bana __[(11.233, -4.472)](https://www.openstreetmap.org/?mlat=11.233&mlon=-4.472&zoom=12&layers=M)__, Souroukoudinga __[(11.235, -4.535)](https://www.openstreetmap.org/?mlat=11.235&mlon=-4.535&zoom=12&layers=M)__ and Pala __[(11.150, -4.235)](https://www.openstreetmap.org/?mlat=11.150&mlon=-4.235&zoom=12&layers=Mi)__. 
+These collections were made in July-August 2012, July and October 2014, and January, February and April 2015.
+The area is agricultural, with rice-growing areas near Bana and Souroukoudinga, and a large mango grove near Pala.
+Female mosquitoes were collected by human landing catch, pyrethrum spray collection or aspiration. 
+Males were collected by swarm netting. 
+Both _An. gambiae_ and _An. coluzzii_ [@pubmed:17177993] were collected. 
+Specimens were stored in 80% ethanol and DNA was extracted using the DNeasy Tissue Kit (Qiagen) or using a simple CTAB method.
+
+#### External resources
+  - __[https://targetmalaria.org/]([https://targetmalaria.org/)__
+
+#### Contributors
+  - Abdoulaye Diabaté
+    - Institut de Recherche en Sciences de la Santé (IRSS), Bobo Dioulasso, B.P.545, Burkina Faso.
+  - Patric Stephane Epopa
+    - Institut de Recherche en Sciences de la Santé (IRSS), Bobo Dioulasso, B.P.545, Burkina Faso.
+  - Franck Yao
+    - Institut de Recherche en Sciences de la Santé (IRSS), Bobo Dioulasso, B.P.545, Burkina Faso.
+  - Samantha O'Loughlin (s.oloughlin@imperial.ac.uk)
+    - Department of Life Sciences, Imperial College, Silwood Park, Ascot, Berkshire SL5 7PY, UK.
+  - Austin Burt
+    - Department of Life Sciences, Imperial College, Silwood Park, Ascot, Berkshire SL5 7PY, UK.
+
+#### Acknowledgements
+
+We would like to thank the technicians of the Institute de Recherche en Sciences de la Santé/Target Malaria Burkina Faso, including Guel Hyacinthe, Diabate Brama, Ilboudo Seni, Kabre Rasmane, Diabate Noufou and Yeye Pascal, for their contributions to sample collections.
+
+### Burkina Faso (2) {.page_break_before}
+
+#### Sample sets
+`AG1000G-BF-C`
+
+#### Study information
+Samples were contributed from collections of indoor resting adults made by spray catch from Monomtenga in central Burkina Faso __[(12.06, -1.17)](https://www.openstreetmap.org/?mlat=12.06&mlon=-1.17&zoom=12&layers=M)__. 
+These specimens were sorted morphologically to __An. gambiae s.l.__. 
+Ovaries of half-gravid females were dissected and placed in numbered individual micro-tubes containing modified Carnoy's solution (1:3 glacial acetic acid: 100% ethanol). 
+Carcasses were placed in correspondingly numbered micro-tubes over desiccant.
+Genomic DNA was isolated from individual mosquitoes using one of the following: DNeasy Extraction Kit (Qiagen, Valencia, CA), Puregene kit (Gentra Systems, Inc., Minneapolis, MN), DNAzol kit (Molecular Research Center, Inc., Cincinnati, OH.) or Easy-DNA kit (Invitrogen, Carlsbad, CA).
+__An. gambiae s.s.__ and its molecular forms were identified using one of two rDNA-based PCR/RFLP assays, [@my-fanello;@my-santolamazza].
 Ovaries from specimens of the desired species were subject to polytene chromosome analysis.
 
-**Democratic Rebublic of the Congo**
+#### Contributors
 
-Samples were collected from Gbadolite (4.283, 21.017), a town located in the far north of the Democratic Republic of Congo (DRC) near the border with the Central African Republic, surrounded by forest.
+  - Carlo Costantini (carlo.costantini@ird.fr)
+    - UMR MIVEGEC, Univ. Montpellier, CNRS, IRD, Montpellier, France.
+  - N'Fale Sagnon
+    - Centre National de Recherche et Formation sur le Paludisme (CNRFP), 01BP 2208 Ouagadougou 01, Burkina Faso.
+  - Nora J. Besansky (nbesansk@nd.edu)
+    - Eck Institute for Global Health & Department of Biological Sciences, University of Notre Dame, IN 46556, USA.
 
-In common with much of DRC, malaria transmission rates are high, and the samples are _An. gambiae_ s.s., which is the dominant vector.
+### Cameroon (1) {.page_break_before}
 
-Samples were collected as larvae from temporary pools within and around the town by dipping in early August 2015. All larvae were reared to adults and females preserved over silica for DNA extraction using Qiagen DNAEasy kits.
+#### Sample sets
+`AG1000G-CM-A`
 
-**Central African Republic**
+#### Study information
 
-Collections were carried out in Bangui (4.367, 18.583), during December 1993, by indoor resting aspiration or pyrethrum spray catch.
+Pyrethrum spray collections were conducted in three villages in Cameroon during September and October 2009.
+These villages comprise a transect from forest (village of Mayos: __[(4.341, 13.558)](https://www.openstreetmap.org/?mlat=4.341&mlon=13.558&zoom=12&layers=M))__ to forest/savanna transition (village of Daiguene: __[(4.777, 13.844)](https://www.openstreetmap.org/?mlat=4.777&mlon=13.844&zoom=12&layers=M))__ to savanna (villages of Gado-Badzere and Zembe-Borongo: __[(5.747, 14.442)](https://www.openstreetmap.org/?mlat=5.747&mlon=14.442&zoom=12&layers=M)__) (@doi:10.1186/1475-2875-9-293).
+All contributed specimens were __An. gambiae s.s.__ [@my-fanello].
+A proportion of specimens were karyotyped via scoring of polytene chromosomes [@doi:10.1186/s12936-016-1242-5].
+Specimens were stored on silica gel, and DNA was extracted using a simple CTAB protocol and run over Qiagen columns.
 
-**Cameroon**
+#### Related publications
 
-Two new submissions of samples from Cameroon are included in this phase. 
+- NF Lobo et al. 2010. Breakpoint structure of the Anopheles gambiae 2Rb chromosomal inversion.  Malaria Journal. 9:293. (@doi:10.1186/1475-2875-9-293).
 
-In the first submission anopheline mosquitoes were taken from 64 locations covering a 1,500 km north-to-south transect that crossed all eco-geographical areas of Cameroon (@doi:10.1186/1472-6785-9-17). 
+####  Contributors
+  - Carlo Costantini (carlo.costantini@ird.fr)
+    - UMR MIVEGEC, Univ. Montpellier, CNRS, IRD, Montpellier, France.
+  - Kyanne R. Rohatgi
+    - Eck Institute for Global Health & Department of Biological Sciences, University of Notre Dame, IN 46556, USA.
+  - Nora J. Besansky (nbesansk@nd.edu)
+    - Eck Institute for Global Health & Department of Biological Sciences, University of Notre Dame, IN 46556, USA.
 
-Mosquito collection involved spraying aerosols of pyrethroid insecticides inside human dwellings, dead mosquitoes were retrieved from white sheets that  were laid on the floor.
+### Cameroon (2) {.page_break_before}
 
-Anopheline mosquitoes were identified using morphological identification keys (>>Gillies and De Meillon 1968<<@@how reference books with no ISBN?; @isbn:0620103213).
+#### Sample sets
 
-Ovaries from half-gravid _An. gambiae_ s.l. females were dissected and stored in Carnoy's fixative solution (absolute ethanol:glacial acetic acid 3:1) for cytogenetic analyses.
+`AG1000G-CM-B`
 
-Carcasses were stored individually in tubes containing a desiccant and kept at -20°C until they were molecularly processed. All half-gravid specimens collected in each village were identified to species and molecular forms using PCR-RFLP (@doi:10.1046/j.1365-2915.2002.00393.x).
+#### Study information
+These samples were collected as part of a study which took place in Cameroon in Central Africa. 
+The country is commonly referred to as "miniature Africa", owing to the diversity of its climate, topography, landscape,
+and bio-ecological settings: arid savannas in the north gradually turn into rain forest in the south, 
+along with highland areas, contribute to increase diversity of ecological settings.
+Anopheline mosquitoes were collected in 2005 from 64 locations covering a 1,500 km north-to-south transect
+that crossed all eco-geographical areas of Cameroon [@doi:10.1186/1472-6785-9-17]
+Mosquito collection involved spraying aerosols of pyrethroid insecticides inside human dwellings, 
+dead mosquitoes were retrieved from white sheets that were laid on the floor.
+Anopheline mosquitoes were identified using morphological identification keys [@isbn:9780620103213;@gillies1968].
+Ovaries from half-gravid An. gambiae s.l. females were dissected and stored in Carnoy's fixative solution
+(absolute ethanol:glacial acetic acid 3:1) for cytogenetic analyses. 
+Carcasses were stored individually in tubes containing a desiccant and kept at -20^o^ C 
+until they were processed for molecular analysis. 
+All half-gravid specimens collected in each village were identified to species and molecular forms using PCR-RFLP [@my-fanello].
 
-The second Cameroonian submission came from pyrethrum spray collections, larval sampling and human landing catches conducted in twenty locations during October 2013.
+#### Related publications
 
-These villages are scattered throughout the country and reflect a gradient of human-dominated environments, for example, forest (Manda: 5.726, 10.868 and Campo: 2.367, 9.817); forest/savanna transition (Tibati: 6.469, 12.629); savanna (Lagdo: 9.049, 13.656); suburban area (Nkolondom: 3.972, 11.516) and 
-urban areas (Douala: 4.055, 9.721 and Yaoundé: 3.880, 11.506).
+  - Simard, Frédéric, et al. “Ecological Niche Partitioning between Anopheles Gambiae Molecular Forms in Cameroon: The Ecological Side of Speciation.” BMC Ecology, vol. 9, no. 1, 2009, p. 17, 10.1186/1472-6785-9-17. [@doi:10.1186/1472-6785-9-17].
 
-Contributed specimens were _An. gambiae_ and _An. coluzzii_ (@doi:10.1046/j.1365-2915.2002.00393.x).
+#### Contributors
+  - Frédéric Simard (frederic.simard@ird.fr)
+    - UMR MIVEGEC, Univ. Montpellier, CNRS, IRD, Montpellier, France.
+  - Diego Ayala (diego.ayala@ird.fr)
+    - UMR MIVEGEC, Univ. Montpellier, CNRS, IRD, Montpellier, France.
+  - Nora J. Besansky (nbesansk@nd.edu)
+    - Eck Institute for Global Health & Department of Biological Sciences, University of Notre Dame, IN 46556, USA.
+  - Carlo Costantini (carlo.costantini@ird.fr)
+    - UMR MIVEGEC, Univ. Montpellier, CNRS, IRD, Montpellier, France.
 
-Population genomics studies indicated the presence of relatively differentiated subgroups within both species as well as clusters thriving in polluted breeding sites in large cities (@doi:10.1093/molbev/msx0877).
+### Cameroon (3) {.page_break_before}
 
-Specimens were stored on silica gel, and DNA was extracted using a Zymo research kit for adults and a Qiagen kit for larvae.
+#### Sample sets
 
-**Mayotte**
+`AG1000G-CM-C`
 
-Phase 3 adds collections from three novel sites on the island of Mayotte. 
+#### Study information
+Samples were contributed from pyrethrum spray collections, larval sampling and human landing catches conducted in twenty locations during October 2013.
 
-Samples were collected as larvae during March-April 2011 in temporary pools by dipping in  Tsounzou (-12.797, 45.185), Tsinkoura (-12.936, 45.138) and aerogare (-12.803, 45.283).
+These villages are scattered throughout the country and reflect a gradient of human-dominated environments, for example, forest (Manda: __[(5.726, 10.868)](https://www.openstreetmap.org/?mlat=5.726&mlon=10.868&zoom=12&layers=M)__ and Campo: __[(2.367, 9.817)](https://www.openstreetmap.org/?mlat=2.367&mlon=9.817&zoom=12&layers=M); forest/savanna transition (Tibati: __[(6.469, 12.629)](https://www.openstreetmap.org/?mlat=6.469&mlon=12.629&zoom=12&layers=M)__); savanna (Lagdo: __[(9.049, 13.656)](https://www.openstreetmap.org/?mlat=9.049&mlon=13.656&zoom=12&layers=M)); suburban area (Nkolondom: __[(3.972, 11.516)](https://www.openstreetmap.org/?mlat=3.972&mlon=11.516&zoom=12&layers=M)__) and urban areas (Douala: __[(4.055, 9.721)](https://www.openstreetmap.org/?mlat=4.055&mlon=9.721&zoom=12&layers=M)__ and Yaoundé: __[(3.880, 11.506)](https://www.openstreetmap.org/?mlat=3.880&mlon=11.506&zoom=12&layers=M)__. 
 
-Larvae were stored in 80% ethanol prior to DNA extraction.
+Contributed specimens were _An. gambiae_ or _An.coluzzii_ [@my-fanello].
 
-All specimens contributed were _An. gambiae_ (@doi:10.4269/ajtmh.2004.70.604) with the standard 2L<sup>+a</sup>/2L<sup>+a</sup> or inverted 2L<sup>a</sup>/2L<sup>a</sup> karyotype as determined by the molecular PCR diagnostics (@doi:10.4269/ajtmh.2007.76.334).
+Population genomics studies indicated the presence of relatively dierentiated subgroups within both species as well as clusters thriving in polluted breeding sites in large cities [@pubmed:28204524].
 
-The samples were identified as males or females by the sequencing read coverage of the X chromosome using LookSeq (@doi:10.1101/gr.093443.109).
+Specimens were stored on silica gel.
 
-**Gabon** @@was this submission "GA-B" included in the release?? I can't see it in the meta data, delete?
+DNA was extracted using a Zymo research kit for adults, and a Qiagen kit for larvae.
 
-_Anopheles_ sampling was carried out in three new locations in Gabon @@year?.
+#### Related publications
 
-Adult _An. gambiae_ females were collected in Benguia (-1.633, 13.492) by human landing catches (National Research Ethics Committee of Gabon n°. 0031/2014/SG/CNE) in September 2015.
+  - C Kamdem et al. 2017. Pollutants and Insecticides Drive Local Adaptation in African Malaria Mosquitoes. Molecular Biology and Evolution. 34: 1261-1275. [@pubmed:28204524].
 
-Benguia is a forest-savanna village with less than 300 inhabitants. Malaria is endemic across the year.
+#### Contributors
 
-The specimens were stored immediately at -80°C.
+  - Colince Kamdem
+    - Laboratoire de Recherche sur le Paludisme, Organisation de Coordination pour la lutte contre les Endémies en Afrique Centrale (OCEAC), B.P. 288, Yaoundé, Cameroon.
+  - Caroline Fouet
+    - Department of Entomology, University of California, Riverside, CA, USA.
+  - Bradley J. White (bradwhite@verily.com)
+    - Verily Life Sciences, South San Francisco, CA 94080, USA.
 
-_An. coluzzii_ larvae were sampled in Libreville (0.390, 9.454) and Cocobeach (0.992, 9.576) by dipping in natural breeding sites in January 2016.
 
-Libreville is the capital of the country and it is urban and polluted site, Cocobeach is a coastal village north of Libreville.
+### Central African Republic {.page_break_before}
 
-Across both malaria is endemic across the year.
+#### Sample sets
 
-The specimens were stored in alcohol at -20°C.
+`AG1000G-CF`
 
-Total genomic DNA was extracted for all the mosquitoes using the CTAB protocol (@doi:10.4269/ajtmh.2005.73.1077).
+#### Study information
+Collections were carried out in Bangui __[(4.367, 18.583)](https://www.openstreetmap.org/?mlat=4.367&mlon=18.583&zoom=12&layers=M)__, during December 1993, by indoor
+resting aspiration or pyrethrum spray catch.
 
-**The Gambia**
+#### Contributors
 
-Two new submissions of samples from The Gambia are present in phase 3.
+  - Alessandra della Torre (alessandra.dellatorre@uniroma1.it)
+    - Istituto Pasteur Italia Fondazione Cenci Bolognetti, Dipartimento di Sanita Pubblica e Malattie Infettive, Università di Roma SAPIENZA, Rome, Italy.
 
-The first were collected along the Gambia River from the western coastal region of The Gambia, (Low River Area; Caputo et al. 2008), in August 2006. 
+### Bioko Island, Equatorial Guinea {.page_break_before}
 
-_An. gambiae_ and _An. coluzzii_ specimens were identified to species following the PCR-RFLP protocol (@doi:10.1046/j.1365-2915.2002.00393.x) using DNA extracted from the mosquito leg.
+#### Sample sets
 
-Only _An. coluzzii_ specimens were collected from villages of Tankular (13.417, -16.033) and Kalataba (13.550, -15.617). 
+`AG1000G-GQ`
 
-_An. gambiae_ and _An. coluzzii_ specimens were found in sympatry and collected from villages of Yallal Tankonjala (13.550, -15.700), Sare Samba Sowe (13.583, -15.900) and Hamdalai (13.567, -16.0167).
+#### Study information
 
-PCR-RFLP protocol also revealed the presence of mosquitoes with hybrid _An. gambiae_/_An. coluzzii_ genotype in Yallal Tankonjala and Sare Samba Sowe.
+Collections were performed during the rainy season in September 2002 by overnight CDC light traps in Sacriba of Bioko island __[(3.7, 8.7)](https://www.openstreetmap.org/?mlat=3.7&mlon=8.7&zoom=12&layers=M)__. 
 
-Collections of indoor daytime-resting half gravid mosquitoes were carried out mainly in human dwellings and, in few cases, in animal shelters.
+Specimens were stored dry on silica gel before DNA extraction. 
 
-Collections were carried out by pyrethroid and/or paper-cup mouth aspirators from 12 AM to sunset, and kept in vials with desiccant.
+Specimens contributed from this site were _An. gambiae_ females, genotype determined by two assays [@my-scott,@my-santolamazza].
 
-Ovaries were dissected, maintained into Carnoy fixative (three parts pure ethanol:one part glacial acetic acid) and stored at -20<sup>o</sup>C before polytene chromosome preparations (@doi:10.1186/1475-2875-7-182).
+All specimens had the 2L^+a^/2L^+a^ karyotype as determined by the molecular PCR diagnostics [@my-white].
 
-Chromosome scoring was carried out under a phase‐contrast optical microscope. 
+These mosquitoes represent a population that inhabited Bioko Island before a comprehensive malaria control intervention initiated in February 2004 [@doi:10.1186/1475-2875-6-52].
 
-Paracentric inversion karyotypes were scored according to the nomenclature and conventions of Coluzzi et al. (@doi:10.1016/0035-9203(79)90036-1) and Touré et al. (@pubmed:10645562).
+After the intervention _An. gambiae_ was declining, and more recently almost only _An. coluzzii_ can be found [@doi:10.1186/1475-2875-11-56].
 
-The second new submission consists of adult mosquitoes collected at Wali Kunda in the rural, central river region of The Gambia (13.567, -14.917).
+#### Contributors
 
-The area is 180 km from the sea, on the south bank of the River Gambia, in flat Sudan savannah with a small fishing village (and a research field station) as well as rice fields and swamplands.
+  - Jorge Cano
+    - London School of Hygiene and Tropical Medicine, Keppel Street, Bloomsbury, London WC1E 7HT, UK.
+  - Maryam Kamali
+    - Department of Medical Entomology and Parasitology, Faculty of Medical Sciences, Tarbiat Modares University, Tehran, Iran.
+    - Department of Entomology, Virginia Tech, Blacksburg, Virginia 24061, USA.
+  - Igor Sharakhov (igor@vt.edu)
+    - Department of Entomology, Virginia Tech, Blacksburg, Virginia 24061, USA.
+    - Department of Genetics and Cell Biology, Tomsk State University, Tomsk 634050, Russia.
 
-The dominant _Anopheles_ vector species is _An. coluzzii_ (@doi:10.1186/s12936-016-1203-z).
+### Côte d'Ivoire {.page_break_before}
 
-Mosquitoes were captured using human landing collections both inside and outside huts for 19 days in October and November 2012. Mosquitoes were stored in RNAlater or dried over silica gel and stored at -20<sup>o</sup>C.
+#### Sample sets
+`AG1000G-CI`
 
-**Guinea and Mali**
+#### Study information
+Samples were collected in Tiassale __[(5.898, -4.823)](https://www.openstreetmap.org/?mlat=5.898&mlon=-4.823&zoom=12&layers=M)__, located in the evergreen forest zone of southern Côte d'Ivoire. 
+The primary agricultural activity is rice cultivation in irrigated fields.
+High malaria transmission occurs during the rainy seasons, between May and November. 
+Samples were collected as larvae from irrigated rice fields by dipping between May and September 2012. 
+All larvae were reared to adults and females preserved over silica for DNA extraction. 
+Specimens from this site were all _An. coluzzii_ , determined by PCR assay [@my-santolamazza].
 
-A novel sample submission to phase 3 included collections from both Guinea and Mali.
+#### Related publications
 
-Mosquitoes were collected from four different study sites at the border with Mali and in Guinea Conakry. Takan (11.47, -8.33) and Toumani Oulena (10.83, -7.81) are both small villages in the Yanfolila district of southern Mali and represent the Sudanian savannah ecological zone.
+  - Grau-Bové, Xavier, et al. “Resistance to Pirimiphos-Methyl in West African Anopheles Is Spreading via Duplication and Introgression of the Ace1 Locus.” PLOS Genetics, vol. 17, no. 1, 21 Jan. 2021, p. e1009253, 10.1371/journal.pgen.1009253. Accessed 1 Feb. 2021. [@doi:10.1371/journal.pgen.1009253].
 
+#### Contributors
+  - David Weetman (david.weetman@lstmed.ac.uk)
+    - Department of Vector Biology, Liverpool School of Tropical Medicine, Liverpool, United Kingdom.
+  - Edi Constant
+    - Centre Suisse de Recherches Scientifiques. Yopougon, Abidjan - 01 BP 1303 Abidjan, Côte d'Ivoire.
+
+### Ghana {.page_break_before}
+
+#### Sample sets
+
+`AG1000G-GH`
+
+#### Study information
+
+Samples were collected in Twifo Praso __[(5.609,-1.549)](https://www.openstreetmap.org/?mlat=5.609&mlon=-1.549&zoom=12&layers=M)__, a peri-urban community located in semi-deciduous forest in the Central Region of Ghana.
+It is an extensive agricultural area characterised by small-scale (vegetable growing) and large-scale commercial farms such as oil palm and cocoa plantations.
+Mosquito samples were collected as larvae from puddles near farms between September and October, 2012.
+Madina __[(5.668,-0.219)](https://www.openstreetmap.org/?mlat=5.668&mlon=-0.219&zoom=12&layers=M)__ is suburb of Accra within a coastal savanna zone of Ghana.
+It is an urban community characterised by myriad vegetable-growing areas.
+The vegetation consists of mainly grassland interspersed with dense short thickets often less than 5m high with a few trees.
+Specimens were sampled from puddles near roadsides and farms between October and December 2012.
+Takoradi __[(4.912,-1.774)](https://www.openstreetmap.org/?mlat=4.912&mlon=-1.774&zoom=12&layers=M)__ is the capital city of the Western Region of Ghana.
+It is an urban community located in the coastal savanna zone.
+Mosquito samples were collected from puddles near road construction and farms between August and September 2012.
+Koforidua __[(6.094,-0.261)](https://www.openstreetmap.org/?mlat=6.094&mlon=-0.261&zoom=12&layers=M)__ is the capital city of the Eastern Region of Southern Ghana and is located in semi-deciduous forest.
+It is an urban community characterized by numerous small-scale vegetable farms.
+Samples were collected from puddles near road construction sites and farms between August and September 2012.
+Larvae from all collection sites were reared to adults and females preserved over silica for DNA extraction.
+Both _An. gambiae_ and _An. coluzzii_ were collected from these sites, determined by PCR assay [@my-santolamazza].
+
+#### Related publications
+  - Essandoh, John, et al. “Acetylcholinesterase (Ace-1) Target Site Mutation 119S Is Strongly Diagnostic of Carbamate and Organophosphate Resistance in Anopheles Gambiae S.s. And Anopheles Coluzzii across Southern Ghana.” Malaria Journal, vol. 12, no. 1, 2013, p. 404, 10.1186/1475-2875-12-404. [@doi:10.1186/1475-2875-12-404].
+
+#### Contributors
+  - David iWeetman (david.weetman@lstmed.ac.uk)
+    - Department of Vector Biology, Liverpool School of Tropical Medicine, Liverpool, United Kingdom.
+  - John Essandoh
+    - Department of Wildlife and Entomology, University of Cape Coast, Cape Coast, Ghana.
+
+### Democratic Republic of the Congo {.page_break_before}
+
+#### Sample sets
+
+`AG1000G-CD`
+
+#### Study information
+
+Samples were collected from Gbadolite __[(4.283,21.017)](https://www.openstreetmap.org/?mlat=4.283&mlon=21.017&zoom=12&layers=M)__, 
+a town located in the far north of the Democratic Republic of Congo (DRC) 
+near the border with the Central African Republic, surrounded by forest.
+In common with much of DRC, malaria transmission rates are high, and the samples are _An. gambiae s.s._ , which is the dominant vector.
+Samples were collected as larvae from temporary pools within and around the town by dipping in early August 2015.
+All larvae were reared to adults and females preserved over silica for DNA extraction using Qiagen DNAEasy kits.
+
+#### Contributors
+  - David Weetman (david.weetman@lstmed.ac.uk)
+    - Department of Vector Biology, Liverpool School of Tropical Medicine, Liverpool, United Kingdom.
+
+### Gabon {.page_break_before}
+
+#### Sample sets
+
+`AG1000G-GA-A`
+
+#### Study information
+
+Mosquitoes were collected by landing catches in the capital city Libreville __[(0.384,9.455)](https://www.openstreetmap.org/?mlat=0.384&mlon=9.455&zoom=12&layers=M)__ in December 2000 [@my-pinto], an urban and polluted site.
+Malaria is endemic throughout the year.
+Specimens were stored in alcohol at -20^o^C.
+Co-occurrence of both _kdr_ resistance alleles and absence of wild-type susceptible alleles have been reported in this population [@my-pinto]. 
+_An coluzzii_ and _An. melas_ are also present in the region but at frequencies <1% [@doi:10.1186/1475-2875-11-40].
+Specimens were stored on silica gel and DNA extraction was performed by a phenol-chloroform protocol 
+described in [@my-donnelly]
+
+#### Contributors
+  - Nohal Elissa
+    - Institut Pasteur de Madagascar, Avaradoha, BP 1274, 101 Antananarivo, Madagascar.
+  - João Pinto (jpinto@ihmt.unl.pt)
+    - Global Health and Tropical Medicine, GHTM, Instituto de Higiene e Medicina Tropical, IHMT, Universidade Nova de Lisboa, UNL, Rua da Junqueira 100, 1349-008 Lisbon, Portugal.
+
+### Guinea Bissau {.page_break_before}
+
+#### Sample sets
+
+`AG1000G-GW`
+
+#### Study information
+
+Guinea Bissau samples were collected from three sites in October 2010 by indoor CDC light traps.
+Safim __[(11.957,-15.649)](https://www.openstreetmap.org/?mlat=11.957&mlon=-15.649&zoom=12&layers=M)__ 
+and Antula __[(11.891,-15.582)](https://www.openstreetmap.org/?mlat=11.891&mlon=-15.582&zoom=12&layers=M)__, 
+from a south-western coastal region, characterised mainly by mixed flooded forests and croplands.
+Leibala is a neighbourhood of the eastern town of Gabu where shrubland and open deciduous forest predominate
+__[(12.272,-14.222)](https://www.openstreetmap.org/?mlat=12.272&mlon=-14.222&zoom=12&layers=M)__.
+According to PCR-RFLP of the IGS [@my-fanello] and SINEX [@my-santolamazza] all samples were identified as _An. gambiae_.
+The _kdr_ pyrethroid target site resistance mutation L995F occurs at high frequency in Leibala
+but at very low frequency in the western coastal region [@my-vincente]
+Malaria is meso-hyperendemic [@doi:10.4269/ajtmh.2003.68.2.0680161] and sporozoite rates are below 1% in the region.
+Specimens were stored on silica gel and DNA extraction was performed by a phenol-chloroform protocol described in [@my-donnelly].
+
+#### Related publications
+  - Vicente, José L., et al. “Massive Introgression Drives Species Radiation at the Range Limit of Anopheles Gambiae.” Scientific Reports, vol. 7, no. 1, 18 Apr. 2017, 10.1038/srep46451. [@my-vincente]
+
+#### Contributors
+  - Amabélia Rodrigues
+    - Instituto Nacional de Saaúde Paública, Ministaério da Saaúde Paública, Bissau, Guinaé-Bissau
+  - João Dinis
+    - Instituto Nacional de Saaúde Paública, Ministaério da Saaúde Paública, Bissau, Guinaé-Bissau
+  - Marco Pombi
+    - Istituto Pasteur Italia-Fondazione Cenci Bolognetti, Dipartimento di Sanita Pubblica e Malattie Infettive, Università di Roma SAPIENZA, Rome, Italy.
+  - Beniamino Caputo (beniamino.caputo@uniroma1.it)
+    - Istituto Pasteur Italia-Fondazione Cenci Bolognetti, Dipartimento di Sanita Pubblica e Malattie Infettive, Università di Roma SAPIENZA, Rome, Italy.
+  - João Pinto (jpinto@ihmt.unl.pt)
+    - Global Health and Tropical Medicine, GHTM, Instituto de Higiene e Medicina Tropical, IHMT, Universidade Nova de Lisboa, UNL, Rua da Junqueira 100, 1349-008 Lisbon, Portugal.
+
+### Guinea and Mali (1) {.page_break_before}
+
+#### Sample sets
+
+`AG1000G-GN-A`, `AG1000G-GN-B`
+
+#### Study information
+
+Collections were made from four different study sites around the border between Guinea and Mali.
+From Mali; Takan __[(11.47,-8.33)](https://www.openstreetmap.org/?mlat=11.47&mlon=-8.33&zoom=12&layers=M)__ 
+and Toumani Oulena __[(10.83,-7.81)](https://www.openstreetmap.org/?mlat=10.83&mlon=-7.81&zoom=12&layers=M)__ 
+are both small villages in the Yanfolila district of southern Mali and represent the Sudanian savannah ecological zone.
 Takan is arid savannah, while Toumani Oulena is humid savannah.
+In Guinea Conakry, mosquitoes were sampled from Koraboh __[(9.28,-10.03)](https://www.openstreetmap.org/?mlat=9.28&mlon=-10.03&zoom=12&layers=M)__,
+a small village in the Kissidougou district in the Faranah region representing a semi-forest site with intermediate ecology,
+a mix of savannah and forest, and in Koundara __[(8.48,-9.53)](https://www.openstreetmap.org/?mlat=8.48&mlon=-9.53&zoom=12&layers=M)__,
+a small village in the Macenta district in the Nzerekore region representing deep forest ecology.
+All reported collections occurred in October and November 2012.
+At each site, mosquitoes were collected using three different methods: human-landing capture, 
+indoor manual aspirator or pyrethroid spray catch, 
+and larval capture - where the first and second instar larvae were raised to adult in a field insectary 
+under standard insectary conditions prior to DNA isolation from the adults, 
+and the third and fourth instar larvae were preserved directly for DNA isolation, 
+without rearing in the insectary.
 
-In Guinea Conakry, we sampled in Koraboh, (9.28, -10.03) a small village in the Kissidougou district in the Faranah region representing a semi-forest site with intermediate ecology, a mix of savannah and forest, and in Koundara, (8.48, -9.53), a small village in the Macenta district in the Nzerekore region representing deep forest ecology. 
-
-All reported collections occurred in October and November in 2012.
-
-At each site, mosquitoes were collected using three different methods: human-landing capture, indoor manual aspirator or pyrethroid spray catch, and larval capture - where the first and second instar larvae were raised to adult in a field insectary under standard insectary conditions prior to DNA isolation from the adults, and the third and fourth instar larvae were preserved directly for DNA isolation, without rearing in the insectary.
-
-The two distinct methods of larval collection were used to control for possible genetic bias inherent in lab rearing of captured larvae.
-
-Across sites, all types of larval sites were sampled, including both temporary and permanent sites.
-
-Human-landing captures were performed both inside dwellings and outside (>10 m from dwelling) at night between 18:00 and 06:30.
-
+The two distinct methods of larval collection were used to 
+control for possible genetic bias inherent in lab rearing of captured larvae.
+Across sites, all types of larval sites were sampled, 
+including both temporary and permanent sites.
+Human-landing captures were performed both inside dwellings 
+and outside (>10 m from dwelling) at night between 18:00 and 06:30.
 The indoor aspirator or spray catches were done in the morning between 06:00 and 12:00.
-
 Adult specimens or third and fourth instar larvae were preserved immediately in 80% ethanol until later DNA extraction.
-
 First and second instar larvae were raised to adults in nearby field insectaries and upon emergence were preserved in 80% ethanol.
-
 DNA was extracted from mosquitoes using DNAzol by the provided protocol (Invitrogen, CA, USA).
 
-Further details on sampling and basic Southern Mali/Guinea vector biology are presented in Coulibaly et al. (doi:10.1186/s12936-016-1242-5).
+#### Related publications
+Coulibaly, Boubacar, et al. “Malaria Vector Populations across Ecological Zones in Guinea Conakry and Mali, West Africa.” Malaria Journal, vol. 15, no. 1, 8 Apr. 2016, 10.1186/s12936-016-1242-5. [@doi:10.1186/s12936-016-1242-5]
 
-**Guinea Bissau**
+#### Contributors
+  - Boubacar Coulibaly
+    - Malaria Research and Training Centre (MRTC), Faculty of Medicine and Dentistry, University of Mali, BP: E 423 Bamako, Mali
+  - Kenneth D. Vernick (kenneth.vernick@pasteur.fr)
+    - Unit for Genetics and Genomics of Insect Vectors, Institut Pasteur, 75015, Paris, France.
+  - Michelle M. Riehle
+    - Department of Microbiology and Immunology, Medical College of Wisconsin, Milwaukee, WI 53226, USA.
 
-Two new Guinea Bissau collection sites are added here, both performed in October 2010 by indoor CDC light traps.
+### Mali (2) {.page_break_before}
 
-Samples were also collected from Ga-Mbana (12.052, -14.902) and Leibala (12.272, -14.222).
+#### Sample sets
 
-Ga-Mbana is a rural village located along a main road in central Guinea Bissau, while Leibala is a neighbourhood of the eastern town of Gabu.
+`AG1000G-ML-A`
 
-The samples of Ga-Mbana comprised _An. coluzzii_ whereas the samples of Leibala comprised _An. gambiae_, all being identified by IGS and SINEX markers as described in Vicente et al. (@doi:10.1038/srep46451).
+#### Study information
 
-The _kdr_ pyrethroid target site resistance mutation L1014F occurs at high frequency in Leibala but at very low frequency in Ga-Mbana (@doi:10.1038/srep46451).
+Collections were made in four villages in the Koulikoro region; 
+Tieneguebougou __[(12.810,-8.080)](https://www.openstreetmap.org/?mlat=12.810&mlon=-8.080&zoom=12&layers=M)__ approximately 20 km north of Bamako, 
+and Kababougou __[(12.890, -8.150)](https://www.openstreetmap.org/?mlat=12.890&mlon=-8.150&zoom=12&layers=M)__, 
+Ouassorola __[(12.900, -8.160)](https://www.openstreetmap.org/?mlat=12.900&mlon=-8.160&zoom=12&layers=M)__, 
+Sogolombougou __[(12.880, -8.140)](https://www.openstreetmap.org/?mlat=12.880&mlon=-8.140&zoom=12&layers=M)__, approximately 30 km north of Bamako.
 
-Malaria is meso-hyperendemic (@doi:10.4269/ajtmh.2003.68.2.0680161) and sporozoite rates are below 1% in the region.
-
-Specimens were stored on silica gel and DNA extraction was performed by a phenol-chloroform protocol described in Donnelly et al. (@doi:10.1038/sj.hdy.6885930).
-
-**Kenya**
-
-New Kenyan specimens were obtained from villages located in Kilifi County near the Kenyan coast between 2000 and 2014.
-
-All Anopheles mosquito sampling was conducted indoors using CDC light traps.
-
-_An. gambiae_, _An. funestus_, _An. arabiensis_ and _An. merus_ were present at sampling locations (@doi:10.4269/ajtmh.1993.49.520).
-
-Sporozoite rates for the area during previous studies were 1.47% (@doi:10.1038/ncomms1672).
-
-**Mali**
-
-Two further submissions containing collections from 11 sites in Mali are new for phase 3.
-
-In the first, collections were made in four villages in the Koulikoro region; Tieneguebougou (12.810, -8.080) approximately 20 km north of Bamako, 
-and Kababougou (12.890, -8.150), Ouassorola (12.900, -8.160), Sogolombougou ( 12.880, -8.140), approximately 30 km north of Bamako.
-
-The collections were made in August 2014 by human landing catch and pyrethrum spray catch.
-
-Both _An. gambiae_ and _An. coluzzii_ (@doi:10.1046/j.1365-2915.2002.00393.x) were collected.
-
+The collections were made in August 2014 by human landing catch and pyrethrum spray catch. 
+Both _An. gambiae_ and _An. coluzzii_ [@my-fanello] were collected. 
 Specimens were stored in 80% ethanol.
 
-In the second submission, collections of indoor resting adults were made by spray catch from seven villages in the southern part of Mali in August-September 2004: Banambani (12.800, -8.050), Bancoumana (12.200, -8.200), Douna (13.210, -5.900), Fanzana (13.200, -6.130), Kela (11.880, -8.450), Moribobougou (12.690, -7.870) and N'Gabakoro (12.680, -7.840).
+#### External resources
 
-Specimens were sorted morphologically to _An. gambiae_ s.l. 
+  - __[https://targetmalaria.org/]([https://targetmalaria.org/)__
 
-Ovaries of half-gravid females were dissected and placed in numbered individual micro-tubes containing modified Carnoy's solution (1:3 glacial acetic acid: 100% ethanol).
+#### Contributors
 
+  - Mamadou B. Coulibaly
+    - Malaria Research and Training Centre (MRTC), Faculty of Medicine and Dentistry, University of Mali, BP: E 423 Bamako, Mali
+  - Amadou Guindo
+    - Malaria Research and Training Centre (MRTC), Faculty of Medicine and Dentistry, University of Mali, BP: E 423 Bamako, Mali
+  - Sidy Doumbia
+    - Malaria Research and Training Centre (MRTC), Faculty of Medicine and Dentistry, University of Mali, BP: E 423 Bamako, Mali
+  - Samantha O'Loughlin (s.oloughlin@imperial.ac.uk)
+    - Department of Life Sciences, Imperial College, Silwood Park, Ascot, Berkshire SL5 7PY, UK.
+  - Austin Burt
+    - Department of Life Sciences, Imperial College, Silwood Park, Ascot, Berkshire SL5 7PY, UK.
+
+### Mali (3) {.page_break_before}
+
+#### Sample sets
+
+`AG1000G-ML-B`
+
+#### Study information
+
+Collections of indoor resting adults were made by spray catch from seven villages in the southern part of Mali in August-September 2004: 
+Banambani __[(12.800, -8.050)]()__, 
+Bancoumana __[(12.200,-8.200)]()__,
+Douna __[(13.210, -5.900)]()__, 
+Fanzana __[(13.200, -6.130)]()__, 
+Kela __[(11.880, -8.450)]()__, 
+Moribobougou __[(12.690, -7.870)]()__ and 
+N'Gabakoro __[(12.680, -7.840)]()__.
+Specimens were sorted morphologically to _An. gambiae s.l._.
+Ovaries of half-gravid females were dissected and placed in numbered individual micro-tubes containing 
+modified Carnoy's solution (1:3 glacial acetic acid: 100% ethanol).
 Carcasses were placed in correspondingly numbered micro-tubes over desiccant.
+Genomic DNA was isolated from individual mosquitoes using one of the following: 
+DNeasy Extraction Kit (Qiagen, Valencia, CA), Puregene kit (Gentra Systems, Inc., Minneapolis, MN), 
+DNAzol kit (Molecular Research Center, Inc., Cincinnati, OH.) or Easy-DNA kit (Invitrogen, Carlsbad, CA).
 
-Genomic DNA was isolated from individual mosquitoes using one of the following: DNeasy Extraction Kit (Qiagen, Valencia, CA), Puregene kit (Gentra Systems, Inc., Minneapolis, MN), DNAzol kit (Molecular Research Center, Inc., Cincinnati, OH.) or Easy-DNA kit (Invitrogen, Carlsbad, CA).
-
-_An. gambiae_ s.s. and its molecular forms were identified using one of two rDNA-based PCR/RFLP assays (@doi:10.1046/j.1365-2915.2002.00393.x; @doi:10.4269/ajtmh.2004.70.604).
-
+_An. gambiae s.s._ and its molecular forms were identified using one of two rDNA-based PCR/RFLP assays [@my-fanello,@my-santolamazza].
 Ovaries from specimens of the desired species were subject to polytene chromosome analysis.
 
-**Malawi**
+#### Related publications
 
-Specimens were obtained from villages within the catchment of the Majete Malaria Project, Chikhwawa District, Malawi (-15.933, 34.755) (@doi:10.1186/s12879-017-2749-2).
+  - Coulibaly, Mamadou B., et al. “PCR-Based Karyotyping of Anopheles Gambiae Inversion 2Rj Identifies the BAMAKO Chromosomal Form.” Malaria Journal, vol. 6, 1 Oct. 2007, p. 133, pubmed.ncbi.nlm.nih.gov/17908310/, 10.1186/1475-2875-6-133. [@pubmed:17908310]
 
-Mosquitoes were collected indoors and outdoors by Suna light trap in May 2015.
+#### Contributors
 
-Chickhwawa District is an area with perennial and intense malaria transmission (@doi:10.4269/ajtmh.13-0028).
+  - Mamadou B. Coulibaly
+    - Malaria Research and Training Centre (MRTC), Faculty of Medicine and Dentistry, University of Mali, BP: E 423 Bamako, Mali
+  - Moussa Keita
+    - Malaria Research and Training Centre (MRTC), Faculty of Medicine and Dentistry, University of Mali, BP: E 423 Bamako, Mali
+  - Cheick Traore
+    - Malaria Research and Training Centre (MRTC), Faculty of Medicine and Dentistry, University of Mali, BP: E 423 Bamako, Mali
+  - Nora J. Besansky (nbesansk@nd.edu)
+    - Eck Institute for Global Health & Department of Biological Sciences, University of Notre Dame, IN 46556, USA.
 
-All specimens were _An. arabiensis_ (@doi:10.1046/j.1365-2915.2002.00393.x).
 
-Additional details of vector population bionomics may be found in (@doi:10.1186/s12879-017-2749-2; @doi:10.1186/1475-2875-11-380).
 
+### Kenya {.page_break_before}
+
+#### Sample sets
+`AG1000G-KE`
+
+#### Study information
+
+Kenyan specimens were obtained from villages located in Kilifi County near the Kenyan coast between 2000 and 2014. 
+All _Anopheles_ mosquito sampling was conducted indoors using CDC light traps which were hung at 6pm and collected 
+at 6am the following morning during the rainy season in September. 
+Specimens were stored in 80% ethanol. 
+All specimens contributed to the project were identified as _An. gambiae_ 
+using the species complex diagnostic assay of [@my-scott].
+_An. gambiae_, _An. funestus_, _An. arabiensis_, _An. merus_ were present at sampling locations.
+Sporozoite rates for the area during previous studies were 1.47% [@doi:10.1038/ncomms1672].
+
+
+#### Related publications
+  - Midega, Janet T., et al. “Wind Direction and Proximity to Larval Sites Determines Malaria Risk in Kilifi District in Kenya.” Nature Communications, vol. 3, no. 1, Jan. 2012, 10.1038/ncomms1672. [@doi:10.1038/ncomms1672]
+
+#### Contributors
+  - Janet Midega (tjmidega@yahoo.com)
+    - KEMRI-Wellcome Trust Research Programme, 80108 Kilifi, Kenya.
+  - Joseph Mwangangi
+    - KEMRI-Wellcome Trust Research Programme, 80108 Kilifi, Kenya.
+  - Charles Mbogo
+    - KEMRI-Wellcome Trust Research Programme, 80108 Kilifi, Kenya.
+  - Philip Bejon
+    - KEMRI-Wellcome Trust Research Programme, 80108 Kilifi, Kenya.
+
+### Malawi {.page_break_before}
+
+#### Sample sets
+
+`AG1000G-MW`
+
+#### Study information
+
+Specimens were obtained from villages within the catchment of the Majete Malaria Project, 
+Chikhwawa District, Malawi __[(-15.933, 34.755)](https://www.openstreetmap.org/?mlat=-15.933&mlon=34.755&zoom=12&layers=M)__
+[@doi:10.1186/s12879-017-2749-2].
+Mosquitoes were collected indoors and outdoors by Suna light trap from April through August 2015.
+Chickhwawa District is an area with perennial and intense malaria transmission [@doi:10.4269/ajtmh.13-0028]
+All specimens were _An. arabiensis_ [@my-fanello].
 Specimens were stored over silica and DNA was extracted using the Qiagen plate protocol.
 
-**Mozambique**
+#### Related publications
+  - McCann, Robert S., et al. “Assessment of the Effect of Larval Source Management and House Improvement on Malaria Transmission When Added to Standard Malaria Control Strategies in Southern Malawi: Study Protocol for a Cluster-Randomised Controlled Trial.” BMC Infectious Diseases, vol. 17, no. 1, 22 Sept. 2017, 10.1186/s12879-017-2749-2. [@doi:10.1186/s12879-017-2749-2]
 
-Mosquito samples were collected in Furvela (-23.716, 35.299), Mozambique, by CDC light traps between December 2003 and April 2004.
+#### External resources
+- <https://mesamalaria.org/mesa-track/majete-integrated-malaria-control-project-mmp>
 
-Specimens were stored on silica gel and DNA was extracted according to Collins et al. (@doi:10.4269/ajtmh.1987.37.37).
+#### Contributors
+  - Robert McCann
+    - College of Medicine, University of Malawi, Blantyre, Malawi.
+    - Laboratory of Entomology, Wageningen University and Research, Wageningen, The Netherlands.
+    - Center for Vaccine Development and Global Health, University of Maryland School of Medicine, Baltimore, USA.
+  - Themba Mzilahowa
+    - Department of Vector Biology, Liverpool School of Tropical Medicine, Liverpool, United Kingdom.
+    - Malawi-Liverpool Wellcome Trust Clinical Research Programme, Blantyre, Malawi.
+    - Malaria Alert Centre (MAC), P/ Bag 360, Chichiri, Blantyre 3, Malawi.
+  - Alinune Kabaghe
+    - College of Medicine, University of Malawi, Blantyre, Malawi.
+  - Willem Takken
+    - Laboratory of Entomology, Wageningen University and Research, Wageningen, The Netherlands.
+  - Martin J. Donnelly (Martin.Donnelly@lstmed.ac.uk)
+    - Department of Vector Biology, Liverpool School of Tropical Medicine, Liverpool, United Kingdom.
+    - Parasites and Microbes Programme, Wellcome Sanger Institute, Hinxton, Cambridge CB10 1SA, UK.
 
-Contributed specimens consisted of _An. gambiae_ individuals identified according to Fanello et al. (@doi:10.1046/j.1365-2915.2002.00393.x).
 
-Furvela is a rural village located in Inhambane Province, where malaria is transmitted mainly by _An. gambiae_ and _An. funestus_ (@doi:10.1111/mve.12084).
+### Mayotte Island {.page_break_before}
+ 
+#### Sample sets
 
+`AG1000G-FR`
+
+#### Study information
+
+Collections were taken from multiple sites on the island of Mayotte.
+Samples were collected as larvae during March-April 2011 in temporary pools by dipping.
+Sites included Mtsanga Charifou __[(-12.991, 45.156)](https://www.openstreetmap.org/?mlat=-12.991&mlon=45.156&zoom=12&layers=M)__ 
+and Combani __[(-12.779, 45.143)](https://www.openstreetmap.org/?mlat=-12.779&mlon=45.143&zoom=12&layers=M)__.
+Larvae were stored in 80% ethanol prior to DNA extraction.
+All specimens contributed were _An. gambiae s.s._ [@my-santolamazza] with the standard 2L^a+^/2L^a+^ or inverted 2L^a^/2L^a^ 
+karyotype as determined by the molecular PCR diagnostics [@my-white].
+Samples were identified as males or females by the sequencing read coverage of the X chromosome
+using `LookSeq` [@doi:10.1101/gr.093443.109].
+
+#### Contributors
+  - Gilbert Le Go
+    - UMR MIVEGEC, Univ. Montpellier, CNRS, IRD, Montpellier, France.
+  - Vincent Robert (gilbert.lego@ird.fr)
+    - UMR MIVEGEC, Univ. Montpellier, CNRS, IRD, Montpellier, France.
+  - Maryam Kamali
+    - Department of Medical Entomology and Parasitology, Faculty of Medical Sciences, Tarbiat Modares University, Tehran, Iran.
+    - Department of Entomology, Virginia Tech, Blacksburg, Virginia 24061, USA.
+  - Igor Sharakhov (igor@vt.edu)
+    - Department of Entomology, Virginia Tech, Blacksburg, Virginia 24061, USA.
+    - Department of Genetics and Cell Biology, Tomsk State University, Tomsk 634050, Russia.
+
+
+### Mozambique {.page_break_before}
+
+#### Sample sets
+`AG1000G-MZ`
+
+#### Study information
+
+Mosquito samples were collected in Furvela __[(-23.716, 35.299)](https://www.openstreetmap.org/?mlat=-23.716&mlon=35.299&zoom=12&layers=M)__, 
+Mozambique, by CDC light traps between December 2003 and April 2004.
+Specimens were stored on silica gel and DNA was extracted according to [@doi:10.4269/ajtmh.1987.37.37].
+Contributed specimens consisted of \agamb individuals identified according to [@my-fanello].
+Furvela is a rural village located in Inhambane Province, where malaria is transmitted mainly by _An. gambiae_ and _An. funestus_ [@doi:10.1111/mve.12084].
 _An. arabiensis_ and _An. merus_ are also found at low frequency.
+Sporozoite rates around 4% have been reported in _An. gambiae_ from Furvela [@doi:10.1111/mve.12084].
 
-Sporozoite rates around 4% have been reported in *An. gambiae* from Furvela (@doi:10.1111/mve.12084).
+#### Contributors
 
-**Tanzania**
+  - João Pinto (jpinto@ihmt.unl.pt)
+    - Global Health and Tropical Medicine, GHTM, Instituto de Higiene e Medicina Tropical, IHMT, Universidade Nova de Lisboa, UNL, Rua da Junqueira 100, 1349-008 Lisbon, Portugal.
+
+### Tanzania {.page_break_before}
+
+#### Sample sets
+
+`AG1000G-TZ`
+
+#### Study information
 
 Tanzanian samples were collected from four distinct locations.
-
-Moshi samples came from lower Mabogini (-3.400, 37.350), rice fields near lower Moshi on the southern slope of Mount Kilimanjaro, a region shown to have increasing resistance to pyrethroids (@doi:10.1186/1756-3305-7-274).
-
-Mosquitoes were collected as larvae, during the rice growing season in August-September 2012, raised to adults and females bioassayed in WHO tubes for one hour with 0.05% lambda cyhalothrin (@isbn:9789241511575).
-
+Moshi samples came from lower Mabogini __[(-3.400, 37.350)](https://www.openstreetmap.org/?mlat=-3.400&mlon=37.350&zoom=12&layers=M)__,
+rice fields near lower Moshi on the southern slope of Mount Kilimanjaro, 
+a region shown to have increasing resistance to pyrethroids [@doi:10.1186/1756-3305-7-274].
+Mosquitoes were collected as larvae, during the rice growing season in August-September 2012, 
+raised to adults and females bioassayed in WHO tubes for one hour with 0.05% lambda cyhalothrin [@https://www.who.int/malaria/publications/atoz/9789241511575/en/].
 Alive and dead mosquitoes were preserved over silica.
+In Tanzanian samples screened in Kabula et al. [@doi:10.1111/j.1365-3156.2012.02986.x].
+Moshi was the most pyrethroid resistant population, 
+they were found to be completely DDT susceptible, 
+only in one out of 642 mosquitoes assayed by [@doi:10.1186/1756-3305-7-274].
+was found to carry a _kdr_ resistance mutation (Vgsc-995F).
 
-In Tanzanian samples screened in Kabula et al. (@doi:10.1111/j.1365-3156.2012.02986.x), Moshi was the most pyrethroid resistant population, they were found to be completely DDT susceptible, only in one out of 642 mosquitoes assayed by Matowo et al. (@doi:10.1186/1756-3305-7-274) was found to carry a _kdr_ resistance mutation (Vgsc-995F).
+Tarime collections took place in the village of Komaswa __[(-1.417, 34.183)](https://www.openstreetmap.org/?mlat=-1.417&mlon=34.183&zoom=12&layers=M)__ 
+about 410 km north west of Moshi, during August 2012.
+Mosquito larvae were collected, raised to adults and females bioassayed 
+with a range of insecticides in WHO tubes for one hour [@https://www.who.int/malaria/publications/atoz/9789241511575/en/].
+finding almost complete multi-insecticide susceptibility: 
+permethrin (100% mortality), lambda cyhalothrin (97%), fenitrothion (100%), 
+DDT (100%) and bendiocarb (100%) [@doi:10.1186/s12936-019-2738-6].
 
-Tarime collections took place in the village of Komaswa (-1.417, 34.183) about 410 km north west of Moshi, during August 2012.
-
-Mosquito larvae were collected, raised to adults and females bioassayed with a range of insecticides in WHO tubes for one hour (@isbn:9789241511575), 
-finding almost complete multi-insecticide susceptibility: permethrin (100% mortality), lambda cyhalothrin (97%), fenitrothion (100%), DDT (100%) and bendiocarb (100%) (Nyka, T. unpublished data – Insecticide Resistance Monitoring Report 2012. NIMR Tanzania).
-
-Mulheza samples were collected from Zeneti village (-5.217, 38.650), northeast Tanzania.
-
-Malaria is intense and perennial with transmission peaking after the rainy season in May and June (@doi:10.1111/j.1365-3156.2012.02986.x).
+Muheza samples were collected from Zeneti village __[(-5.217, 38.650)](https://www.openstreetmap.org/?mlat=-5.217&mlon=38.650&zoom=12&layers=M)__,
+northeast Tanzania.
+Malaria is intense and perennial with transmission peaking after the rainy season in May and June [@doi:10.1111/j.1365-3156.2012.02986.x].
 Mosquitoes were sampled between November 2012 and May 2013.
-
-Indoor resting collections were used to obtain live females for deltamethrin susceptibility testing and pyrethrum spray catches were used for mosquitoes that were collected for blood meal analysis.
-
+Indoor resting collections were used to obtain live females for deltamethrin susceptibility testing 
+and pyrethrum spray catches were used for mosquitoes that were collected for blood meal analysis.
 Collections were conducted between 06:00 and 09:00 from randomly selected houses.
+Live mosquitoes collected for susceptibility testing were provided with
+10% glucose solution and transported to the field insectary.
+Mosquitoes were sorted and morphologically identified to species,
+carcasses were stored individually over desiccant for laboratory processing.
 
-Live mosquitoes collected for susceptibility testing were provided with 10% glucose solution and transported to the field insectary.
-
-Mosquitoes were sorted and morphologically identified to species, carcasses were stored individually over desiccant for laboratory processing.
-Muleba (1.750, 31.667), the final collection region, is in the North-western part of Tanzania.
-
+Muleba __[(1.750, 31.667)](https://www.openstreetmap.org/?mlat=1.750&mlon=31.667&zoom=12&layers=M)__, 
+the final collection region, is in the North-western part of Tanzania.
 The district is known to be a malaria epidemic prone area with unstable transmission of varying seasonality.
+The highest peak of malaria transmission is usually reached between May-July and November-January, 
+which results from proceeding rain seasons.
+There have been malaria vector control efforts since 2007 
+when indoor residual spraying using lambda cyhalothrin was introduced.
+Insecticide resistance in this district is coupled with high frequency of 
+_kdr_ pyrethroid target site mutations in the _An. gambiae s.s._ population [@doi:10.1186/1756-3305-7-274;@doi:10.1186/1475-2875-12-149].
+Sampling was conducted over six months, 
+which include both dry and rainy season and covers 6 villages selected to represent all major ecological systems in the district.
 
-The highest peak of malaria transmission is usually reached between May-July and November-January, which results from proceeding rain seasons.
+#### Contributors
+  - Bilali Kabula (Bika72@gmail.com)
+    - National Institute for Medical Research (NIMR), Dar es Salaam, Tanzania.
+  - Johnson Matowo
+    - Kilimanjaro Christian Medical University College, Tumaini University, Makumira, Tanzania.
+  - David Weetman (david.weetman@lstmed.ac.uk)
+    - Department of Vector Biology, Liverpool School of Tropical Medicine, Liverpool, United Kingdom.
+  - Martin J. Donnelly (Martin.Donnelly@lstmed.ac.uk)
+    - Department of Vector Biology, Liverpool School of Tropical Medicine, Liverpool, United Kingdom.
+    - Parasites and Microbes Programme, Wellcome Sanger Institute, Hinxton, Cambridge CB10 1SA, UK.
 
-There have been malaria vector control efforts since 2007 when indoor residual spraying using Lambdacyhalothrin was introduced.
+### The Gambia (1) {.page_break_before}
 
-Insecticide resistance in this district is coupled with high frequency of _kdr_ pyrethroid target site mutations in the _An. gambiae_ s.s population (@doi:10.1111/j.1365-3156.2012.02986.x; @doi:10.1186/1475-2875-12-149).
+#### Sample sets
+`AG1000G-GM-A`
 
-Sampling was conducted over six months, which include both dry and rainy season and covers 6 villages selected to represent all major ecological systems in the district. 
+#### Study information
 
-**Uganda**
+Indoor resting female mosquitoes were collected by pyrethrum spray catch from four hamlets around 
+Njabakunda __[(13.55, -15.90)](https://www.openstreetmap.org/?mlat=13.55&mlon=-15.90&zoom=12&layers=M)__, North Bank Region, 
+The Gambia between August and October 2011.
+The four hamlets were Maria Samba Nyado, Sare Illo Buya, Kerr Birom Kardo, and Kerr Sama Kuma; all are within 1 km of each other.
+This is an area of unusually high hybridization rates 
+between _An. gambiae s.s._ and _An. coluzzii_ [@doi:10.1186/1475-2875-7-182;@pmc:PMC3606099].
+Njabakunda village is approximately 30km to the west of Farafenni town and 4km away from the Gambia River.
+The vegetation is a mix of open savannah woodland and farmland.
+With apparent high gene-flow in the region, it is problematic to assign species to these samples.
 
-In Uganda, a single new site is sampled in phase 3.
+#### Related publications
 
-In Kihihi subcounty, Kanungu District (-0.751, 29.701), resting mosquitoes were collected during October and November 2012.
+  - Nwakanma, Davis C., et al. “Breakdown in the Process of Incipient Speciation in Anopheles Gambiae.” Genetics, vol. 193, no. 4, 1 Apr. 2013, pp. 1221–1231, www.ncbi.nlm.nih.gov/pmc/articles/PMC3606099/, 10.1534/genetics.112.148718. [@pmc:PMC3606099]
 
-Kihihi is located in an  upland area with seasonal malaria transmission (@doi:10.1186/1475-2875-13-111).
+#### Contributors
+  - Davis C. Nwakanma
+    - Medical Research Council Unit, The Gambia at the London School of Hygiene & Tropical Medicine (MRCG at LSHTM), Banjul, The Gambia.
+  - Musa Jawara
+    - Medical Research Council Unit, The Gambia at the London School of Hygiene & Tropical Medicine (MRCG at LSHTM), Banjul, The Gambia.
+  - David Conway
+    - London School of Hygiene and Tropical Medicine, Keppel Street, Bloomsbury, London WC1E 7HT, UK.
+  - Martin J. Donnelly (Martin.Donnelly@lstmed.ac.uk)
+    - Department of Vector Biology, Liverpool School of Tropical Medicine, Liverpool, United Kingdom.
+    - Parasites and Microbes Programme, Wellcome Sanger Institute, Hinxton, Cambridge CB10 1SA, UK.
 
-All specimens were _An. gambiae_ (@doi:10.1046/j.1365-2915.2002.00393.x).
+### The Gambia (2) {.page_break_before}
 
-Additional details of vector population bionomics may be found in (@doi:10.1186/1475-2875-13-1114).
+#### Sample sets
 
+`AG1000G-GM-B`
+
+#### Study information
+
+Specimens were collected along the Gambia River from the western coastal region of The Gambia [@doi:10.1186/1475-2875-7-182], in August 2006.
+_An. gambiae_ and _An. coluzzi_ specimens were identified to species following the PCR-RFLP protocol [@my-fanello] using DNA extracted from the mosquito leg.
+Only _An. coluzzii_ specimens were collected from villages of 
+Tankular __[(13.417, -16.033)]()__ 
+and Kalataba __[(13.550, -15.617)]()__.
+_An. gambiae_ and _An. coluzzii_ specimens were found in sympatry and collected from villages of 
+Yallal Tankonjala __[(13.550, -15.700)]()__, 
+Sare Samba Sowe __[(13.583, -15.900)]()__ and 
+Hamdalai __[(13.567, -16.0167)]()__.
+PCR-RFLP protocol also revealed the presence of mosquitoes with hybrid _An. gambiae/coluzzii_ genotype in Yallal Tankonjala and Sare Samba Sowe.
+Collections of indoor daytime-resting half gravid mosquitoes were carried out mainly in human dwellings and, in few cases, in animal shelters.
+Collections were carried out by pyrethroid and/or paper-cup mouth aspirators from 12 AM to sunset, and kept in vials with desiccant.
+Ovaries were dissected, maintained into Carnoy fixative (three parts pure ethanol:one part glacial acetic acid) 
+and stored at -20^o^C before polytene chromosome preparations [@doi:10.1186/1475-2875-7-182].
+Chromosome scoring was carried out under a phase‐contrast optical microscope.
+Paracentric inversion karyotypes were scored according to the nomenclature and conventions 
+of [@pubmed:394408;@pubmed:10645562].
+
+#### Related publications
+
+  - Caputo, Beniamino, et al. “Anopheles Gambiae Complex along the Gambia River, with Particular Reference to the Molecular Forms of An. Gambiae S.s.” Malaria Journal, vol. 7, no. 1, 2008, p. 182, 10.1186/1475-2875-7-182. [@doi:10.1186/1475-2875-7-182]
+
+#### Contributors
+  - Beniamino Caputo (beniamino.caputo@uniroma1.it)
+    - Istituto Pasteur Italia-Fondazione Cenci Bolognetti, Dipartimento di Sanita Pubblica e Malattie Infettive, Università di Roma SAPIENZA, Rome, Italy.
+  - Musa Jawara
+    - Medical Research Council Unit, The Gambia at the London School of Hygiene & Tropical Medicine (MRCG at LSHTM), Banjul, The Gambia.
+  - Davis C. Nwakanma
+    - Medical Research Council Unit, The Gambia at the London School of Hygiene & Tropical Medicine (MRCG at LSHTM), Banjul, The Gambia.
+  - David Conway
+    - London School of Hygiene and Tropical Medicine, Keppel Street, Bloomsbury, London WC1E 7HT, UK.
+  - Alessandra della Torre (alessandra.dellatorre@uniroma1.it)
+    - Istituto Pasteur Italia Fondazione Cenci Bolognetti, Dipartimento di Sanita Pubblica e Malattie Infettive, Università di Roma SAPIENZA, Rome, Italy.
+
+### The Gambia (3) {.page_break_before}
+
+#### Sample sets
+
+`AG1000G-GM-C`
+
+#### Study information
+
+Adult mosquitoes were collected at Wali Kunda in the rural, 
+central river region of The Gambia __[(13.567, -14.917)](https://www.openstreetmap.org/?mlat=13.567&mlon=-14.917&zoom=12&layers=M)__.
+The area is 180 km from the sea, on the south bank of the River Gambia, 
+in flat Sudan savannah with a small fishing village (and a research field station) 
+as well as rice fields and swamplands.
+The dominant _Anopheles_ vector species in this region is _An. coluzzii_ [@doi:10.1186/s12936-016-1203-z].
+Mosquitoes were captured using human landing collections both inside 
+and outside huts for 19 days in October and November 2012.
+Mosquitoes were stored in RNAlater or dried over silica gel and stored at -20^o^C.
+
+#### Contributors
+
+  - Danica Fabrigar
+    - Department of Zoology, University of Oxford, Oxford OX1 3SZ, UK.
+  - Musa Jawara
+    - Medical Research Council Unit, The Gambia at the London School of Hygiene & Tropical Medicine (MRCG at LSHTM), Banjul, The Gambia.
+  - Steve Lindsay
+    - Department of Biosciences, Durham University, Durham, UK.
+  - Umberto D'Alessandro
+    - Medical Research Council Unit, The Gambia at the London School of Hygiene & Tropical Medicine (MRCG at LSHTM), Banjul, The Gambia.
+  - H. Charles J. Godfray (charles.godfray@oxfordmartin.ox.ac.uk)
+    - Department of Zoology, University of Oxford, Oxford OX1 3SZ, UK.
+
+### Uganda {.page_break_before}
+
+#### Sample sets
+`AG1000G-UG`
+
+#### Study information
+
+Specimens were obtained from two locations in Uganda: Nagongera, 
+30km to the North of Lake Victoria near the border with Kenya, 
+and Kihihi, in the very South-West of the country.
+In Nagongera, Tororo District __[(0.77, 34.026)](https://www.openstreetmap.org/?mlat=0.77&mlon=34.026&zoom=12&layers=M)__, 
+mosquitoes were collected by CDC light trap, resting and window trap collections, during October 2012.
+This is an area of intense perennial malaria transmission [@doi:10.1186/1475-2875-13-111].
+Additional details of vector population bionomics may be found in [@pubmed:16896122;@pubmed:19303125;@pmc:PMC3543752;@pmc:PMC4124135].
 Specimens were stored in 80% ethanol and DNA was extracted using the Qiagen plate protocol.
+In Kihihi subcounty, Kanungu District __[(-0.751, 29.701)](https://www.openstreetmap.org/?mlat=-0.751&mlon=29.701&zoom=12&layers=M)__, 
+resting mosquitoes were collected during October and November 2012.
+Kihihi is located in an upland area with seasonal malaria transmission [@doi:10.1186/1475-2875-13-111].
+Specimens were stored in 80% ethanol and DNA was extracted using the Qiagen plate protocol.
+All specimens from both collections were _An. gambiae_ [@my-fanello].
 
-Details of natural population samples previously described in phases 1 and 2 can be found in the Supplementary Information of The Anopheles gambiae 1000 Genomes Consortium (@doi.org/10.1038/nature24995; @@phase 2 doi when published - respectively).
+#### Related publications
+  - Kilama, Maxwell, et al. “Estimating the Annual Entomological Inoculation Rate for Plasmodium Falciparum Transmitted by Anopheles Gambiae S.l. Using Three Sampling Methods in Three Sites in Uganda.” Malaria Journal, vol. 13, no. 1, 21 Mar. 2014, 10.1186/1475-2875-13-111. [@doi:10.1186/1475-2875-13-111]
 
-**Colony Crosses**
+#### Contributors
+  - Henry D. Mawejje
+    - Infectious Diseases Research Collaboration, 2C Nakasero Hill Road, PO Box 7475, Kampala, Uganda.
+  - Martin J. Donnelly (Martin.Donnelly@lstmed.ac.uk)
+    - Department of Vector Biology, Liverpool School of Tropical Medicine, Liverpool, United Kingdom.
+    - Parasites and Microbes Programme, Wellcome Sanger Institute, Hinxton, Cambridge CB10 1SA, UK.
+  - David Weetman (david.weetman@lstmed.ac.uk)
+    - Department of Vector Biology, Liverpool School of Tropical Medicine, Liverpool, United Kingdom.
+  - Craig S. Wilding (C.S.Wilding@ljmu.ac.uk)
+    - School of Biological and Environmental Sciences, Liverpool John Moores University, Liverpool L3 3AF, UK.
 
-15 crosses were contributed to Ag1000G phase 3.
+### Colony crosses {.page_break_before}
 
-The crosses were generated using parents from eight different colonies: G3(MRA-112); Kisumu(MRA-762); Pimperena (canonical representative of _An. gambiae_ species; MRA-861); Ghana (recent colony of _An. coluzzii_ from Okyereko, southern Ghana (@doi:10.1371/journal.pgen.1004236)); Mali-NIH (canonical representative of _An. coluzzii_ species; Niono, MRA-860); (P)Akron (Benin, MRA-913); Nagongera (Tororo, Uganda); and Tiassalé (southern Cote d’Ivoire (@doi:10.1371/journal.pgen.1004236)).
+#### Sample sets
 
-The labels, e.g. “29-2”, are identifiers used for each of the crosses within the project and have no special meaning.
+`AG1000G-X`
 
-Full full details of cross production, sequencing and quality control is described in the Supplementary Information of The Anopheles gambiae 1000 Genomes Consortium (@doi.org/10.1038/nature24995).
+#### Study information
 
-The only difference between the production of the four crosses that are novel to phase 3: B4, K2, K4 and K6, and those from earlier phases of the project, is that multiple males and multiple females were placed together for mating, then all male and all egg laying female mosquitoes were sequenced.
+15 crosses were contributed to Ag1000G phase 3, 
+11 of which were previously released in Ag1000G phase 2.
+Crosses were generated using parents from eight different colonies: 
+G3 (MRA-112); Kisumu (MRA-762); Pimperena (canonical representative of _An. gambiae_ species; MRA-861); 
+Ghana (recent colony of _An. coluzzii_ from Okyereko, southern Ghana [@doi:10.1371/journal.pgen.1004236].
+Mali-NIH (canonical representative of _An. coluzzii_ species; Niono, MRA-860); 
+(P)Akron (Benin, MRA-913); Nagongera (Tororo, Uganda); and Tiassalé (southern Côte d’Ivoire [@doi:10.1371/journal.pgen.1004236].
+The cross family labels, _e.g._ `29-2`, are identifiers 
+used for each of the crosses within the contributor project and have no special meaning.
 
-This necessitated matching up potential fathers of crosses with the correct mother and offspring.
+_Anopheles gambiae_ is a swarm-mater and crosses were therefore undertaken in mixed groups 
+involving 4-10 females from a single colony with 1-4 males from each from a different colony 
+in plastic cups covered with netting with 10% sugar water provided ad libitum.
+Females were fed on human blood. After 3 days, males were removed and individually preserved in 95% ethanol.
+Gravid or half-gravid females were then removed and placed in 1.5ml Eppendorf tubes.
+Females that did not appear gravid were given a second blood meal before placing in Eppendorf tubes for egg laying.
+Following egg deposition, females were removed and stored in tubes containing ethanol for subsequent DNA extraction.
+Eggs were floated in clear plastic trays (15x10x5cm) 
+and following hatching, larvae were raised on finely-ground fish food (Tetramin).
+Trays were checked daily and pupae were placed individually into small, labelled centrifuge tubes.
+Offspring were removed on eclosion and stored in individual tubes containing ethanol.
+DNA was extracted from parents and offspring using the Qiagen DNeasy kit.
 
-For each cross for which the father was in doubt, the list of potential parental pairs was computed. 
+A preliminary assessment of the father of each cross was obtained by genotyping 
+seven microsatellite loci in the mother, potential fathers and five or six offspring.
+Where possible, the colony of origin of each father was established using individual 
+clustering of the mothers and fathers in BAPS version 5.2, 
+with cluster identity mapped to colony of origin via the mothers 
+(for which the colony was known) [@doi:10.1101/gr.262790.120].
 
-For each of these pairs, for each chromosome, the Mendelian error was computed for every sample of the progeny and the median value (along samples) was plotted for every computation. 
+The four crosses that are novel to phase 3: B5, K2, K4 and K6, 
+required further analysis to ascertain the true father of each cross, 
+given mother and offspring.
+For each cross for which the father was in doubt, the list of potential parental pairs was determined.
+For each of these pairs Mendelian error was computed for every 
+sample of the progeny and the median value (among samples) was plotted.
+In these four crosses (B5, K2, K4 and K6) one pair yielded median Mendelian errors 
+significantly lower for every autosome than all other pairs, 
+identifying the parsimonious parents.
+Two of the novel crosses, K4 and K6, were found to be fathered by the same male, `AC0398`.
 
-If one pair yielded median Mendelian errors significantly lower for every chromosome than any other pair (except X which was consistent no matter the parents), that pair was chosen as the parsimonious parents. 
+#### Contributors
+  - David Weetman (david.weetman@lstmed.ac.uk)
+    - Department of Vector Biology, Liverpool School of Tropical Medicine, Liverpool, United Kingdom.
+  - Craig S. Wilding (C.S.Wilding@ljmu.ac.uk)
+    - School of Biological and Environmental Sciences, Liverpool John Moores University, Liverpool L3 3AF, UK.
 
-In four crosses (B4, K2, K4 and K6) parental pairs could be clearly identified and these crosses could, therefore, be included in the phase 3 data release.
 
-Two of the novel crosses, K4 and K6, were found to be fathered by the same male, AC0398.
+## Whole Genome Sequencing
+
+All library preparation and sequencing was performed at the Wellcome Sanger Institute.
+
+Paired-end multiplex libraries were prepared using the manufacturer's protocol, with the exception that genomic DNA was fragmented using Covaris Adaptive Focused Acoustics rather than nebulization.
+
+Multiplexes comprised 12 tagged individual mosquitoes and three lanes of sequencing were generated for each multiplex to even out variations in yield between sequencing runs.
+
+Cluster generation and sequencing were undertaken according to the manufacturer's protocol for paired-end sequence reads with insert size in the range 100-200 bp.
+
+4,693 individual mosquitoes were sequenced in total, of which 3,130 were sequenced using the Illumina HiSeq 2000 platform and 1,563 were sequenced using the Illumina HiSeq X platform.
+
+All individuals were sequenced to a target coverage of 30X.
+
+HiSeq 2000 sequencing runs generated 100 bp paired-end reads, while HiSeq X sequencing runs generated 150 bp paired-end reads.
+
+## Alignment and SNP calling
+
+Reads were aligned to the AgamP4 reference genome using `bwa` version 0.7.15.
+
+Indel realignment was performed using GATK version 3.7-0 `RealignerTargetCreator` and `IndelRealigner`.
+
+Single nucleotide polymorphisms were called using GATK version 3.7-0 `UnifiedGenotyper`.
+
+Genotypes were called for each sample independently, in genotyping mode, given all possible alleles at all genomic sites where the reference base was not `N`.
+
+Coverage was capped at 250X by random down-sampling.
+
+Complete specifications of the __[alignment](https://github.com/malariagen/pipelines/blob/v0.0.4/docs/specs/short-read-alignment-vector.md)__ and __[genotyping](https://github.com/malariagen/pipelines/blob/v0.0.4/docs/specs/snp-genotyping-vector.md)__ pipelines are available from the __[malariagen/pipelines](https://github.com/malariagen/pipelines)__ GitHub repository.
+
+Open source WDL implementations of the __[alignment](https://github.com/malariagen/pipelines/tree/v0.0.4/pipelines/short-read-alignment-vector)__ and __[genotyping](https://github.com/malariagen/pipelines/tree/v0.0.4/pipelines/SNP-genotyping-vector)__ pipelines are also available from GitHub.
+
+Following successful completion of these pipelines, samples entered the sample quality control (QC) process.
 
 
-## Whole Genome Sequencing and Alignment
+## Sample QC
 
-4,693 individual mosquitoes were sequenced using the Illumina HiSeq2000 (n=3,130) and the Illumina HiSeqX (n=1,563) to a target coverage of 30X.
+The following subsections describe analyses performed to identify and exclude samples from the final dataset.
 
-Reads were aligned to the AgamP4 reference genome using `bwa` version `0.7.15`.
+### Coverage
 
-Indel realignment was performed using GATK `v3.7-0` RealignerTargetCreator and IndelRealigner. 
+For each sample, depth of coverage was computed at all genome positions.
 
-Single nucleotide polymophisms were called against AgamP4 using GATK UnifiedGenotyper `v3.7-0`.
+Samples were excluded if median coverage across all chromosomes was less than 10X, or if less than 50% of the reference genome was covered by at least 1X.
 
-Sample genotypes were called independently, in genotyping mode, given all possible alleles at each site, allowing parallelisation over samples.
+### Cross-contamination
 
-Coverage considered at individual sites was capped at 250X by random downsampling.
+To identify samples affected by cross-contamination, we implemented the model for detecting contamination in NGS alignments described in @doi:10.1016/j.ajhg.2012.09.004.
 
-Full details of pipelines including all parameter settings are available in supplementary information.
+Briefly, the method estimates the likelihood of the observed alternate and reference allele counts under different contamination fractions, given approximate population allele frequencies.
 
-Following successfull completion of the pipeline samples entered the sample quality control (QC) process.
+Population allele frequencies were estimated from the Ag1000G phase 2 data release @doi:10.1101/gr.262790.120.
 
-# Sample QC
+The model computes a maximum likelihood value for a parameter α representing percentage contamination.
 
-The sample QC process was composed of three distinct stages: sequence quality assurance, replicate handling, and anomaly detection.
+Samples were excluded if α was 4.5% or greater.
 
-To meet the requirements of sequence quality assurance median coverage had to be at least 10X, and minumum 50% of the genome covered by at least 1X.
+### Technical replicates
 
-We also implemented the test for contamination in NGS alignments described in Jun et al (https://doi.org/10.1016/j.ajhg.2012.09.004). 
+A number of samples were sequenced more than once within this project phase (technical replicates).
 
-Briefly the method estimates the likelihood of the observed alternate and reference allele counts under different contamination fractions given population allele frequencies.
-
-Population allele frequencies were estimated from the Ag1000G phase 2 data.
-
-The model computes a maximum likelihood value for a parameter representing percentage contamination (alpha).
-
-Where this parameter was 4.5% or greater the sample was excluded.
-
-We also made sex calls based on the modal coverage ratio X:3R.
-
-3R was selected as representative of autosomal coverage as it is free from inversions and large regions of heterochromatin.
-
-The modal coverage was used owing to concerns around the high skewdness of coverage distributions. 
-
-To mitigate this further, when computing the modal coverage we only considered sites where coverage was at least 2X.
-
-The sample was classed as male where the coverage ratio was between 0.4-0.6, and female between 0.8-1.2.
-
-Where the ratio was outside these limits, the sex call was not made and the sample dropped.
-
-One of the submission sets from The Gambia, was composed entirely of Whole Genome Amplified (WGA) samples. 
-
-These received a sex call where possible but the decision was made not to exclude based on ratio, due to the inherent value of this submission.
-
-The fact this set is entirely WGA was considered throughout the analysis of these samples.
-
-The sample QC process also included assessment of technical replicates.
+To create a final dataset without any replicates suitable for population genetic analysis, we performed an analysis to confirm all technical replicates, and to choose the sample within each replicate with the best sequencing data.
 
 We computed pairwise genetic distance between all sample pairs within a submission set.
 
-The metric used was Hamming between alleles, so a genotype of 0/1 records a value of 1 against the genotype 1/2, allowing straightforward handling of multiallelic SNPs.
+The distance metric used was city block distance between genotype allele counts, to allow for handling of multiallelic SNPs.
 
-Only sites where both samples had a genotype call were included, mean distance was calculated over a denominator of the number of assessed sites multiplied by 2 for diploidy.
+So, _e.g._, distance between genotypes of `0/1` and `0/1` is 0, distance between `0/0` and `0/1` is 2, distance between `0/1` and `1/2` is 2, distance between `0/0` and `1/1` is 4, etc.
 
-Computations were initially carried out on a downsampled set of 10 x 100,000 contiguous sites genome wide to be computationally feasible.
+For each pair of samples, distance was averaged over all sites where both samples had a non-missing genotype call.
 
-This use of chunks was convenient to leverage the underlying storage of data in `zarr` format.
+Computations were initially carried out on a down-sampled set of 10 x 100,000 contiguous genomic sites, to be computationally feasible.
 
-Where a pair of samples fell beneath a conservative threshold of 0.012, the true genetic distance (i.e. without downsampling)  was computed across all sites.
+Where a pair of samples fell beneath a conservative threshold of 0.012, the genetic distance was then recomputed across all genomic sites (_i.e._, without down-sampling).
 
-For each pair of technical replicates, we excluded both members of the pair where genetic distance was above 0.006.
+For each pair of samples that were expected to be technical replicates according to metadata records, we excluded both members of the pair if genetic distance was above 0.006.
 
-Where replicate pairs met the concordance threshold we excluded the lower quality sample.
+Where an expected replicate pair had genetic distance below 0.006, we retained only one sample in the pair.
 
-Quality was determined based on the skewdness of mean to median, i.e. $1 - |mean_{cov}/median_{cov}|$. 
+We also identified and excluded both samples in any pair where genetic distance was below 0.006, where samples were not expected to be replicates.
 
-The sample with the lower value was preferred as it suggests a more normal coverage distribution.
+### Population outliers
 
-To identify unknown replicate pairs as a result of sample mix ups or mislabelling, we screened within submission sets for unexpected pairs, using the genetic distance cut off of 0.006 as above.
+We used principal component analysis (PCA) to identify and exclude individual samples that were population outliers.
 
-We did not attempt to identify unknown replicate pairs in the AG1000G-X submission set, made up of laboratory experimental crosses, due to familial similarity and high levels of inbreeding.
+SNPs were down-sampled to use 100,000 segregating non-singleton sites from chromosomes 3R and 3L, to avoid regions complicated by known introgression loci or paracentric inversions.
 
-The third stage used principal component analysis (PCA) to identify and exclude individual samples that were outliers based on available metadata.
+PCA was computed using `scikit-allel` version 1.2.0.
 
-A review process identified samples that could not be explained parsimoniously, and were therefore likely to be sample mix ups or instances of mislabelling.
+We iteratively identified and excluded any individual samples that were outliers along a single principal component.
 
-Using the PCA implementation in `scikit-allel v2.1.0` we downsampled to 100,000 segregating non-singleton sites from chromosomes 3R and 3L, to avoid regions complicated by known introgression loci or paracentric inversions.
+We then identified and excluded any individual samples or small sample groups that clustered together with other samples in a way that was not plausible given metadata regarding their collection location.
 
-Multiallelic sites were included as dummy rows by melting the data structure. 
+### Colony crosses
 
-A careful review process identified: a) samples that dominated single principal components, either individually or in very small numbers. 
+Samples in the `AG1000G-X` sample set were parents and progeny from colony crosses and were subject to a slightly different QC process.
 
-This suggests an individual belonging to another Anopheline species, or some inherent problem with the sample.
+For each cross, we performed an analysis of Mendelian inheritance and consistency to confirm the true parents and the validity of the cross.
 
-Or b) samples that clustered with other samples inconsistently with metadata.
+Not all crosses were able to be successfully resolved, and samples that were not in a resolved cross were excluded.
 
-This was a subjective assessment, but bore in mind the given collection location, time, and PCR species assignment (where available) of the sample. 
+From the samples originally submitted in the `AG1000G-X` sample set, 297 samples from 15 crosses were retained for release.
 
-Multiple geographical sites submitted by the same partner were also considered, where sample mix ups formed the most parsimonious explanations of incongruent clustering.
+We did not include the colony crosses in the population outlier analysis due to their relatedness.
 
-### Species assignment and sex calling
+### Sex calling
 
-Ancestry informative markers were used to assign species in our cohort.
+We called the sex of all samples based on the modal coverage ratio between the X chromosome and the autosomal chromosome arm 3R.
 
-To derive markers informative between _A. arabiensis_ and _A. gambiae s.l._, we used publicly available data from the 16 genomes project (ref). 
+The sample was classed as male where the coverage ratio was between 0.4-0.6, and female between 0.8-1.2.
 
-Whole genome SNP calls called against the AgamP3 reference for 12 _A. arabiensis_ and 38 _A. gambiae s.l_ individuals were available.
+Where the ratio was outside these limits, the sample was excluded.
 
-Alleles were mapped onto the same alternate allele space, the frequencies of which were computed across both groups.
+One of the sample sets from The Gambia, `AG1000G-GM-B`, included whole-genome amplified (WGA) samples which displayed some skew in their coverage ratios, which meant that sex could not be called via the same process.
+
+These samples received a sex call where possible, but no samples were excluded based on uncertain sex call.
+
+
+## Species assignment
+
+We assigned a species to each individual that passed sample QC using their genomic data, via two independent methods: ancestry-informative markers (AIMs) and principal components analysis (PCA).
+
+
+### Species calling via ancestry-informative markers
+
+To derive AIMs between _A. arabiensis_ and _A. gambiae_, we used publicly available data from the _Anopheles_ 16 genomes project (@doi:10.1126/science.1258522). 
+
+Whole genome SNP calls for 12 _A. arabiensis_ and 38 _A. gambiae_ individuals were used.
+
+Alleles were mapped onto the same alternate allele space, and allele frequencies were computed for both species.
 
 Sites that were multiallelic in either group were excluded, as well as sites where any genotypes were missing. 
 
-565,329 SNPs were identified as potentially informative where no shared alleles were present between groups.
+565,329 SNPs were identified as potentially informative, where no shared alleles were present between groups.
 
 These were spread throughout the genome, but were concentrated on the X chromosome (63.2%), particularly around the Xag inversion.
 
-The full AIM set of positions and alleles are available as part of the phase 3 data release.
+We randomly down-sampled these SNPs to a set of 50,000 AIMs, then computed the fraction of alleles at these SNPs that were arabiensis-like for each individual in the Ag1000G phase 3 cohort.
 
-Called genotypes for each individual in the dataset were cross referenced against a random subset of 50,000 ancestry informative marker alleles, genotype alleles were accordingly classified as gambiae-like or arabiensis-like.
+Given the relatively small number of _A. arabiensis_ samples in the 16 genomes project, it was clear that a significant proportion of putative AIMs were not likely to be truly informative across the broader sampling in Ag1000G.
 
-AIM fractions were cross referenced against PCR results available from a subset of inviduals.
+Individuals in Ag1000G were classed as _A. arabiensis_ where a fraction >0.8 of alleles were arabiensis-like.
 
-Given the relatively small number of _A. arabiensis_ samples in the 16 genomes project- it was clear that a significant proportion of putative AIMs were not likely to be truly informative.
+To resolve the non-_A. arabiensis_ individuals into _A. gambiae_ and _A. coluzzii_, we applied the AIMs previously used in @doi:10.1101/gr.262790.120.
 
-Therefore, classification requirements are less rigourous than other sets of validated markers; individuals were classed as _A. arabiensis_ where a fraction >0.6 of alleles were arabiensis-like (n=368), and as _A. gambiae s.l_ where this value was < 0.03 (n=2415).
+For each individual, we computed the fraction of coluzzii-like alleles at these AIMs.
 
-Species were not assigned to samples from the AG1000G-X submission due to inbreeding and high levels of genetic drift.
-
-A single individual collected in Tororo, Uganda is classed as intermediate- given the majority (XX%) of sites in the genome are heterozygous between the gambiae and arabiensis allele, this individual is likely to be an F1 hybrid.
-
-To resove the _A. gambiae s.l_ individuals into _A. gambiae_ and _A. coluzzii_ we applied the 729 AIMs previously identified by Neafsey et al (ref).
-
-?? Need to find code that creates gambiae from neafsey set
-
-Cutoffs were made at <0.12 (gambiae) and >0.9 (coluzzii), with individuals between classed as intermediate. 
-
-Of the 2415  _s.l_ individuals, 1571 were called as gambiae, 675 as coluzzii and 169 as intermediate (ref collection map). 
-
-### SNP filtering and quality
-
-Site filtering ensures that reported variation is of high quality.
-
-As genomic features vary between species, different sets of site filters were generated to allow high quality analyses both within and between species. 
-
-The `gamb_colu` site filters were generated using a decision tree model, and are appropriate for analyses that include _gambiae_ and _coluzzii_ samples only.
-
-Inputs to the decision tree model are summary statistics from the set of SNP calls and genotype alignments.
-
-The `arab` site filters were generated following application of the resulting model to the summary statistics from arabiensis samples in the cohort, this set of site filters are appropriate when working with _A. arabiensis_ samples only.
-
-Finally, the `gamb_colu_arab` site filters allow analyses across all three species and are the intersection of the `gamb_colu` and the `arab` site filters.
+Individuals were called as _A. gambiae_ where this fraction was <0.12 and _A. coluzzii_ where this fraction was >0.9, with individuals in between classed as intermediate.
 
 
-Using the 15 available Anopheles pedigrees previously described, we used the presence of mendelian error at sites as a proxy for genotype discordance.
+### Species calling via principal components analysis
 
-Where previously we have used manually curated cutoffs based on observed mendelian error rates to filter sites (ref phase1, phase2), here we built a statistical model where cohort level summary statistics were used to predict the presence or absence of mendelian error, becoming a binary classification problem.
+To provide a complementary view of species assignments, we also used the results of the principal components analysis of Chromosome 3 computed during the outlier analysis described above.
 
-Summary statistics used as input to the model are presented in table (ref). 
+Based on a comparison with the AIM species calls, it was apparent that the first two principal components could be used to assign species.
 
-Pedigrees included _A. gambiae_ and _A. coluzzii_ mosquitoes only, and summary statistics to build the initial site filters model came from females of these species (n=2415). 
+Individuals where PC1 > 150 were called as _A. arabiensis_.
 
-Males were excluded, so that the model could also be applied without modification to the X chromosome.
+Individuals where PC1 < 0 and PC2 > -7 were called as _A. gambiae_.
 
-5 of the 15 crosses were held out for validation, so performance could be evaluated objectively.
+Individuals where PC1 < 0 and PC2 < -24 were called as _A. coluzzii_.
 
-Sites were defined as PASS where all genotypes across all 10 remaining crosses were called, and no mendelian inconsistencies were observed.
+All other individuals were called as intermediate.
 
-Sites were defined as FAIL where a mendelian inconsistency was observed in any pedigree.
+The results of the PCA and AIM species calls were highly concordant in most sample sets, except for the Far West (Guinea-Bissau, The Gambiae) and Far East (Kenya, Tanzania).
+
+Further investigation is required to resolve the species status of these individuals.
+
+
+
+## Site filtering
+
+We developed filters that identify genomic sites where SNP calling and genotyping is likely to be less reliable in one or more mosquito species.
+
+To guide the design and calibration of the site filters, we made use of the 15 colony crosses included in this release.
+
+Each cross comprises two parents and up to 20 progeny, allowing identification of sites where genotypes in one or more progeny are not consistent with Mendelian inheritance (Mendelian errors).
+
+A small number of Mendelian errors may be due to _de novo_ mutation, but the vast majority of Mendelian errors are likely to be due to errors in sequencing, alignment or SNP calling.
+
+The general approach we took was to use Mendelian consistency to identify sets of positive and negative training sites, then used these to train a machine learning model that classified all genomic sites as either PASS or FAIL.
+
+### Site filters for use with _A. gambiae_ and/or _A. coluzzii_
+
+All the 15 crosses involved _A. gambiae_ and/or _A. coluzzii_ parents, while none of the crosses involved _A. arabiensis_.
+
+We therefore used the crosses to first develop site filters suitable for use with _A. gambiae_ and/or _A. coluzzii_.
+
+Hereafter we refer to these filters as the `gamb\_colu` site filters.
+
+Five of the 15 crosses were held out for validation, so performance could be evaluated objectively.
+
+Sites were assigned to the positive training set where all genotypes across all 10 training crosses were called, and no Mendelian errors were observed.
+
+Sites were assigned to negative training set where one or more Mendelian errors were observed in any cross.
 
 All other sites were not considered eligible for inclusion in model training.
 
-A balanced training set was generated from the remaining 10 crosses containing XXX autosomal(?) sites.
+A balanced training set was then generated containing 100,000 autosomal sites from each of the positive and negative training sets.
 
-We applied a decision tree, as it provides decisions with clear explanations, and is similar in concept to the set of hard thresholds commonly used in SNP calling in non-model organisms.
+The inputs to the machine learning model were a set of per-site summary statistics computed from the sequence read alignments and SNP genotypes across all wild-caught _A. gambiae_ and _A. coluzzii_ individuals.
 
-A set of trees with different parameter settings were learned, exploring the depth of trees and the number of samples allowed at a terminal node.
+These input summary statistics are described further in the appendix.
 
-Parameter settings were evaluated on an unbalanced evaluation set, consisting of XXX sites randomly from sampled from the whole genome.
+Male individuals were excluded from the summary statistic calculations, so that the model could also be applied without modification to the X chromosome.
 
-Leaves of the trained models contain different proportions of PASS sites, by increasing the cutoff for these proportions required to label a leaf as PASS, we were able to compute the area under the receiver operating curve (AUROC) for each parameter set.
+We used these summary statistics, together with the positive and negative training sites, to train a decision tree model.
 
-The best performing parameter set based on AUROC was selected as the final model, the classification cutoff used was optimised based on the Youden statistic.
+We initially trained a set of trees with different hyperparameter values, exploring the depth of trees, and the number of samples allowed at a terminal node.
 
-The resulting model was a decision tree of depth 8, with a maximum of XX (CHECK NUMBERS) terminal nodes, where leaves were assigned to PASS where > 0.533 of training data in that leaf were PASS.
+Each of these trees was evaluated on an unbalanced set of sites randomly sampled from the whole genome (2% of all sites, without replacement).
 
-All sites in the genome were then assigned to PASS or FAIL given the model inputs.
+Leaves of these trees contained different proportions of positive and negative training sites, and by increasing the cutoff for these proportions required to label a leaf as PASS, we were able to compute the area under the receiver operating curve (AUROC) for each set of hyperparameter values.
 
+The best performing hyperparameter set based on AUROC was selected as the final model, and the leaf classification cutoff used was optimised based on the Youden statistic.
+
+The resulting model was a decision tree of depth 8, where leaves were assigned to PASS where > 0.533 of training data in that leaf were positive training sites.
+
+All sites in the genome were then assigned to PASS or FAIL via this model.
 
 The 5 remaining cross pedigrees were used to perform a final evaluation of the approach.
 
-Above definitions of PASS sites were retained, but independently within pedigrees, providing 5 distinct evaluation sets.
+For each of these crosses, we computed the Mendelian error rate (fraction of variants with one or more Mendelian errors among progeny) before and after applying the site filters, to provide five independent evaluation results.
 
-To evaluate performance on the hemizygous X chromosome we use the more direct measure of heterozygote calls in males.
+We also evaluated performance on the X chromosome using heterozygote calls in males as indicator of error rates.
 
-In the dataset are 220 _A. gambiae s.l._ male samples, each of which represent an independent proxy for genotype discordance.
+The fraction of variants with a heterozygous genotype call in or more males was computed before and after applying site filters.
 
 Male error rates were estimated from genotype calls with a minimum Genotype Quality (GQ) value of 30.
 
-A non heterozygote call is labelled PASS, and a heterozygote call FAIL.
+### Site filters for use with _A. arabiensis_
 
-Error rates were computed for all crosses, over all chromosomes before and after application of site filters.
+To generate site filters for use with _A. arabiensis_, we recomputed site summary statistics using only wild-caught _A. arabiensis_ individuals, then applied the decision tree model described above.
 
-We report the false positive rate (FPR), (i.e proportion of the genome considered accessible), and the Youden statistic (ratio of sensitivity to specificity).
+These filters, which we refer to as the `arab` site filters, are appropriate when working with _A. arabiensis_ samples only.
+
+### Site filters for joint analyses of all three species
+
+We created site filters suitable for joint analysis of individuals from all three species by taking the intersection of the `gamb\_colu` and the `arab` site filters.
+
+We refer to these filters as the `gamb\_colu\_arab` site filters.
+
+
+## Acknowledgments
+
+We would like to thank the staff of the Wellcome Sanger Institute Sample Logistics, Sequencing and Informatics facilities for their contributions to the production of this data release.
+
+We would like to thank the members of the Data Engineering team of the Broad Institute of Harvard and MIT for their work on open source implementations of the alignment and SNP calling pipelines used in Ag1000G phase 3.
+
+## Further information
+
+For further information about the Ag1000G project, please visit __[https://www.malariagen.net/ag1000g](https://www.malariagen.net/ag1000g)__.
+
+For further information about the Ag1000G phase 3 SNP data release, please visit __[www.malariagen.net/data/ag1000g-phase3-snp](www.malariagen.net/data/ag1000g-phase3-snp)__.
+
+If you have any questions regarding the data release, please start a new discussion at __[https://github.com/malariagen/vector-public-data/discussions](https://github.com/malariagen/vector-public-data/discussions)__.
 
 
 ## References {.page_break_before}
