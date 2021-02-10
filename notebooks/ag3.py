@@ -141,8 +141,10 @@ class release_data:
             if convenience_species_assignment:
                 df["is_arabiensis"] = df.species_gambcolu_arabiensis == "arabiensis"
                 df["is_gamb_colu"] = df.species_gambcolu_arabiensis == "gamb_colu"
-                df["is_gambiae"] = df.species_gambiae_coluzzii == "gambiae"
-                df["is_coluzzii"] = df.species_gambiae_coluzzii == "coluzzii"
+                
+                # where everthing is nan this gives a warning. So fill using arabiensis string.
+                df["is_gambiae"] = df.species_gambiae_coluzzii.fillna("arabiensis") == "gambiae"
+                df["is_coluzzii"] = df.species_gambiae_coluzzii.fillna("arabiensis") == "coluzzii"
 
             return df
         
