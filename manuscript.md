@@ -3,7 +3,7 @@ author-meta:
 - The Anopheles gambiae 1000 Genomes Consortium
 bibliography:
 - content/manual-references.json
-date-meta: '2021-02-08'
+date-meta: '2021-02-24'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -22,9 +22,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex" />
 
-  <meta name="dc.date" content="2021-02-08" />
+  <meta name="dc.date" content="2021-02-24" />
 
-  <meta name="citation_publication_date" content="2021-02-08" />
+  <meta name="citation_publication_date" content="2021-02-24" />
 
   <meta name="dc.language" content="en-GB" />
 
@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/ee9960546e84af264c1932a359682902bdc04c4e/" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/ce136c8e9ab6fcc6b072830cbf3a00de69918933/" />
 
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/ee9960546e84af264c1932a359682902bdc04c4e/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/ce136c8e9ab6fcc6b072830cbf3a00de69918933/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/ee9960546e84af264c1932a359682902bdc04c4e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/ce136c8e9ab6fcc6b072830cbf3a00de69918933/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -88,10 +88,10 @@ title: Genome variation and population structure in three African malaria vector
 
 <small><em>
 This manuscript
-([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/ee9960546e84af264c1932a359682902bdc04c4e/))
+([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/ce136c8e9ab6fcc6b072830cbf3a00de69918933/))
 was automatically generated
-from [malariagen/ag1000g-phase3-data-paper@ee99605](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/ee9960546e84af264c1932a359682902bdc04c4e)
-on February 8, 2021.
+from [malariagen/ag1000g-phase3-data-paper@ce136c8](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/ce136c8e9ab6fcc6b072830cbf3a00de69918933)
+on February 24, 2021.
 </em></small>
 
 ## Authors
@@ -108,6 +108,13 @@ on February 8, 2021.
 
 
 
+
+[@my-phase1]: doi:10.1038/nature24995
+[@my-phase2]: doi:10.1101/gr.262790.120
+[@my-16genomes]: doi:10.1126/science.1258522
+[@my-clarkson-introgression]: pubmed:24963649 
+[@my-lee-introgression]: doi:10.1073/pnas.1316851110
+[@my-neafsey-aim]: pubmed:20966254
 
 ## Population Sampling
 
@@ -191,42 +198,42 @@ At this point we do not mention arabiensis.
 
 ### Species assignment and sex calling
 
-The Anopheles gambiae complex is a crypic group of sibling species, with no single locus offering unambiguous resolution of species.
+The _Anopheles gambiae_ complex is a crypic group of sibling species,
+with no single locus offering unambiguous resolution of species.
+To identify species we looked beyond the conventional set of PCR based markers
+and applied a wider set of ancestry informative markers (AIMs).
+Species were not assigned to samples from laboratory colony crosses
+due to inbreeding and high levels of genetic drift.
+To distinguish _A. arabiensis_ from _A. gambiae s.l_ a set of novel markers 
+was derived from data from the 16 genomes project [@my-16genomes].
+Using cut offs based on agreement with the established PCR marker, 
+368 individuals were classed as _A. arabiensis_ and 2415 as _A. gambiae s.l_. 
+A single individual collected in Tororo, Uganda is classed as intermediate-
+given the majority (93.9%) of AIM SNPs in the genome are heterozygous between 
+the gambiae-like and arabiensis-like alleles, this individual is likely to be an F1 hybrid.
+To resolve the _A. gambiae s.l_ individuals as _A. gambiae_ and _A. coluzzii_ 
+we applied 729 AIMs previously identified by Neafsey et al [@my-neafsey-aim].
+and used in previous analyses of Ag1000G data [@my-phase1;@my-phase2].
+Of the 2,415  _A. gambiae s.l_ individuals, 
+1571 were called as _A. gambiae s.s_, 675 as _A. coluzzii_ and 169 as intermediate.
+Many intermediate samples are from the Western coast of West Africa (particularly The Gambia and Guinea Bissau),
+and given distinct populations of _A. gambiae s.l._ and _A. coluzzii_ are also found in this region, 
+this result highlights the complexity of species relationships here.
+Additionally a number of samples were classed as intermediate in coastal populations of East Africa, 
+in Kilifi Kenya, and Muleba Tanzania.
 
-To identify species we looked beyond the conventional set of PCR based markers and applied a wider set of ancestry informative markers (AIMs).
-
-Species were not assigned to samples from laboratory colony crosses due to inbreeding and high levels of genetic drift.
-
-To distinguish _A. arabiensis_ from _A. gambiae s.l_ a set of novel markers was derived from data from the 16 genomes project (ref).
-
-Using cut offs based on agreement with the established PCR marker, 368 individuals were classed as _A. arabiensis_ and 2415 as _A. gambiae s.l_. 
-
-A single individual collected in Tororo, Uganda is classed as intermediate- given the majority (XX%) of AIM SNPs in the genome are heterozygous between the gambiae-like and arabiensis-like alleles, this individual is likely to be an F1 hybrid.
-
-To resolve the _A. gambiae s.l_ individuals as _A. gambiae_ and _A. coluzzii_ we applied 729 AIMs previously identified by Neafsey et al (ref), and used in previous analyses of Ag1000G data. (ref paper2, paper1).
-
-Of the 2415  _A. gambiae s.l_ individuals, 1571 were called as _A. gambiae s.s_, 675 as _A. coluzzii_ and 169 as intermediate (ref collection map). 
-
-Many intermediate samples were sampled from the Western coast of West Africa (particularly The Gambia and Guinea Bissau), and given distinct populations of _A. gambiae s.l._ and _A. coluzzii_ are also found in this region, this result highlights the complexity of species relationships here.
-
-Additionally a number of intermediate samples were identified in coastal populations of East Africa, in Kilifi Kenya, and Muleba Tanzania.
-
-%% TODO This analysis
-It is established that species barriers between members of the gambiae complex are porous, and numerous instances of introgression associated with selection have been observed in West Africa. (ref clarkson + li, others?).  
-
-We observe known introgression from gambiae to coluzzii of the kdr allele in West Africa.
-
-In West African coluzzii populations, presence of gambiae-like alleles at this locus reach 95%.
-
-However no introgression is obseved in Angola, or CAR.
-
-%% TODO
-What about other loci
-
-%% TODO Method to id these regions. Simply just plot frequency of gambiae allele in coluzzii samples?
-No clear introgression is observed between gambiae and arabiensis. 
-
-%% TODO ADD AIM FIGURES
+It is established that species barriers between members of the _An. gambiae_ complex are porous,
+and numerous instances of introgression associated with selection have been observed in West Africa, 
+particularly of the _kdr_ allele [@my-clarkson-introgression;@my-lee-introgression].
+In West African coluzzii populations (2011 onwards), 
+frequency of gambiae-like alleles around this locus reach 90%, 
+_e.g._ Burkina Faso, Cote d'Ivoire, Cameroon, Ghana, Guinea and Mali.
+In Southern Africa, _An. coluzzii_ from Luanda, Angola (2009) 
+also show high frequency of gambiae alleles at this locus (83.9%).
+However no introgression is observed in _coluzzii_ collections prior to this; 
+Cameroon (2005, n=7), Mali (2004, n=36) and the Central African Republic (1993/4, n=18) 
+all have gambiae alleles present at rates below 1%.
+Due to this known introgression, chromosome 2L was not considered when assigning species within _An. gambiae s.l._.
 
 ### SNP filtering and quality
 

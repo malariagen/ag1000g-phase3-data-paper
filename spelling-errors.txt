@@ -58,7 +58,6 @@ Cheick
 Chichiri
 Chickhwawa
 Chikhwawa
-clarkson
 CNRFP
 CNRS
 CNVs
@@ -66,7 +65,7 @@ Coetzee
 Colince
 colu
 coluzzi
-coluzzii
+Coluzzii
 Combani
 contre
 Controle
@@ -131,8 +130,8 @@ gambiae
 GATK
 Gbadolite
 Genomic
-genotype
-Genotypes
+Genotype
+genotypes
 genotyping
 Gentra
 GHTM
@@ -290,10 +289,10 @@ novo
 Nwakanma
 Nyado
 Nzerekore
-obseved
 OCEAC
 Okyereko
 O’Loughlin
+onwards
 Organophosphate
 Ouassorola
 Oulena
@@ -311,7 +310,7 @@ Pimperena
 Pirimiphos
 Plasmodium
 PLOS
-Polymophisms
+polymophisms
 polymorphisms
 polytene
 Pombi
