@@ -54,7 +54,6 @@ content/02.results.md:124:gambiae
 content/02.results.md:125:gambiae
 content/02.results.md:125:introgression
 content/02.results.md:127:SNP
-content/02.results.md:131:homology
 content/02.results.md:131:transposable
 content/02.results.md:133:genotyping
 content/02.results.md:135:genotype

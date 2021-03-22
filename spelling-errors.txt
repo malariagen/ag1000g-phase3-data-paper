@@ -11,7 +11,7 @@ Amabélia
 Amadou
 Anopheline
 Antula
-arabiensis
+Arabiensis
 Arlete
 AUROC
 autosomal
@@ -65,7 +65,7 @@ Coetzee
 Colince
 colu
 coluzzi
-Coluzzii
+coluzzii
 Combani
 contre
 Controle
@@ -130,8 +130,8 @@ gambiae
 GATK
 Gbadolite
 Genomic
-Genotype
-genotypes
+genotype
+Genotypes
 genotyping
 Gentra
 GHTM
@@ -151,7 +151,6 @@ Higiene
 Hinxton
 HiSeq
 HiSeqX
-homology
 Hyacinthe
 hybridization
 hyperendemic
@@ -169,7 +168,7 @@ insectaries
 insectary
 Institut
 Instituto
-introgression
+Introgression
 Invitrogen
 IRD
 IRSS
@@ -298,7 +297,7 @@ Ouassorola
 Oulena
 Pala
 Paludisme
-paracentric
+Paracentric
 Parasitology
 Patric
 Paública
@@ -310,7 +309,7 @@ Pimperena
 Pirimiphos
 Plasmodium
 PLOS
-polymophisms
+Polymophisms
 polymorphisms
 polytene
 Pombi
@@ -323,7 +322,7 @@ Puregene
 PY
 pyrethroid
 pyrethroids
-Pyrethrum
+pyrethrum
 Qiagen
 Rasmane
 rDNA
@@ -362,7 +361,7 @@ Sogolombougou
 Souroukoudinga
 Sowe
 Speciation
-Sporozoite
+sporozoite
 Stephane
 subcounty
 Sudanian
