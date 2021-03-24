@@ -11,7 +11,7 @@ Amabélia
 Amadou
 Anopheline
 Antula
-Arabiensis
+arabiensis
 Arlete
 AUROC
 autosomal
@@ -130,8 +130,8 @@ gambiae
 GATK
 Gbadolite
 Genomic
-genotype
-Genotypes
+Genotype
+genotypes
 genotyping
 Gentra
 GHTM
@@ -168,7 +168,7 @@ insectaries
 insectary
 Institut
 Instituto
-Introgression
+introgression
 Invitrogen
 IRD
 IRSS
@@ -417,7 +417,6 @@ WGA
 Wilding
 Willem
 Xag
-XXXX
 Yallal
 Yanfolila
 Yao

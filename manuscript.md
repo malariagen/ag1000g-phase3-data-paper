@@ -3,7 +3,7 @@ author-meta:
 - The Anopheles gambiae 1000 Genomes Consortium
 bibliography:
 - content/manual-references.json
-date-meta: '2021-03-22'
+date-meta: '2021-03-24'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -22,9 +22,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex" />
 
-  <meta name="dc.date" content="2021-03-22" />
+  <meta name="dc.date" content="2021-03-24" />
 
-  <meta name="citation_publication_date" content="2021-03-22" />
+  <meta name="citation_publication_date" content="2021-03-24" />
 
   <meta name="dc.language" content="en-GB" />
 
@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/a51a21d08fb931bf2292f16fbe308fdab1771b36/" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/5f4f933643309afb906bfd40b55c2d48a4e2173c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/a51a21d08fb931bf2292f16fbe308fdab1771b36/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/5f4f933643309afb906bfd40b55c2d48a4e2173c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/a51a21d08fb931bf2292f16fbe308fdab1771b36/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/5f4f933643309afb906bfd40b55c2d48a4e2173c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -88,10 +88,10 @@ title: Genome variation and population structure in three African malaria vector
 
 <small><em>
 This manuscript
-([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/a51a21d08fb931bf2292f16fbe308fdab1771b36/))
+([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/5f4f933643309afb906bfd40b55c2d48a4e2173c/))
 was automatically generated
-from [malariagen/ag1000g-phase3-data-paper@a51a21d](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/a51a21d08fb931bf2292f16fbe308fdab1771b36)
-on March 22, 2021.
+from [malariagen/ag1000g-phase3-data-paper@5f4f933](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/5f4f933643309afb906bfd40b55c2d48a4e2173c)
+on March 24, 2021.
 </em></small>
 
 ## Authors
@@ -142,45 +142,40 @@ All samples successfully completed the pipeline and entered the sample quality c
 
 ### Sample QC
 
-For wild-caught samples (n=XXXX), the QC process was composed of three stages, sequence quality assurance, replicate handling, and anomaly detection.
-
-A total of 668 samples were removed where sequencing was of insufficient quality to accurately call genotypes across the whole genome.
-
-Exclusions were due to poor coverage (n=410), potential contamination (n=229), and an ambiguous sex call (n=29).
-
+For wild-caught samples (n=3964), the QC process was composed of three stages, 
+sequence quality assurance, replicate handling, and anomaly detection.
+A total of 642 samples were removed where sequencing was of insufficient quality 
+to accurately call genotypes across the whole genome.
+Exclusions were due to poor coverage (n=398), potential contamination (n=219), 
+and an ambiguous sex call (n=25).
 Where technical replicates were available, we excluded 4 pairs (8 samples) with low genotype concordance. 
-
-Where pairs met the concordance threshold we excluded the lower quality sample (n=407).
-
+Where pairs met the concordance threshold we excluded the lower quality sample (n=403).
 Samples were also screened pairwise within submission sets for unexpected pairs, though none were detected.
-
-The third stage used principal component analysis (PCA) to identify and exclude individual samples that were outliers based on available metadata.
-
-A review process identified samples that could not be explained parsimoniously, and were therefore likely to be sample mix ups or instances of mislabelling.
-
-28 samples were excluded as they respectively dominated the first principal components, indicating high divergence from all other samples and therefore likely members of other Anopheline species.
-
+The third QC stage used principal component analysis (PCA) 
+to identify and exclude individual samples that were outliers based on available metadata.
+A review process identified samples that could not be explained parsimoniously, 
+and were therefore likely to be sample mix ups or instances of mislabelling.
+28 samples were excluded as they respectively dominated the first principal components, 
+indicating high divergence from all other samples and therefore likely members of other Anopheline species.
 A further 82 samples were excluded as potential sample mix ups.
+Following all sample QC steps, 2,784 wild-caught samples (70.2%) were retained for analysis.
 
-Following all sample QC steps, 3,483 wild-caught samples (74.2%) were retained from the original cohort for analysis.
-
-This represents an additional 1,823 mosquitoes relative to the phase 2 release.
-
-Due to a change in assessment of sample quality where technical replicates are available, the preferred replicate was changed for 172 mosquitoes between phase 2 and phase 3.
-
-9 samples included in phase 2 are not present in this release (sup XXX).
-
-The AG1000G-X submission set, made up of laboratory experimental crosses, was subject to a slightly different QC process.
-
-Firstly an analysis based on rates of Mendelian error identified true fathers of crosses (where multiple males were introduced to cages), and validated provided pedigrees.
-
-Of the 7XX samples provided we were able to validate 15 crosses to a high level of confidence, comprising 299 samples.
-
+The AG1000G-X submission set, made up of experimental laboratory crosses, 
+was subject to a slightly different QC process.
+Firstly an analysis based on rates of Mendelian error identified true fathers of crosses 
+(where multiple males were introduced to cages), and validated provided pedigrees.
+Of the 729 samples sequenced we were able to validate 15 independent crosses to a high level of confidence, comprising 299 samples.
 4 of these crosses are novel relative to phase 2.
+These samples went through a modified sequence quality assurance process, 
+a single sample was removed for potential contamination (methods).
 
-These samples went through a modified sequence quality assurance process, where 1 sample was removed for insufficient coverage (methods).
+The final data release therefore comprises 3,081 samples, 297 from laboratory crosses, and 2,784 wild collected samples.
 
-The final data release therefore comprises 3,XXX samples, XXX from laboratory crosses, and YYY wild collected samples.
+This represents an increase of 1,939 mosquitoes relative to the phase 2 release.
+9 biological samples included in phase 2 fail the updated sample QC process in phase 3.
+Due to a change in assessment of sample quality where technical replicates are available,
+_i.e_ looking at mean/median skew rather than taking the sample with the greatest coverage,
+the preferred replicate was changed for 172 mosquitoes between phase 2 and phase 3.
 
 ### Coverage
 
@@ -409,8 +404,6 @@ In east africa, we compare gambiae to arabiensis.
 ## Gene Drive
 
 - repeat of phase 2 analysis.
-
-
 
 
 
