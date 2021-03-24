@@ -130,8 +130,8 @@ gambiae
 GATK
 Gbadolite
 Genomic
-Genotype
-genotypes
+genotype
+Genotypes
 genotyping
 Gentra
 GHTM
@@ -168,7 +168,7 @@ insectaries
 insectary
 Institut
 Instituto
-introgression
+Introgression
 Invitrogen
 IRD
 IRSS
@@ -243,7 +243,6 @@ Mbp
 McCann
 Medicina
 melas
-MER
 merus
 meso
 microsatellite
@@ -297,7 +296,7 @@ Ouassorola
 Oulena
 Pala
 Paludisme
-Paracentric
+paracentric
 Parasitology
 Patric
 Paública
@@ -314,7 +313,6 @@ polymorphisms
 polytene
 Pombi
 Praso
-Pre
 Programa
 Pubblica
 Pública
@@ -322,7 +320,7 @@ Puregene
 PY
 pyrethroid
 pyrethroids
-pyrethrum
+Pyrethrum
 Qiagen
 Rasmane
 rDNA
@@ -361,7 +359,7 @@ Sogolombougou
 Souroukoudinga
 Sowe
 Speciation
-sporozoite
+Sporozoite
 Stephane
 subcounty
 Sudanian
