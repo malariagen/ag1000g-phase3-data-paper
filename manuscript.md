@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/9e4aa2d7a6949177e16d111070e979084e8308fc/" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/a88a56f999b2e85a1ace755d0564911e5e847311/" />
 
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/9e4aa2d7a6949177e16d111070e979084e8308fc/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/a88a56f999b2e85a1ace755d0564911e5e847311/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/9e4aa2d7a6949177e16d111070e979084e8308fc/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/a88a56f999b2e85a1ace755d0564911e5e847311/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -88,9 +88,9 @@ title: Genome variation and population structure in three African malaria vector
 
 <small><em>
 This manuscript
-([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/9e4aa2d7a6949177e16d111070e979084e8308fc/))
+([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/a88a56f999b2e85a1ace755d0564911e5e847311/))
 was automatically generated
-from [malariagen/ag1000g-phase3-data-paper@9e4aa2d](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/9e4aa2d7a6949177e16d111070e979084e8308fc)
+from [malariagen/ag1000g-phase3-data-paper@a88a56f](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/a88a56f999b2e85a1ace755d0564911e5e847311)
 on March 25, 2021.
 </em></small>
 
@@ -307,12 +307,21 @@ On the X chromosome these values are 0.0116 (0.0071/0.0166) for gambiae/coluzzii
 
 ### SNP discovery
 
-Overall, given the all-species site filters, we report XX,XXX,SSS single nucleotide polymophisms (SNPs) segregating in this cohort, of which XX,XXX (%) are multiallelic.
-12,223 SNPs are segregating in both species groups, while XXX are private to gambiae_/coluzzii_ and YYY to arabiensis [fig ref].
-This phase of the study therefore reports an additional XXX SNPs from phase 2.
+In this data release we present a large database of single nucleotide polymorphisms (SNPs).
+In 2,415 _Anopheles gambiae/coluzzii_ individuals, 
+using the `gamb_colu` site filters we observe 104,778,591 SNPs (37.11% multiallelic), 
+corresponding to a SNP every 1.55 accessible bases.
+This represents an additional 46,940,706 with respect to the phase 2 study, 
+driven by both increased sampling and improved sensitivity of site filtering.
+In 368 arabiensis individuals we identify 21,139,760 SNPs passing the `arab` site filters (5.54% multiallelic), 
+a SNP every 7.42 accessible bases.
 
-In 2,415 _Anopheles gambiae/coluzzii_ individuals, and the corresponding `gamb_colu` site filters we observe 12,222,222 SNPs (Q% multiallelic), corresponding to a SNP every 1.6 accessible bases.
-In 368 arabiensis individuals we identify 10,000,000 SNPs passing the `arab` site filters (Q% multiallelic), a SNP every 2.5 accessible bases.
+Across all species in the study, applying the all-species site filters, 
+we report 95,071,535 SNPs segregating in this cohort, 
+of which 36,597,390 (38.49%) are multiallelic.
+14,737,567 SNPs are segregating in both _Anopheles gambiae s.l_ *and* _arabiensis_, 
+while 76,582,035 are private to _gambiae/coluzzii_ and 3,742,737 to arabiensis.
+The remaining 9,196 are completely fixed differences within species.
 
 ## Population Structure
 

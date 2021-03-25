@@ -126,11 +126,11 @@ Gabu
 Gado
 gamb
 gambcolu
-Gambiae
+gambiae
 GATK
 Gbadolite
 genomic
-Genotype
+genotype
 Genotypes
 genotyping
 Gentra
@@ -169,7 +169,7 @@ insectary
 Institut
 Instituto
 intercalary
-introgression
+Introgression
 Invitrogen
 IRD
 IRSS
@@ -422,7 +422,6 @@ Yaoundé
 Yeye
 Yopougon
 Youden
-YYY
 Zembe
 Zeneti
 Zymo
