@@ -3,7 +3,7 @@ author-meta:
 - The Anopheles gambiae 1000 Genomes Consortium
 bibliography:
 - content/manual-references.json
-date-meta: '2021-03-24'
+date-meta: '2021-03-25'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -22,9 +22,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Genome variation and population structure in three African malaria vector species within the *Anopheles gambiae* complex" />
 
-  <meta name="dc.date" content="2021-03-24" />
+  <meta name="dc.date" content="2021-03-25" />
 
-  <meta name="citation_publication_date" content="2021-03-24" />
+  <meta name="citation_publication_date" content="2021-03-25" />
 
   <meta name="dc.language" content="en-GB" />
 
@@ -52,11 +52,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://malariagen.github.io/ag1000g-phase3-data-paper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/8d0172fff0f3de36b7dc31b010baf798ff64bf22/" />
+  <link rel="alternate" type="text/html" href="https://malariagen.github.io/ag1000g-phase3-data-paper/v/9e4aa2d7a6949177e16d111070e979084e8308fc/" />
 
-  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/8d0172fff0f3de36b7dc31b010baf798ff64bf22/" />
+  <meta name="manubot_html_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/9e4aa2d7a6949177e16d111070e979084e8308fc/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/8d0172fff0f3de36b7dc31b010baf798ff64bf22/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://malariagen.github.io/ag1000g-phase3-data-paper/v/9e4aa2d7a6949177e16d111070e979084e8308fc/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -88,10 +88,10 @@ title: Genome variation and population structure in three African malaria vector
 
 <small><em>
 This manuscript
-([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/8d0172fff0f3de36b7dc31b010baf798ff64bf22/))
+([permalink](https://malariagen.github.io/ag1000g-phase3-data-paper/v/9e4aa2d7a6949177e16d111070e979084e8308fc/))
 was automatically generated
-from [malariagen/ag1000g-phase3-data-paper@8d0172f](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/8d0172fff0f3de36b7dc31b010baf798ff64bf22)
-on March 24, 2021.
+from [malariagen/ag1000g-phase3-data-paper@9e4aa2d](https://github.com/malariagen/ag1000g-phase3-data-paper/tree/9e4aa2d7a6949177e16d111070e979084e8308fc)
+on March 25, 2021.
 </em></small>
 
 ## Authors
@@ -281,41 +281,38 @@ resulted in an substantial improvement in the Youden J statistic (Table 3).
 
 The X chromosome showed a similar pattern, 
 simultaneously reducing the median heterozygosity rate from 0.028% in phase 2 to 0.023% in phase 3,
-and increasing accessibility from 62.46% to 69.97% (Table 5).
+and increasing accessibility from 62.46% to 69.97% (Table 3).
 
 ### Genome accessibility
 
 We define accessibility as the fraction of sites in a region passing the appropriate set of site filters.
+Overall, 72.3% of the genome, and 87.8% of the exome are considered accessible in the `gamb_colu` set.
+This is an improvement from phase 2, where 62.1% of the genome, and 86.6% of the exome was considered accessible.
+As expected, accessiblity was generally lower around the centromeres, and in regions of heterochromatin (Table 4).
+One notable region of low accessibility spans 39.0 - 41.8Mbp of chromosome 3R, 
+this corresponds to a large region of intercalary heterochromatin [@pubmed:20684766].
 
-Overall, 70% of the genome, and ??% of the exome are considered accessible in the `gamb_colu` set.
+On the autosomes accessibility of the `arab` site filters closely follows that of `gamb_colu` (Table 5),
+on the X chromosome however we see substantially lower accessibilty.
+This appears to be due to high divergence between AgamP4 and our _A. arabiensis_ samples, 
+likely driven by the Xag inversion from 0 - 15.0Mbp [@pubmed:25431491].
 
-This is an improvement from phase 2, where XXX of the genome, and YYY of the exome was considered accessible.
+![Genome Wide Accessibility](images/accessibility/genomewide_accessibility_combined.svg){#fig:gw_accessibility width="100%"}
+![Genome Wide Divergence](images/divergence/genomewide_divergence_gamb_colu_vs_arab.svg){#fig:gw_divergence width="100%"}
 
-As expected, accessiblity was generally lower around the centromeres, and in regions of heterochromatin (table ref).
+On the autosomes the divergence from the reference is comparable between _A.arabiensis_ and _A. gambiae_/ _A. coluzzii_ samples, 
+suggesting a strong basis for comparison across species.
+The median divergence (Dxy) of 100kbp windows is 0.0202 (5%/95% 0.0077/0.0305) for gambiae/coluzzii and 0.0254 (0.0144/0.0395) for arabiensis.  
+On the X chromosome these values are 0.0116 (0.0071/0.0166) for gambiae/coluzzii and 0.0385 (0.0149/0.0485) for arabiensis.
 
-One notable region of low accessibility spans 40-41Mbp of chromosome 3R, this corresponds to ??.
-
-Accessibility of the `arab` site filters closely follows that of `gamb_colu`, with the exception of the X chromosome where we see substantially lower values.
-
-This appears to be driven by high divergence between AgamP4 and our _A. arabiensis_ samples, particularly around the Xag inversion at Q-Q Mbp, ref figure.
-
-On the autosomes the divergence from the reference is comparable between _A.arabiensis_ and _A. gambiae_/ _A. coluzzii_ samples, suggesting a strong basis for comparison accross species.
-
-The median divergence (Dxy) of 100kbp windows is XXX (5%/95% TTT/SSS) for gambiae/coluzzii and YYY (TTT/YYY) for arabiensis.  
-
-On the X chromosome these values are XXX ( / ) for gambiae/coluzzii and YYY (  / ) for arabiensis.
- 
 ### SNP discovery
 
-Overall, we report XX,XXX,SSS single nucleotide polymophisms (SNPs) segregating in this cohort that pass filters, of which XX,XXX (%) are multiallelic.
-
+Overall, given the all-species site filters, we report XX,XXX,SSS single nucleotide polymophisms (SNPs) segregating in this cohort, of which XX,XXX (%) are multiallelic.
 12,223 SNPs are segregating in both species groups, while XXX are private to gambiae_/coluzzii_ and YYY to arabiensis [fig ref].
+This phase of the study therefore reports an additional XXX SNPs from phase 2.
 
-This phase of the study reports an additional XXX SNPs from phase 2.
-
-In XXX gambiae and coluzzii individuals we report 12,222,222 SNPs (Q% multiallelic), corresponding to a SNP every 1.6 accessible bases.
-
-In XXX arabiensis individuals we identify 10,000,000 SNPs (Q% multiallelic), a SNP every 2.5 accessible bases.
+In 2,415 _Anopheles gambiae/coluzzii_ individuals, and the corresponding `gamb_colu` site filters we observe 12,222,222 SNPs (Q% multiallelic), corresponding to a SNP every 1.6 accessible bases.
+In 368 arabiensis individuals we identify 10,000,000 SNPs passing the `arab` site filters (Q% multiallelic), a SNP every 2.5 accessible bases.
 
 ## Population Structure
 
